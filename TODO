@@ -1,1 +1,65 @@
-Here we can set some TODO-s
+- Find a ViT model that:
+    - is not too large
+    - has 'nn.Linear' layers that can be easily converted to LoRA
+    - better - exists in 'torchvision'
+* Use fine-tunes ViT for small dataset (because most are pretrained on ImageNet)
+
+- Import the LoRA-code from the blog-post
+    - See that it works for the most simple case
+
+- See how 'Optuna' can be utilized
+
+- Method: Quant&LoRA
+    - Gets as arguments:
+        - model
+        - init weights for LoRA
+        - data-type for quantization
+        - LoRA rank
+    - Outputs:
+        - quantized model w/ LoRA layers
+
+- Method: Train
+    - dump loss, accuracy, for train-set and validation-set
+    - use checkpoints
+    - Gets as arguments:
+        - model
+        - data
+        - optimizer
+        - loss-function
+        - epochs
+        - batch-size
+    - Outputs:
+        - trained model
+        - loss, accuracy, for train-set and validation-set
+
+- Method: Evaluate
+    - Gets as arguments:
+        - model
+        - data
+    - Outputs:
+        - loss, accuracy, for test-set
+        - model's size
+
+- Method: Main
+
+- Method: Handle dataset
+    - Gets as arguments:
+        - (nothing. we choose the data in advance)
+        - (must be matching the pretrained model)
+        - optional: reduce the size of the dataset
+    - Outputs:
+        - DS (DataStructure) for train, validation, and test
+
+===========
+
+1. Import pre-trained ViT model
+2. Import image dataset
+3. Test accuracy of pre-trained ViT model
+4. Quantize the model
+5. Test accuracy of quantized model
+    -> baseline for accuracy damage after quantization
+6. Implement LoRA
+7. Train LoRA model
+8. Test accuracy of LoRA model
+    -> show improvement in accuracy
+    -> Modify hyper-parameters and go back to step 4
