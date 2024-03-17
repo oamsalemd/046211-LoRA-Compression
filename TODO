@@ -52,6 +52,15 @@
 
 ===========
 
+1. Try the CIFAR100 dataset for resnet18, use 'optuna_trials' and see results
+    -> replace the 'mean' and 'std' for the normalizer!
+2. Try (-1/+1) quantization for the model w/ CIFAR100 dataset and evaluate accuracy drop
+    -> modify 'quantize_linear_layers', change argument in 'quant_funcs.quantize_lora' (in 'optuna_objective' function)
+3.
+
+===========
+Old tasks:
+
 1. Import pre-trained ViT model
 2. Import image dataset
 3. Test accuracy of pre-trained ViT model
@@ -63,3 +72,32 @@
 8. Test accuracy of LoRA model
     -> show improvement in accuracy
     -> Modify hyper-parameters and go back to step 4
+
+===========
+
+- CNN + 1 FC vs. ViT (many FCs)
+    -> FC used only for classification vs. FC used for the whole network
+- CIFAR10 dataset (10x512 output FC) vs. CIFAR100 dataset (100x512 output FC)
+- (quant) Computationally better vs. No benefit
+    -> 'sparse':
+        - reduce FC number of elements by 'size'
+        - number of multiplications is reduced by 'size'
+    -> 'mean':
+        - reduce FC number of elements by 'size'
+        X number of multiplications is reduced by 'size'
+- (lora) Computationally better vs. No benefit
+    - added memory 'fc_in*rank + rank*fc_out'
+    - added computation 'in_dim*rank*out_dim + in_dim*rank'
+
+Memory storage for the model:
+fc_in*rank + rank*fc_out < (fc_in*fc_out)*(1-1/size^2)
+rank < (fc_in*fc_out)*(1-1/size^2) / (fc_in + fc_out)
+rank < (512*100)*(1-1/4^2)/(512+100)
+-> rank <= 9
+
+Computation difference in forward pass:
+added_lora = in_dim*rank*out_dim + in_dim*rank
+reduced_sparse = (in_dim*in_dim*out_dim)/size^3
+
+diff = added_lora - reduced_sparse = in_dim*rank*out_dim + in_dim*rank - (in_dim*in_dim*out_dim)/size^3
+ = 512*rank*10+10*rank-512*512*10/size^3 = 0
