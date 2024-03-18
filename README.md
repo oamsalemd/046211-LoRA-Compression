@@ -1,6 +1,20 @@
 # 046211-LoRA-Quantization
 @oamsalemd, @idob8 - Winter 2024
 
+# Ethics Statement
+### Stakeholders
+End-users, deep learning researchers, technology companies, and regulatory bodies.
+### Implications
+End-users can benefit from faster and more efficient image classification models, improving user experience. However, there may be concerns about privacy if sensitive information is processed.
+Deep learning researchers can advance the field with innovative techniques, but they must ensure fairness and transparency in model development and deployment.
+Technology companies can enhance product performance and reduce resource consumption, yet they need to address potential biases and ensure responsible AI practices.
+Regulatory bodies play a crucial role in establishing guidelines and standards to protect user rights, promote fairness, and mitigate risks associated with AI technologies.
+### Ethical Considerations
+Prioritizing user privacy and data protection through robust security measures and transparent data handling practices.
+Mitigating biases in data and algorithms to ensure fairness and equity in classification outcomes.
+Providing clear explanations and documentation on the use of quantization and LoRA techniques to enhance model transparency and interpretability.
+Engaging in ongoing dialogue with stakeholders and regulatory bodies to address ethical concerns, promote responsible AI practices, and uphold societal values in AI development and deployment.
+
 # How to run
 ## Environments settings
 ## Execution commands
