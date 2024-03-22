@@ -48,6 +48,7 @@ def UnfreezeLoRA(model):
             UnfreezeLoRA(child)
 
 def quantize_linear_layers(model, quant_type=None, size=4*4):
+    # Copy the model to avoid modifying the original model
     for name, module in model.named_modules():
         if isinstance(module, nn.Linear):
             # Extract weights and biases
@@ -71,12 +72,10 @@ def quantize_linear_layers(model, quant_type=None, size=4*4):
             else:
                 quantized_bias = bias
             module.bias = nn.Parameter(quantized_bias, requires_grad=False)
-    return model
 
 def quantize_lora(model, lora_rank, alpha, quant_type=None, quant_size=4*4):
     # Quantize the model to the specified dtype and replace the linear layers with LoRa layers
-    quant_model = quantize_linear_layers(model, quant_type, quant_size)
-    ReplaceLinearToLoRA(quant_model, lora_rank, alpha)
-    FreeazeModel(quant_model)
-    UnfreezeLoRA(quant_model)
-    return quant_model
+    quantize_linear_layers(model, quant_type, quant_size)
+    ReplaceLinearToLoRA(model, lora_rank, alpha)
+    FreeazeModel(model)
+    UnfreezeLoRA(model)

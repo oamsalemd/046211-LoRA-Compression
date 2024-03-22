@@ -1,3 +1,4 @@
+from tqdm import tqdm
 import torch
 import matplotlib.pyplot as plt
 import optuna
@@ -9,20 +10,30 @@ from torchvision import transforms
 import models.model as model_funcs
 import helper_functions.quant_lora as quant_funcs
 
-def get_data_structure(batch_size=64, loader=False):
+
+def get_cifar10_data(batch_size=64, loader=False):
     # Download the training data from open datasets.
+    mean = [0.4914, 0.4822, 0.4465]
+    std = [0.2023, 0.1994, 0.201]
+
     training_data = datasets.CIFAR10(
         root="data",
         train=True,
         download=True,
-        transform=ToTensor()
+        transform=transforms.Compose([
+            transforms.ToTensor(),
+            transforms.Normalize(mean, std)
+        ])
     )
 
     test_data = datasets.CIFAR10(
         root="data",
         train=False,
         download=True,
-        transform=ToTensor()
+        transform=transforms.Compose([
+            transforms.ToTensor(),
+            transforms.Normalize(mean, std)
+        ])
     )
 
     if loader:
@@ -32,6 +43,37 @@ def get_data_structure(batch_size=64, loader=False):
         return train_dataloader, test_dataloader
 
     return training_data, test_data
+
+
+def get_imagenet_data(batch_size=64, loader=False):
+    data_path = '/home/ohada/DeepProject/ProjectPath/archive/imagenet_validation'
+    # Create a dataset from the ImageNet data:
+    mean = [0.485, 0.456, 0.406]
+    std = [0.229, 0.224, 0.225]
+
+    imagenet_data = datasets.ImageFolder(
+        root=data_path,
+        transform=transforms.Compose([
+            transforms.Resize(256),
+            transforms.CenterCrop(224),
+            transforms.ToTensor(),
+            transforms.Normalize(mean, std)
+        ])
+    )
+
+    # split 'imagenet_data' to training and test data:
+    train_size = int(0.8 * len(imagenet_data))
+    test_size = len(imagenet_data) - train_size
+    training_data, test_data = torch.utils.data.random_split(imagenet_data, [train_size, test_size])
+
+    if loader:
+        # Create data loaders:
+        train_dataloader = DataLoader(training_data, batch_size=batch_size, shuffle=True)
+        test_dataloader = DataLoader(test_data, batch_size=batch_size, shuffle=True)
+        return train_dataloader, test_dataloader
+
+    return training_data, test_data
+
 
 # Train model, use checkpoints, and store train loss and accuracy
 def train_model(model, criterion, optimizer, train_loader, val_loader, num_epochs, device, is_optuna=False, trial=None):
@@ -45,16 +87,6 @@ def train_model(model, criterion, optimizer, train_loader, val_loader, num_epoch
     train_acc = []
     val_acc = []
 
-    # CIFAR10 mean and standard deviation:
-    mean = [0.4914, 0.4822, 0.4465]
-    std = [0.2023, 0.1994, 0.201]
-
-    # CIFAR100 mean and standard deviation:
-    # mean =  [        0.5071,        0.4867,        0.4408    ]
-    # std =  [        0.2675,        0.2565,        0.2761    ]
-
-    normalize = transforms.Normalize(mean, std)
-
     # Train the model
     for epoch in range(num_epochs):
         running_loss = 0.0
@@ -63,7 +95,6 @@ def train_model(model, criterion, optimizer, train_loader, val_loader, num_epoch
         for i, (images, labels) in enumerate(train_loader):
             images, labels = images.to(device), labels.to(device)
             # Forward pass
-            images = normalize(images)
             outputs = model(images)
             loss = criterion(outputs, labels)
             # Backward and optimize
@@ -94,7 +125,8 @@ def train_model(model, criterion, optimizer, train_loader, val_loader, num_epoch
                 correct += (predicted == labels).sum().item()
             val_loss.append(running_loss / len(val_loader))
             val_acc.append(100 * correct / total)
-            print('Val Loss: {:.4f}, Val Accuracy: {:.2f}%'.format(running_loss / len(val_loader), 100 * correct / total))
+            print(
+                'Val Loss: {:.4f}, Val Accuracy: {:.2f}%'.format(running_loss / len(val_loader), 100 * correct / total))
         model.train()
 
         # At the end of the epoch, report the validation accuracy to Optuna
@@ -107,6 +139,7 @@ def train_model(model, criterion, optimizer, train_loader, val_loader, num_epoch
     if not is_optuna:
         torch.save(model.state_dict(), f'model_{num_epochs}epochs.ckpt')
     return train_loss, val_loss, train_acc, val_acc
+
 
 # Plot the loss and accuracy
 def plot_loss_acc(train_loss, val_loss, train_acc, val_acc):
@@ -123,41 +156,33 @@ def plot_loss_acc(train_loss, val_loss, train_acc, val_acc):
     plt.legend()
     plt.show()
 
-def evaluate_test(model, criterion, test_loader, device):
+
+def evaluate_test(model, test_loader, device):
     # calculate the model's accuracy on the test data:
     model.eval()
     correct = 0
     total = 0
-
-    # CIFAR10 mean and standard deviation:
-    mean = [0.4914, 0.4822, 0.4465]
-    std = [0.2023, 0.1994, 0.201]
-
-    # CIFAR100 mean and standard deviation:
-    # mean =  [        0.5071,        0.4867,        0.4408    ]
-    # std =  [        0.2675,        0.2565,        0.2761    ]
-
-    normalize = transforms.Normalize(mean, std)
 
     with torch.no_grad():
         for i, data in enumerate(test_loader):
             # Move to device:
             images, labels = data
             images, labels = images.to(device), labels.to(device)
-            # Normalize the images batch:
-            images = normalize(images)
             # Forward pass:
             outputs = model(images)
             # Evaluate the model:
             predicted = outputs.argmax(dim=1)
             total += labels.size(0)
             correct += (predicted == labels).sum().item()
-            if i % 10 == 0:
-                print(f'For step {i} the accuracy is {100 * correct / total}%')
+            # show progress using 'tqdm':
+            #tqdm.write(f'For step {i} the accuracy is {100 * correct / total}%')
+            # if i % 10 == 0:
+            #     print(f'For step {i} the accuracy is {100 * correct / total}%')
 
-    print(f'Accuracy of the network on the 10000 test images: {100 * correct / total}%')
+    print(f'Accuracy of the network on {total} test images: {100 * correct / total}%')
 
-def optuna_objective(trial):
+
+def optuna_objective_cifar10(trial):
     # Define the hyperparameters space:
     lora_alpha = trial.suggest_categorical('lora_alpha', [24, 32, 40, 48])
     lora_rank = 2
@@ -167,8 +192,8 @@ def optuna_objective(trial):
     num_epochs = trial.suggest_int('num_epochs', 2, 7)
 
     # Define the model
-    model = model_funcs.get_model()
-    model = quant_funcs.quantize_lora(model, lora_rank, lora_alpha, quant_type='sparse')
+    model = model_funcs.get_cifar10_model()
+    quant_funcs.quantize_lora(model, lora_rank, lora_alpha, quant_type='sparse')
 
     # Define the optimizer
     if optimizer == 'Adam':
@@ -184,7 +209,7 @@ def optuna_objective(trial):
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
     # Define the dataloaders
-    train_data, _ = get_data_structure(batch_size=batch_size)
+    train_data, _ = get_cifar10_data(batch_size=batch_size)
     # Split the train data into train and validation data
     train_size = int(0.8 * len(train_data))
     val_size = len(train_data) - train_size
@@ -193,17 +218,68 @@ def optuna_objective(trial):
     val_loader = DataLoader(val_data, batch_size=batch_size, shuffle=True)
 
     # Train the model
-    train_loss, val_loss, train_acc, val_acc = train_model(model, criterion, optimizer, train_loader, val_loader, num_epochs, device)
+    train_loss, val_loss, train_acc, val_acc = train_model(model, criterion, optimizer, train_loader, val_loader,
+                                                           num_epochs, device)
 
     # Evaluate the model
     val_loss_res = val_loss[-1]
 
     return val_loss_res
 
-def optuna_trials():
+
+def optuna_objective_imagenet(trial):
+    # Define the hyperparameters space:
+    lora_alpha = trial.suggest_categorical('lora_alpha', [24, 32, 40, 48])
+    lora_rank = 2
+    optimizer = trial.suggest_categorical('optimizer', ['Adam', 'SGD'])
+    lr = trial.suggest_float('lr', 1e-2, 1e-1, log=True)
+    batch_size = trial.suggest_categorical('batch_size', [32, 64, 128, 256])
+    num_epochs = trial.suggest_int('num_epochs', 2, 7)
+
+    # Define the model
+    model = model_funcs.get_imagenet_model()
+    quant_funcs.quantize_lora(model, lora_rank, lora_alpha, quant_type='sparse')
+
+    # Define the optimizer
+    if optimizer == 'Adam':
+        optimizer = torch.optim.Adam(model.parameters(), lr=lr)
+    else:
+        optimizer = torch.optim.SGD(model.parameters(), lr=lr)
+
+    # Define the loss function
+    # TODO: change this!
+    criterion = torch.nn.CrossEntropyLoss()
+
+    # Define the device
+    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+
+    # Define the dataloaders
+    train_data, _ = get_imagenet_data(batch_size=batch_size)
+    # Split the train data into train and validation data
+    train_size = int(0.8 * len(train_data))
+    val_size = len(train_data) - train_size
+    train_data, val_data = torch.utils.data.random_split(train_data, [train_size, val_size])
+    train_loader = DataLoader(train_data, batch_size=batch_size, shuffle=True)
+    val_loader = DataLoader(val_data, batch_size=batch_size, shuffle=True)
+
+    # Train the model
+    train_loss, val_loss, train_acc, val_acc = train_model(model, criterion, optimizer, train_loader, val_loader,
+                                                           num_epochs, device)
+
+    # Evaluate the model
+    val_loss_res = val_loss[-1]
+
+    return val_loss_res
+
+
+def optuna_trials(dataset='cifar10'):
     sampler = optuna.samplers.TPESampler()
-    study = optuna.create_study(study_name='cifar10-quant-lora', direction='maximize', sampler=sampler)
-    study.optimize(optuna_objective, n_trials=10)
+    if dataset == 'cifar10':
+        study = optuna.create_study(study_name='cifar10-quant-lora', direction='maximize', sampler=sampler)
+        study.optimize(optuna_objective_cifar10, n_trials=10)
+    elif dataset == 'imagenet':
+        study = optuna.create_study(study_name='imagenet-quant-lora', direction='maximize', sampler=sampler)
+        study.optimize(optuna_objective_imagenet, n_trials=10)
 
     pruned_trials = [t for t in study.trials if t.state == optuna.trial.TrialState.PRUNED]
     complete_trials = [t for t in study.trials if t.state == optuna.trial.TrialState.COMPLETE]
@@ -220,6 +296,7 @@ def optuna_trials():
         print(" {}: {}".format(key, value))
 
     return study
+
 
 if __name__ == '__main__':
     print("HERE!", optuna.__version__)

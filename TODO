@@ -101,3 +101,30 @@ reduced_sparse = (in_dim*in_dim*out_dim)/size^3
 
 diff = added_lora - reduced_sparse = in_dim*rank*out_dim + in_dim*rank - (in_dim*in_dim*out_dim)/size^3
  = 512*rank*10+10*rank-512*512*10/size^3 = 0
+
+===========
+
+-> Wrapper function:
+    -> Choose model & dataset
+    -> Iterate LoRA rank over a predetermined range
+    -> Conduct optuna trials
+    -> Take best params for training
+    -> Train the model
+    -> Save the model (improve current implementation to support LoRA rank and model type)
+    -> Evaluate on the test set
+    -> Plot graphs
+
+-> Plot function - to save graphs as images, with labels and hyper-parameters chosen
+-> Optuna objective generalization:
+    # Objective function that takes three arguments.
+    def objective(trial, min_x, max_x):
+        x = trial.suggest_float("x", min_x, max_x)
+        return (x - 2) ** 2
+
+    # Extra arguments.
+    min_x = -100
+    max_x = 100
+
+    # Execute an optimization by using the above objective function wrapped by `lambda`.
+    study = optuna.create_study()
+    study.optimize(lambda trial: objective(trial, min_x, max_x), n_trials=100)
