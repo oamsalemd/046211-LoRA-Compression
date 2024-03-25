@@ -1,3 +1,8 @@
+import sys
+proj_path = "/home/ohada/DeepProject/ProjectPath"
+if proj_path not in sys.path:
+    sys.path.append(proj_path)
+
 from tqdm import tqdm
 import os
 import torch
@@ -48,7 +53,7 @@ def get_cifar10_data(batch_size=64, loader=False):
 
 
 def get_imagenet_data(batch_size=64, loader=False):
-    data_path = '/home/ohada/DeepProject/ProjectPath/archive/imagenet_validation'
+    data_path = '/home/ohada/DeepProject/archive/imagenet_validation'
     # Create a dataset from the ImageNet data:
     mean = [0.485, 0.456, 0.406]
     std = [0.229, 0.224, 0.225]
@@ -311,12 +316,12 @@ def optuna_trials():
             # print(" Number of finished trials: ", len(study.trials))
             # print(" Number of pruned trials: ", len(pruned_trials))
             # print(" Number of complete trials: ", len(complete_trials))
-            # print("Best trial:")
-            # trial = study.best_trial
-            # print(" Value: ", trial.value)
-            # print(" Params: ")
-            # for key, value in trial.params.items():
-            #     print(" {}: {}".format(key, value))
+            print(f"Best trial ({dataset}), ({rank}):")
+            trial = study.best_trial
+            print(" Value: ", trial.value)
+            print(" Params: ")
+            for key, value in trial.params.items():
+                print(" {}: {}".format(key, value))
 
             studies.append(study)
     # Save the evaluation data frame to file:
