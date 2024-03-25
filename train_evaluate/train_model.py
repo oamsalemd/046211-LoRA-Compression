@@ -332,5 +332,4 @@ def optuna_trials():
 if __name__ == '__main__':
     os.chdir('/home/ohada/DeepProject/ProjectPath/results')
     studies = optuna_trials()
-
     print(studies)
