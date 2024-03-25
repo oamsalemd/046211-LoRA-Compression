@@ -1,6 +1,7 @@
 import torch
 import torchvision
 import timm
+import detectors
 
 def get_cifar10_model():
     # Load the pretrained model
