@@ -145,25 +145,25 @@ def train_model(model, criterion, optimizer, train_loader, val_loader, num_epoch
 
 
 # Plot the loss and accuracy
-def plot_loss_acc(model, lora_rank, train_loss, val_loss, train_acc, val_acc):
+def plot_loss_acc(quant, lora_rank, train_loss, val_loss, train_acc, val_acc):
     plt.figure()
     plt.plot(train_loss, label='Train Loss')
     plt.plot(val_loss, label='Val Loss')
-    plt.title('Loss')
+    plt.title('Loss, Quant={}, Rank={}'.format(quant, lora_rank))
     plt.xticks(range(len(train_loss)))
     plt.xlabel('epochs')
     plt.legend()
     # Save figure to file:
-    plt.savefig(f'loss_{model}_r={lora_rank}.png')
+    plt.savefig(f'loss_quant={quant}_r={lora_rank}.png')
     plt.figure()
     plt.plot(train_acc, label='Train Accuracy')
     plt.plot(val_acc, label='Val Accuracy')
-    plt.title('Accuracy')
+    plt.title('Accuracy, Quant={}, Rank={}'.format(quant, lora_rank))
     plt.xticks(range(len(train_loss)))
     plt.xlabel('epochs')
     plt.legend()
     # Save figure to file:
-    plt.savefig(f'acc_{model}_r={lora_rank}.png')
+    plt.savefig(f'acc_quant={quant}_r={lora_rank}.png')
 
 
 def evaluate_test(model, test_loader, device):
@@ -193,7 +193,7 @@ def evaluate_test(model, test_loader, device):
     return 100 * correct / total
 
 
-def optuna_objective(trial, dataset='imagenet', lora_rank=2):
+def optuna_objective(trial, quant, lora_rank=2):
     # Define the hyperparameters space:
     lora_alpha = trial.suggest_categorical('lora_alpha', [8, 16, 24, 32, 40, 48])
     optimizer = trial.suggest_categorical('optimizer', ['Adam', 'SGD'])
@@ -202,11 +202,8 @@ def optuna_objective(trial, dataset='imagenet', lora_rank=2):
     num_epochs = trial.suggest_int('num_epochs', 2, 10)
 
     # Define the model
-    if dataset == 'imagenet':
-        model = model_funcs.get_imagenet_model()
-    else:
-        model = model_funcs.get_cifar10_model()
-    quant_funcs.quantize_lora(model, lora_rank, lora_alpha, quant_type='sparse')
+    model = model_funcs.get_imagenet_model()
+    quant_funcs.quantize_lora(model, lora_rank, lora_alpha, quant_type=quant)
 
     # Define the optimizer
     if optimizer == 'Adam':
@@ -221,10 +218,7 @@ def optuna_objective(trial, dataset='imagenet', lora_rank=2):
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
     # Define the dataloaders
-    if dataset == 'imagenet':
-        train_data, _ = get_imagenet_data(batch_size=batch_size)
-    else:
-        train_data, _ = get_cifar10_data(batch_size=batch_size)
+    train_data, _ = get_imagenet_data(batch_size=batch_size)
     # Split the train data into train and validation data
     train_size = int(0.8 * len(train_data))
     val_size = len(train_data) - train_size
@@ -244,39 +238,29 @@ def optuna_objective(trial, dataset='imagenet', lora_rank=2):
 
 def optuna_trials():
     studies = []
-    # Store 'dataset', 'lora_rank', 'evaluation' data frame:
-    evaluation = pandas.DataFrame(columns=['dataset', 'lora_rank', 'evaluation'])
+    # Store 'quant', 'lora_rank', 'evaluation' data frame:
+    evaluation = pandas.DataFrame(columns=['quant', 'lora_rank', 'evaluation'])
 
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-    for dataset in ['imagenet', 'cifar10']:
-        if dataset == 'cifar10':
-            eval_model = model_funcs.get_cifar10_model()
-            eval_res = evaluate_test(eval_model, get_cifar10_data(batch_size=64, loader=True)[1], device)
-        else:
-            eval_model = model_funcs.get_imagenet_model()
-            eval_res = evaluate_test(eval_model, get_imagenet_data(batch_size=64, loader=True)[1], device)
+    for quant in ['sparse', 'int1']:
+        eval_model = model_funcs.get_imagenet_model()
+        eval_res = evaluate_test(eval_model, get_imagenet_data(batch_size=64, loader=True)[1], device)
 
-        new_row = {'dataset': dataset, 'lora_rank': 'original', 'evaluation': eval_res}
+        new_row = {'quant': quant, 'lora_rank': 'original', 'evaluation': eval_res}
         evaluation = pandas.concat([evaluation, pandas.DataFrame([new_row])], ignore_index=True)
-        quant_funcs.quantize_linear_layers(eval_model, quant_type='sparse')
-        if dataset == 'cifar10':
-            eval_res = evaluate_test(eval_model, get_cifar10_data(batch_size=64, loader=True)[1], device)
-        else:
-            eval_res = evaluate_test(eval_model, get_imagenet_data(batch_size=64, loader=True)[1], device)
-        new_row = {'dataset': dataset, 'lora_rank': 'quantized', 'evaluation': eval_res}
+        quant_funcs.quantize_linear_layers(eval_model, quant_type=quant)
+
+        eval_res = evaluate_test(eval_model, get_imagenet_data(batch_size=64, loader=True)[1], device)
+        new_row = {'quant': quant, 'lora_rank': 'quantized', 'evaluation': eval_res}
         evaluation = pandas.concat([evaluation, pandas.DataFrame([new_row])], ignore_index=True)
 
-        lora_rank = []
-        if dataset == 'cifar10':
-            lora_rank = [2, 4, 6]
-        elif dataset == 'imagenet':
-            lora_rank = [2, 4, 8, 16, 32]
+        lora_rank = [2, 4, 8, 16, 32, 64, 128]
         for rank in lora_rank:
             sampler = optuna.samplers.TPESampler()
-            study = optuna.create_study(study_name=f'{dataset}-quant-lora-r={rank}', direction='maximize',
+            study = optuna.create_study(study_name=f'quant={quant}_r={rank}', direction='maximize',
                                         sampler=sampler)
-            study.optimize(lambda trial: optuna_objective(trial, dataset, rank), n_trials=10)
+            study.optimize(lambda trial: optuna_objective(trial, quant, rank), n_trials=10)
 
             # pruned_trials = [t for t in study.trials if t.state == optuna.trial.TrialState.PRUNED]
             # complete_trials = [t for t in study.trials if t.state == optuna.trial.TrialState.COMPLETE]
@@ -287,14 +271,9 @@ def optuna_trials():
             num_epochs = study.best_params['num_epochs']
             lora_alpha = study.best_params['lora_alpha']
 
-            if dataset == 'cifar10':
-                model = model_funcs.get_cifar10_model()
-                quant_funcs.quantize_lora(model, rank, lora_alpha, quant_type='sparse')
-                train_data, test_data = get_cifar10_data(batch_size, loader=True)
-            else:
-                model = model_funcs.get_imagenet_model()
-                quant_funcs.quantize_lora(model, rank, lora_alpha, quant_type='sparse')
-                train_data, test_data = get_imagenet_data(batch_size, loader=True)
+            model = model_funcs.get_imagenet_model()
+            quant_funcs.quantize_lora(model, rank, lora_alpha, quant_type=quant)
+            train_data, test_data = get_imagenet_data(batch_size, loader=True)
 
             if optimizer == 'Adam':
                 optimizer = torch.optim.Adam(model.parameters(), lr=lr)
@@ -305,18 +284,18 @@ def optuna_trials():
             # Evaluate the model:
             eval_res = evaluate_test(model, test_data, device)
             # Save the trained model:
-            torch.save(model.state_dict(), f'model_{dataset}_r={rank}_eval={eval_res}.ckpt')
+            torch.save(model.state_dict(), f'quant={quant}_r={rank}_eval_acc={eval_res}.ckpt')
             # Add an empty line to 'evaluation' data frame:
-            new_row = {'dataset': dataset, 'lora_rank': rank, 'evaluation': eval_res}
+            new_row = {'quant': quant, 'lora_rank': rank, 'evaluation': eval_res}
             evaluation = pandas.concat([evaluation, pandas.DataFrame([new_row])], ignore_index=True)
             # Plot the loss and accuracy:
-            plot_loss_acc(dataset, rank, train_loss, val_loss, train_acc, val_acc)
+            plot_loss_acc(quant, rank, train_loss, val_loss, train_acc, val_acc)
 
             # print("Study statistics: ")
             # print(" Number of finished trials: ", len(study.trials))
             # print(" Number of pruned trials: ", len(pruned_trials))
             # print(" Number of complete trials: ", len(complete_trials))
-            print(f"Best trial ({dataset}), ({rank}):")
+            print(f"Best trial (quant={quant}_r={rank}):")
             trial = study.best_trial
             print(" Value: ", trial.value)
             print(" Params: ")

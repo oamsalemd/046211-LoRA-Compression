@@ -60,6 +60,10 @@ def quantize_linear_layers(model, quant_type=None, size=4*4):
                 quantized_weight = quant_tensor_sparse(weight, size)
             elif quant_type == "mean":
                 quantized_weight = quant_tensor_mean(weight, size)
+            elif quant_type == "int8":
+                quantized_weight = (weight * 127).round().clamp(-128, 127).to(torch.int8) / 127
+            elif quant_type == "int1":
+                quantized_weight = weight.sign()
             else:
                 quantized_weight = weight
             module.weight = nn.Parameter(quantized_weight, requires_grad=False)
@@ -69,6 +73,10 @@ def quantize_linear_layers(model, quant_type=None, size=4*4):
                 quantized_bias = quant_tensor_sparse(bias, size)
             elif quant_type == "mean":
                 quantized_bias = quant_tensor_mean(bias, size)
+            elif quant_type == "int8":
+                quantized_bias = (bias * 127).round().clamp(-128, 127).to(torch.int8) / 127
+            elif quant_type == "int1":
+                quantized_bias = bias.sign()
             else:
                 quantized_bias = bias
             module.bias = nn.Parameter(quantized_bias, requires_grad=False)
