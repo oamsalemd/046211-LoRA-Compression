@@ -134,6 +134,9 @@ def train_model(model, criterion, optimizer, train_loader, val_loader, num_epoch
             val_acc.append(100 * correct / total)
             print(
                 'Val Loss: {:.4f}, Val Accuracy: {:.2f}%'.format(running_loss / len(val_loader), 100 * correct / total))
+            # For the maximum accuracy, save the model:
+            if not is_optuna and 100 * correct / total == max(val_acc):
+                torch.save(model.state_dict(), 'model.ckpt')
         model.train()
 
     if is_optuna:
@@ -152,6 +155,7 @@ def plot_loss_acc(quant, lora_rank, train_loss, val_loss, train_acc, val_acc):
     plt.title('Loss, Quant={}, Rank={}'.format(quant, lora_rank))
     plt.xticks(range(len(train_loss)))
     plt.xlabel('epochs')
+    plt.ylabel('loss')
     plt.legend()
     # Save figure to file:
     plt.savefig(f'loss_quant={quant}_r={lora_rank}.png')
@@ -161,6 +165,7 @@ def plot_loss_acc(quant, lora_rank, train_loss, val_loss, train_acc, val_acc):
     plt.title('Accuracy, Quant={}, Rank={}'.format(quant, lora_rank))
     plt.xticks(range(len(train_loss)))
     plt.xlabel('epochs')
+    plt.ylabel('accuracy (%)')
     plt.legend()
     # Save figure to file:
     plt.savefig(f'acc_quant={quant}_r={lora_rank}.png')
@@ -197,13 +202,12 @@ def optuna_objective(trial, quant, lora_rank=2):
     # Define the hyperparameters space:
     lora_alpha = trial.suggest_categorical('lora_alpha', [8, 16, 24, 32, 40, 48])
     optimizer = trial.suggest_categorical('optimizer', ['Adam', 'SGD'])
-    lr = trial.suggest_loguniform('lr', 1e-4, 1e-1)
+    lr = trial.suggest_loguniform('lr', 1e-4, 1e-2)
     batch_size = trial.suggest_categorical('batch_size', [32, 64, 128, 256, 512])
-    num_epochs = trial.suggest_int('num_epochs', 2, 10)
 
     # Define the model
     model = model_funcs.get_imagenet_model()
-    quant_funcs.quantize_lora(model, lora_rank, lora_alpha, quant_type=quant)
+    quant_funcs.quantize_lora(model, lora_rank, lora_alpha, quant_type=quant, is_svd=True)
 
     # Define the optimizer
     if optimizer == 'Adam':
@@ -228,10 +232,10 @@ def optuna_objective(trial, quant, lora_rank=2):
 
     # Train the model
     train_loss, val_loss, train_acc, val_acc = train_model(model, criterion, optimizer, train_loader, val_loader,
-                                                           num_epochs, device, is_optuna=True, trial=trial)
+                                                           10, device, is_optuna=True, trial=trial)
 
     # Evaluate the model
-    val_acc_res = val_acc[-1]
+    val_acc_res = max(val_acc)
 
     return val_acc_res
 
@@ -268,11 +272,10 @@ def optuna_trials():
             optimizer = study.best_params['optimizer']
             lr = study.best_params['lr']
             batch_size = study.best_params['batch_size']
-            num_epochs = study.best_params['num_epochs']
             lora_alpha = study.best_params['lora_alpha']
 
             model = model_funcs.get_imagenet_model()
-            quant_funcs.quantize_lora(model, rank, lora_alpha, quant_type=quant)
+            quant_funcs.quantize_lora(model, rank, lora_alpha, quant_type=quant, is_svd=True)
             train_data, test_data = get_imagenet_data(batch_size, loader=True)
 
             if optimizer == 'Adam':
@@ -280,11 +283,11 @@ def optuna_trials():
             else:
                 optimizer = torch.optim.SGD(model.parameters(), lr=lr)
 
-            train_loss, val_loss, train_acc, val_acc = train_model(model, torch.nn.CrossEntropyLoss(), optimizer, train_data, test_data, num_epochs, torch.device('cuda' if torch.cuda.is_available() else 'cpu'), is_optuna=False)
+            train_loss, val_loss, train_acc, val_acc = train_model(model, torch.nn.CrossEntropyLoss(), optimizer, train_data, test_data, 10, torch.device('cuda' if torch.cuda.is_available() else 'cpu'), is_optuna=False)
             # Evaluate the model:
             eval_res = evaluate_test(model, test_data, device)
-            # Save the trained model:
-            torch.save(model.state_dict(), f'quant={quant}_r={rank}_eval_acc={eval_res}.ckpt')
+            # Rename "model.ckpt" to include the hyperparameters:
+            os.rename('model.ckpt', f'quant={quant}_r={rank}_eval_acc={eval_res}.ckpt')
             # Add an empty line to 'evaluation' data frame:
             new_row = {'quant': quant, 'lora_rank': rank, 'evaluation': eval_res}
             evaluation = pandas.concat([evaluation, pandas.DataFrame([new_row])], ignore_index=True)
@@ -314,6 +317,6 @@ def optuna_trials():
 
 
 if __name__ == '__main__':
-    os.chdir('/home/ohada/DeepProject/ProjectPath/results')
+    os.chdir('/home/ohada/DeepProject/ProjectPath/results_no_svd')
     studies = optuna_trials()
     print(studies)

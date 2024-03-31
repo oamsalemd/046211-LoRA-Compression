@@ -1,130 +1,21 @@
-- Find a ViT model that:
-    - is not too large
-    - has 'nn.Linear' layers that can be easily converted to LoRA
-    - better - exists in 'torchvision'
-* Use fine-tunes ViT for small dataset (because most are pretrained on ImageNet)
+Code:
+* Add comments to the code
+* Delete unused functions/code sections
+* Modify full path directories to relative paths/arguments
 
-- Import the LoRA-code from the blog-post
-    - See that it works for the most simple case
+README:
+* Environment setup
+* How to run the code
+    -> Optuna trials w/ SVD (static function/file, callable from CMD line)
+    -> Optuna trials w/o SVD (static function/file, callable from CMD line)
+* Project goal & Method - copy from slides
+* Compression benefits (w/ formula)
 
-- See how 'Optuna' can be utilized
+Github:
+* Plots for training results
+* Saved models per each Optuna study
+* Additional required environment files (e.g. requirements.txt)
 
-- Method: Quant&LoRA
-    - Gets as arguments:
-        - model
-        - init weights for LoRA
-        - data-type for quantization
-        - LoRA rank
-    - Outputs:
-        - quantized model w/ LoRA layers
-
-- Method: Train
-    - dump loss, accuracy, for train-set and validation-set
-    - use checkpoints
-    - Gets as arguments:
-        - model
-        - data
-        - optimizer
-        - loss-function
-        - epochs
-        - batch-size
-    - Outputs:
-        - trained model
-        - loss, accuracy, for train-set and validation-set
-
-- Method: Evaluate
-    - Gets as arguments:
-        - model
-        - data
-    - Outputs:
-        - loss, accuracy, for test-set
-        - model's size
-
-- Method: Main
-
-- Method: Handle dataset
-    - Gets as arguments:
-        - (nothing. we choose the data in advance)
-        - (must be matching the pretrained model)
-        - optional: reduce the size of the dataset
-    - Outputs:
-        - DS (DataStructure) for train, validation, and test
-
-===========
-
-1. Try the CIFAR100 dataset for resnet18, use 'optuna_trials' and see results
-    -> replace the 'mean' and 'std' for the normalizer!
-2. Try (-1/+1) quantization for the model w/ CIFAR100 dataset and evaluate accuracy drop
-    -> modify 'quantize_linear_layers', change argument in 'quant_funcs.quantize_lora' (in 'optuna_objective' function)
-3.
-
-===========
-Old tasks:
-
-1. Import pre-trained ViT model
-2. Import image dataset
-3. Test accuracy of pre-trained ViT model
-4. Quantize the model
-5. Test accuracy of quantized model
-    -> baseline for accuracy damage after quantization
-6. Implement LoRA
-7. Train LoRA model
-8. Test accuracy of LoRA model
-    -> show improvement in accuracy
-    -> Modify hyper-parameters and go back to step 4
-
-===========
-
-- CNN + 1 FC vs. ViT (many FCs)
-    -> FC used only for classification vs. FC used for the whole network
-- CIFAR10 dataset (10x512 output FC) vs. CIFAR100 dataset (100x512 output FC)
-- (quant) Computationally better vs. No benefit
-    -> 'sparse':
-        - reduce FC number of elements by 'size'
-        - number of multiplications is reduced by 'size'
-    -> 'mean':
-        - reduce FC number of elements by 'size'
-        X number of multiplications is reduced by 'size'
-- (lora) Computationally better vs. No benefit
-    - added memory 'fc_in*rank + rank*fc_out'
-    - added computation 'in_dim*rank*out_dim + in_dim*rank'
-
-Memory storage for the model:
-fc_in*rank + rank*fc_out < (fc_in*fc_out)*(1-1/size^2)
-rank < (fc_in*fc_out)*(1-1/size^2) / (fc_in + fc_out)
-rank < (512*100)*(1-1/4^2)/(512+100)
--> rank <= 9
-
-Computation difference in forward pass:
-added_lora = in_dim*rank*out_dim + in_dim*rank
-reduced_sparse = (in_dim*in_dim*out_dim)/size^3
-
-diff = added_lora - reduced_sparse = in_dim*rank*out_dim + in_dim*rank - (in_dim*in_dim*out_dim)/size^3
- = 512*rank*10+10*rank-512*512*10/size^3 = 0
-
-===========
-
--> Wrapper function:
-    -> Choose model & dataset
-    -> Iterate LoRA rank over a predetermined range
-    -> Conduct optuna trials
-    -> Take best params for training
-    -> Train the model
-    -> Save the model (improve current implementation to support LoRA rank and model type)
-    -> Evaluate on the test set
-    -> Plot graphs
-
--> Plot function - to save graphs as images, with labels and hyper-parameters chosen
--> Optuna objective generalization:
-    # Objective function that takes three arguments.
-    def objective(trial, min_x, max_x):
-        x = trial.suggest_float("x", min_x, max_x)
-        return (x - 2) ** 2
-
-    # Extra arguments.
-    min_x = -100
-    max_x = 100
-
-    # Execute an optimization by using the above objective function wrapped by `lambda`.
-    study = optuna.create_study()
-    study.optimize(lambda trial: objective(trial, min_x, max_x), n_trials=100)
+Presentation:
+* Results graphs
+* Compression benefits (w/ formula)
