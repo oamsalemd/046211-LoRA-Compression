@@ -1,4 +1,4 @@
-# 046211-LoRA-Quantization
+# 046211-LoRA-Compression
 @oamsalemd, @idob8 - Winter 2024
 
 # Ethics Statement
@@ -22,27 +22,27 @@ Engaging in ongoing dialogue with stakeholders and regulatory bodies to address 
 # Project documentation
 ## Topics
 * Introduction
-* Quantization
+* Compression
 * LoRA
 * Method
 * Experiments and results
 * Conclusions and future work
 
 ## Introduction
-Quantizing pre-trained neural networks reduces memory usage, speeds up inference, and enables deployment on resource-constrained devices. It optimizes model efficiency, real-time performance, and energy consumption, making deep learning models more practical for diverse computing environments.
+Compressing pre-trained neural networks reduces memory usage, speeds up inference, and enables deployment on resource-constrained devices. It optimizes model efficiency, real-time performance, and energy consumption, making deep learning models more practical for diverse computing environments.
 ![ProjectPresentation](https://github.com/oamsalemd/046211-LoRA-Quantization/assets/93587192/b4584862-d78d-4784-b2a3-4e8117ca3338)
 
-Utilizing LoRA in pre-trained neural networks enhances interpretability, mitigates overfitting, and improves model generalization by enforcing sparsity and regularization. It facilitates faster convergence, reduces computational complexity, and enables better handling of noisy or incomplete data, leading to more robust and efficient deep learning models.<sup>[1]</sup>
+LoRA (Low Rank Adaptation) is a technique for efficiently fine-tune pre-trained models. The basic idea is to train only a low-rank matrix that will be added the pretrained weight matrix.<sup>[1]</sup>
 
 ![image](https://github.com/oamsalemd/046211-LoRA-Quantization/assets/93587192/6a492711-a3e1-4a4c-8188-b746ff88c304)
 
-Our objective is to combine model quantization with LoRA in pre-trained models, to optimize both model size and performance. Previous works have shown the benefits of LoRA in transfer-learning for pre-trained LLM-s.<sup>[1]</sup> We test the method's efficacy for image classification tasks.
+Our objective is to combine model compression with LoRA in pre-trained models, to optimize model size with minimal demaging to model accuracy and minimal retraining. Previous works have shown the benefits of LoRA in transfer-learning for pre-trained LLM-s.<sup>[1]</sup> We test the method's efficacy for image classification tasks.
 
-## Quantization
-We tested multiple quantization methods that can potentially achieve better computational usage, and tested their effect on the pre-trained model.
-Quantization can potentially save memory (capacity and bandwidth), and reduce the number of effective multiplication instruction. On the other hand, it can potentially damage the accuracy of the model.
-
-(RESULTS?)
+## Compression
+We tested multiple model compression methods that can potentially achieve better computational usage, and tested their effect on the pre-trained model.
+Data type Quantization - in this method we use more compact data type to store the model weights. this technique can potentially save memory (capacity and bandwidth). 
+Sparsity - in this method we use "sparse" weight matrices, for any given block we allow only 1 cell to have non zero value. This technique can potentially save memory (capacity and bandwidth) and also reduce the number of effective multiplication instruction. 
+On the other hand, both methods can potentially damage the accuracy of the model and might demand retraining the model.
 
 ## LoRA
 - Given a 'Linear' layer `W` of `in_dimXout_dim`, we choose low rank `r` s.t. `r < in_dim, out_dim`.
@@ -55,23 +55,24 @@ Benefit: reduce computation resources while training
 
 ## Method
 - Create pre-trained model for image classification
-  - We used ‘resnet18’ pre-trained on ImageNet1K and fine-tuned for CIFAR-10/100<sup>[2]</sup>
+  - We used ‘resnet18’ pre-trained on ImageNet1K<sup>[2]</sup>
 - Quantize the ‘Linear’ layer(s) in the model
   - We tested numerous quantization methods, as described above
 - Freeze the model parameters
 - Add trainable LoRA to quantized ‘Linear’ layer(s)
-- Train the model with the same pre-trained dataset (CIFAR-10/100)
+- Train the model with the same pre-trained dataset
   - Using Optuna for best training hyper-parameters
 - Evaluate accuracy
 
 ## Experiments and results
+(-> summary graph from 'Accuracy' datasheet)
+(-> pointer to 'results' directory with output plots)
 
 ## Conclusions and future work
 
-## 
 
 
 
 > <sup>[1]</sup> Hu, Edward J., et al. “Lora: Low-rank adaptation of large language models.” arXiv preprint arXiv:2106.09685 (2021).
 
-> <sup>[2]</sup> https://huggingface.co/edadaltocg/resnet18_cifar10
+> <sup>[2]</sup> https://huggingface.co/timm/resnet18.tv_in1k
