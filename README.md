@@ -1,4 +1,4 @@
-# 046211-LoRA-Quantization
+# 046211-LoRA-Compression
 @oamsalemd, @idob8 - Winter 2024
 
 # Ethics Statement
@@ -44,8 +44,6 @@ Data type Quantization - in this method we use more compact data type to store t
 Sparsity - in this method we use "sparse" weight matrices, for any given block we allow only 1 cell to have non zero value. This technique can potentially save memory (capacity and bandwidth) and also reduce the number of effective multiplication instruction. 
 On the other hand, both methods can potentially damage the accuracy of the model and might demand retraining the model.
 
-(RESULTS?)
-
 ## LoRA
 - Given a 'Linear' layer `W` of `in_dimXout_dim`, we choose low rank `r` s.t. `r < in_dim, out_dim`.
 - We freeze the `W` matrix, so it remains intact while re-training the model.
@@ -57,23 +55,24 @@ Benefit: reduce computation resources while training
 
 ## Method
 - Create pre-trained model for image classification
-  - We used ‘resnet18’ pre-trained on ImageNet1K and fine-tuned for CIFAR-10/100<sup>[2]</sup>
+  - We used ‘resnet18’ pre-trained on ImageNet1K<sup>[2]</sup>
 - Quantize the ‘Linear’ layer(s) in the model
   - We tested numerous quantization methods, as described above
 - Freeze the model parameters
 - Add trainable LoRA to quantized ‘Linear’ layer(s)
-- Train the model with the same pre-trained dataset (CIFAR-10/100)
+- Train the model with the same pre-trained dataset
   - Using Optuna for best training hyper-parameters
 - Evaluate accuracy
 
 ## Experiments and results
+(-> summary graph from 'Accuracy' datasheet)
+(-> pointer to 'results' directory with output plots)
 
 ## Conclusions and future work
 
-## 
 
 
 
 > <sup>[1]</sup> Hu, Edward J., et al. “Lora: Low-rank adaptation of large language models.” arXiv preprint arXiv:2106.09685 (2021).
 
-> <sup>[2]</sup> https://huggingface.co/edadaltocg/resnet18_cifar10
+> <sup>[2]</sup> https://huggingface.co/timm/resnet18.tv_in1k
