@@ -74,8 +74,38 @@ We believe such research could be done with:
 
 
 # How to run
+
 ## Environments settings
+1. Clone to a new directory:
+  `git clone <URL> <DEST_DIR>`
+2. `cd /path/to/DEST_DIR`
+3. `pip install -r requirements.txt`
+4. Download ImageNet subset from:
+  https://www.kaggle.com/datasets/tusonggao/imagenet-validation-dataset/code
+5. Move the images directory to:
+  `DEST_DIR/../archive/imagenet_validation`
+
 ## Execution commands
+
+`python train_evaluate/train_model.py --init {paper_init,svd_init} [ > log.txt]`
+* `--init`: determines the LoRA matrices initialization method (default: `paper_init`)
+* Recommended: pipe the output to `log.txt` file
+* Results will appear in `DEST_DIR/results`
+
+Description:
+1. Initiates the `resnet18` model, pretrained on ImageNet
+2. Per each compression method (`sparse`, `int1`):
+  * Compresses the model
+  * Initiates LoRA appended to FC layer(s)
+  * Sweeps LoRA rank values, and uses Optuna to find the best training hyper-parameters per each rank
+  * Outputs the results to a dedicated directory
+3. Results directory contains:
+  * `evaluation.csv`: summary of evaluation accuracy for test subset per each LoRA rank
+  * `acc_quant=COMP_TYPE_r=RANK.png`: accuracy per epoch (train, validation), for COMP_TYPE (`sparse`, `int1`), for RANK (LoRA rank)
+  * `loss_quant=COMP_TYPE=r_RANK.png`: loss per epoch (train, validation), for COMP_TYPE (`sparse`, `int1`), for RANK (LoRA rank)
+  * `quant=COMP_TYPE_r=RANK_eval_acc=ACCUR.ckpt`: model post-training parameters, for COMP_TYPE (`sparse`, `int1`), for RANK (LoRA rank), with test accuracy of ACCUR
+  * `quant=COMP_TYPE_r=RANK_optimization_history.html`: Optuna trials summary for COMP_TYPE (`sparse`, `int1`) and RANK (LoRA rank) hyper-parameter tuning
+
 
 # Ethics Statement
 ### Stakeholders
