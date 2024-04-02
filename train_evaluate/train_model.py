@@ -1,8 +1,9 @@
 import sys
-proj_path = "/home/ohada/DeepProject/ProjectPath"
+proj_path = "."
 if proj_path not in sys.path:
     sys.path.append(proj_path)
 
+import argparse
 from tqdm import tqdm
 import os
 import torch
@@ -17,7 +18,7 @@ from torchvision import transforms
 import models.model as model_funcs
 import helper_functions.quant_lora as quant_funcs
 
-
+# Obtain the CIFAR-10 data
 def get_cifar10_data(batch_size=64, loader=False):
     # Download the training data from open datasets.
     mean = [0.4914, 0.4822, 0.4465]
@@ -51,9 +52,9 @@ def get_cifar10_data(batch_size=64, loader=False):
 
     return training_data, test_data
 
-
+# Obtain the ImageNet data
 def get_imagenet_data(batch_size=64, loader=False):
-    data_path = '/home/ohada/DeepProject/archive/imagenet_validation'
+    data_path = '../archive/imagenet_validation'
     # Create a dataset from the ImageNet data:
     mean = [0.485, 0.456, 0.406]
     std = [0.229, 0.224, 0.225]
@@ -82,7 +83,7 @@ def get_imagenet_data(batch_size=64, loader=False):
     return training_data, test_data
 
 
-# Train model, use checkpoints, and store train loss and accuracy
+# Train model, store loss and accuracy, save the best model
 def train_model(model, criterion, optimizer, train_loader, val_loader, num_epochs, device, is_optuna=False, trial=None):
     # Move the model to the device
     model = model.to(device)
@@ -170,7 +171,7 @@ def plot_loss_acc(quant, lora_rank, train_loss, val_loss, train_acc, val_acc):
     # Save figure to file:
     plt.savefig(f'acc_quant={quant}_r={lora_rank}.png')
 
-
+# Evaluate the model on the test data
 def evaluate_test(model, test_loader, device):
     # calculate the model's accuracy on the test data:
     model = model.to(device)
@@ -197,8 +198,8 @@ def evaluate_test(model, test_loader, device):
     print(f'Accuracy of the network on {total} test images: {100 * correct / total}%')
     return 100 * correct / total
 
-
-def optuna_objective(trial, quant, lora_rank=2):
+# Define the objective function for Optuna
+def optuna_objective(trial, quant, lora_rank=2, is_svd=False):
     # Define the hyperparameters space:
     lora_alpha = trial.suggest_categorical('lora_alpha', [8, 16, 24, 32, 40, 48])
     optimizer = trial.suggest_categorical('optimizer', ['Adam', 'SGD'])
@@ -207,7 +208,7 @@ def optuna_objective(trial, quant, lora_rank=2):
 
     # Define the model
     model = model_funcs.get_imagenet_model()
-    quant_funcs.quantize_lora(model, lora_rank, lora_alpha, quant_type=quant, is_svd=True)
+    quant_funcs.quantize_lora(model, lora_rank, lora_alpha, quant_type=quant, is_svd=is_svd)
 
     # Define the optimizer
     if optimizer == 'Adam':
@@ -239,8 +240,12 @@ def optuna_objective(trial, quant, lora_rank=2):
 
     return val_acc_res
 
-
-def optuna_trials():
+# Define the Optuna trials
+def optuna_trials(init_type='paper_init'):
+    if init_type == 'paper_init':
+        is_svd = False
+    else:
+        is_svd = True
     studies = []
     # Store 'quant', 'lora_rank', 'evaluation' data frame:
     evaluation = pandas.DataFrame(columns=['quant', 'lora_rank', 'evaluation'])
@@ -264,7 +269,7 @@ def optuna_trials():
             sampler = optuna.samplers.TPESampler()
             study = optuna.create_study(study_name=f'quant={quant}_r={rank}', direction='maximize',
                                         sampler=sampler)
-            study.optimize(lambda trial: optuna_objective(trial, quant, rank), n_trials=10)
+            study.optimize(lambda trial: optuna_objective(trial, quant, rank, is_svd), n_trials=10)
 
             # pruned_trials = [t for t in study.trials if t.state == optuna.trial.TrialState.PRUNED]
             # complete_trials = [t for t in study.trials if t.state == optuna.trial.TrialState.COMPLETE]
@@ -294,10 +299,6 @@ def optuna_trials():
             # Plot the loss and accuracy:
             plot_loss_acc(quant, rank, train_loss, val_loss, train_acc, val_acc)
 
-            # print("Study statistics: ")
-            # print(" Number of finished trials: ", len(study.trials))
-            # print(" Number of pruned trials: ", len(pruned_trials))
-            # print(" Number of complete trials: ", len(complete_trials))
             print(f"Best trial (quant={quant}_r={rank}):")
             trial = study.best_trial
             print(" Value: ", trial.value)
@@ -317,6 +318,12 @@ def optuna_trials():
 
 
 if __name__ == '__main__':
-    os.chdir('/home/ohada/DeepProject/ProjectPath/results_no_svd')
-    studies = optuna_trials()
-    print(studies)
+    parser = argparse.ArgumentParser(description='Train and evaluate the model')
+    parser.add_argument('--init', type=str, default='paper_init', choices=['paper_init', 'svd_init'], help='Initialization method')
+    args = parser.parse_args()
+
+    # make dir './results' if it does not exist:
+    if not os.path.exists('./results'):
+        os.makedirs('./results')
+    os.chdir('./results')
+    studies = optuna_trials(args.init)

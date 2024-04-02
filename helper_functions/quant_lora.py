@@ -3,6 +3,7 @@ import torch
 from torch import nn
 from train_evaluate.quant_func import *
 
+# LoRA layer
 class LoRALayer(nn.Module):
     def __init__(self, in_dim, out_dim, rank, alpha, diff_matrix=None):
         super().__init__()
@@ -25,6 +26,7 @@ class LoRALayer(nn.Module):
         x = self.alpha * (x @ (self.A @ self.B).T)
         return x
 
+# Linear layer with LoRA
 class LinearWithLoRA(nn.Module):
     def __init__(self, linear, rank, alpha, diff_matrix=None):
         super().__init__()
@@ -36,6 +38,7 @@ class LinearWithLoRA(nn.Module):
     def forward(self, x):
         return self.linear(x) + self.lora(x)
 
+# Replace linear layers with LoRA layers
 def ReplaceLinearToLoRA(model, rank, alpha, diff_matrices=None):
     for name, module in model.named_children():
         if isinstance(module, nn.Linear):
@@ -43,10 +46,12 @@ def ReplaceLinearToLoRA(model, rank, alpha, diff_matrices=None):
         else:
             ReplaceLinearToLoRA(module, rank=rank, alpha=alpha)
 
+# Freeze the model
 def FreeazeModel(model):
     for param in model.parameters():
         param.requires_grad = False
 
+# Unfreeze the LoRA layers
 def UnfreezeLoRA(model):
     for child in model.children():
         if isinstance(child, LoRALayer):
@@ -56,6 +61,7 @@ def UnfreezeLoRA(model):
             # Recursively freeze linear layers in children modules
             UnfreezeLoRA(child)
 
+# Quantize the linear layers in the model
 def quantize_linear_layers(model, quant_type=None, size=4*4):
     diff_matrices = {}
 
@@ -83,21 +89,9 @@ def quantize_linear_layers(model, quant_type=None, size=4*4):
             module.weight = nn.Parameter(quantized_weight, requires_grad=False)
             diff_matrices[name] = diff_matrices[name] - quantized_weight
 
-            # # Optional: Quantize biases if they exist
-            # if quant_type == "sparse":
-            #     quantized_bias = quant_tensor_sparse(bias, size)
-            # elif quant_type == "mean":
-            #     quantized_bias = quant_tensor_mean(bias, size)
-            # elif quant_type == "int8":
-            #     quantized_bias = (bias * 127).round().clamp(-128, 127).to(torch.int8) / 127
-            # elif quant_type == "int1":
-            #     quantized_bias = bias.sign()
-            # else:
-            #     quantized_bias = bias
-            # module.bias = nn.Parameter(quantized_bias, requires_grad=False)
-
     return diff_matrices
 
+# Quantize the model and append LoRA
 def quantize_lora(model, lora_rank, alpha, quant_type=None, quant_size=4*4, is_svd=True):
     # Quantize the model to the specified dtype and replace the linear layers with LoRa layers
     diff_matrices = quantize_linear_layers(model, quant_type, quant_size)

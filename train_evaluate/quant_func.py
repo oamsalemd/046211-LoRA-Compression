@@ -1,6 +1,7 @@
 import torch
 from train_evaluate.quant_func import *
 
+# Compress the linear layers in the model (sparse)
 def quant_tensor_sparse(tensor, size=4*4):
     quant_model_flatten = tensor
     if tensor.numel() < size:
@@ -22,6 +23,7 @@ def quant_tensor_sparse(tensor, size=4*4):
 
     return quant_model_flatten
 
+# Compress the linear layers in the model (mean)
 def quant_tensor_mean(tensor, size=4*4):
     quant_model_flatten = tensor
     if tensor.numel() >= size:
