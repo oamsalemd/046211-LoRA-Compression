@@ -74,6 +74,7 @@ We believe such research could be done with:
 - Test the method’s performance for ‘Linear’-rich models (e.g. Transformers, MLP-based, …)
 - Explore more compression hyper-parameters (e.g. int8, sparse 3X3, ...)
 - Explore more initialization methods for the LoRA matrices
+- Apply the method for DoRA<sup>[3]</sup> variation and examine results
 
 
 
@@ -132,3 +133,5 @@ Engaging in ongoing dialogue with stakeholders and regulatory bodies to address 
 > <sup>[1]</sup> Hu, Edward J., et al. “Lora: Low-rank adaptation of large language models.” arXiv preprint arXiv:2106.09685 (2021).
 
 > <sup>[2]</sup> https://huggingface.co/timm/resnet18.tv_in1k
+
+> <sup>[3]</sup> Liu, Shih-Yang, et al. "DoRA: Weight-Decomposed Low-Rank Adaptation." arXiv preprint arXiv:2402.09353 (2024).
