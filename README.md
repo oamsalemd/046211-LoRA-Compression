@@ -94,7 +94,8 @@ We believe such research could be done with:
 
 Description:
 1. Initiates the `resnet18` model, pretrained on ImageNet
-2. Per each compression method (`sparse`, `int1`):
+2. Loads the pre-downloaded ImageNet dataset and splits train/val/test subsets
+3. Per each compression method (`sparse`, `int1`):
   * Compresses the model
   * Initiates LoRA appended to FC layer(s)
   * Sweeps LoRA rank values, and uses Optuna to find the best training hyper-parameters per each rank
