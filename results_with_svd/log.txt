@@ -1,0 +1,3197 @@
+Accuracy of the network on 10000 test images: 70.34%
+Accuracy of the network on 10000 test images: 54.27%
+Epoch [1/10], Step [250/250], Loss: 2.0956, Accuracy: 57.78%
+Val Loss: 1.9918, Val Accuracy: 60.14%
+Epoch [2/10], Step [250/250], Loss: 2.0542, Accuracy: 59.21%
+Val Loss: 1.9828, Val Accuracy: 60.46%
+Epoch [3/10], Step [250/250], Loss: 2.0501, Accuracy: 59.24%
+Val Loss: 1.9780, Val Accuracy: 60.65%
+Epoch [4/10], Step [250/250], Loss: 2.0474, Accuracy: 59.42%
+Val Loss: 1.9953, Val Accuracy: 60.20%
+Epoch [5/10], Step [250/250], Loss: 2.0453, Accuracy: 59.13%
+Val Loss: 1.9849, Val Accuracy: 60.45%
+Epoch [6/10], Step [250/250], Loss: 2.0426, Accuracy: 59.58%
+Val Loss: 1.9794, Val Accuracy: 60.60%
+Epoch [7/10], Step [250/250], Loss: 2.0448, Accuracy: 59.34%
+Val Loss: 1.9758, Val Accuracy: 60.19%
+Epoch [8/10], Step [250/250], Loss: 2.0392, Accuracy: 59.29%
+Val Loss: 1.9747, Val Accuracy: 60.51%
+Epoch [9/10], Step [250/250], Loss: 2.0381, Accuracy: 59.57%
+Val Loss: 1.9749, Val Accuracy: 60.60%
+Epoch [10/10], Step [250/250], Loss: 2.0368, Accuracy: 59.67%
+Val Loss: 1.9743, Val Accuracy: 60.58%
+Epoch [1/10], Step [250/250], Loss: 2.1313, Accuracy: 56.74%
+Val Loss: 2.0749, Val Accuracy: 57.41%
+Epoch [2/10], Step [250/250], Loss: 2.0696, Accuracy: 58.84%
+Val Loss: 2.0431, Val Accuracy: 58.42%
+Epoch [3/10], Step [250/250], Loss: 2.0489, Accuracy: 59.62%
+Val Loss: 2.0377, Val Accuracy: 58.51%
+Epoch [4/10], Step [250/250], Loss: 2.0351, Accuracy: 59.95%
+Val Loss: 2.0326, Val Accuracy: 58.76%
+Epoch [5/10], Step [250/250], Loss: 2.0295, Accuracy: 60.21%
+Val Loss: 2.0207, Val Accuracy: 58.76%
+Epoch [6/10], Step [250/250], Loss: 2.0265, Accuracy: 60.29%
+Val Loss: 2.0224, Val Accuracy: 58.99%
+Epoch [7/10], Step [250/250], Loss: 2.0247, Accuracy: 60.34%
+Val Loss: 2.0211, Val Accuracy: 59.09%
+Epoch [8/10], Step [250/250], Loss: 2.0229, Accuracy: 60.44%
+Val Loss: 2.0233, Val Accuracy: 59.01%
+Epoch [9/10], Step [250/250], Loss: 2.0210, Accuracy: 60.56%
+Val Loss: 2.0200, Val Accuracy: 59.05%
+Epoch [10/10], Step [250/250], Loss: 2.0192, Accuracy: 60.45%
+Val Loss: 2.0197, Val Accuracy: 59.01%
+Epoch [1/10], Step [1000/1000], Loss: 2.2644, Accuracy: 55.54%
+Val Loss: 1.9706, Val Accuracy: 59.23%
+Epoch [2/10], Step [1000/1000], Loss: 2.2053, Accuracy: 57.69%
+Val Loss: 1.9473, Val Accuracy: 59.96%
+Epoch [3/10], Step [1000/1000], Loss: 2.1878, Accuracy: 57.95%
+Val Loss: 1.9326, Val Accuracy: 60.24%
+Epoch [4/10], Step [1000/1000], Loss: 2.1816, Accuracy: 58.28%
+Val Loss: 1.9317, Val Accuracy: 60.25%
+Epoch [5/10], Step [1000/1000], Loss: 2.1748, Accuracy: 58.27%
+Val Loss: 1.9159, Val Accuracy: 60.61%
+Epoch [6/10], Step [1000/1000], Loss: 2.1683, Accuracy: 58.39%
+Val Loss: 1.9227, Val Accuracy: 60.30%
+Epoch [7/10], Step [1000/1000], Loss: 2.1628, Accuracy: 58.46%
+Val Loss: 1.9240, Val Accuracy: 60.26%
+Epoch [8/10], Step [1000/1000], Loss: 2.1592, Accuracy: 58.43%
+Val Loss: 1.9131, Val Accuracy: 60.25%
+Epoch [9/10], Step [1000/1000], Loss: 2.1566, Accuracy: 58.52%
+Val Loss: 1.9141, Val Accuracy: 60.04%
+Epoch [10/10], Step [1000/1000], Loss: 2.1453, Accuracy: 58.49%
+Val Loss: 1.9197, Val Accuracy: 60.21%
+Epoch [1/10], Step [125/125], Loss: 2.0644, Accuracy: 58.24%
+Val Loss: 1.9915, Val Accuracy: 60.23%
+Epoch [2/10], Step [125/125], Loss: 2.0186, Accuracy: 59.72%
+Val Loss: 1.9725, Val Accuracy: 60.33%
+Epoch [3/10], Step [125/125], Loss: 2.0132, Accuracy: 59.82%
+Val Loss: 1.9904, Val Accuracy: 60.24%
+Epoch [4/10], Step [125/125], Loss: 2.0121, Accuracy: 59.67%
+Val Loss: 1.9846, Val Accuracy: 60.27%
+Epoch [5/10], Step [125/125], Loss: 2.0101, Accuracy: 59.77%
+Val Loss: 1.9715, Val Accuracy: 60.33%
+Epoch [6/10], Step [125/125], Loss: 2.0078, Accuracy: 60.04%
+Val Loss: 1.9728, Val Accuracy: 60.36%
+Epoch [7/10], Step [125/125], Loss: 2.0060, Accuracy: 59.86%
+Val Loss: 1.9842, Val Accuracy: 60.35%
+Epoch [8/10], Step [125/125], Loss: 2.0045, Accuracy: 60.02%
+Val Loss: 1.9770, Val Accuracy: 60.45%
+Epoch [9/10], Step [125/125], Loss: 2.0042, Accuracy: 60.08%
+Val Loss: 1.9793, Val Accuracy: 60.42%
+Epoch [10/10], Step [125/125], Loss: 2.0025, Accuracy: 60.14%
+Val Loss: 1.9760, Val Accuracy: 60.31%
+Epoch [1/10], Step [500/500], Loss: 2.1727, Accuracy: 55.82%
+Val Loss: 2.0609, Val Accuracy: 57.23%
+Epoch [2/10], Step [500/500], Loss: 2.0917, Accuracy: 57.54%
+Val Loss: 2.0305, Val Accuracy: 57.33%
+Epoch [3/10], Step [500/500], Loss: 2.0681, Accuracy: 57.38%
+Val Loss: 2.0532, Val Accuracy: 56.54%
+Epoch [4/10], Step [500/500], Loss: 2.0578, Accuracy: 57.77%
+Val Loss: 1.9933, Val Accuracy: 58.19%
+Epoch [5/10], Step [500/500], Loss: 2.0513, Accuracy: 57.63%
+Val Loss: 2.0033, Val Accuracy: 58.19%
+Epoch [6/10], Step [500/500], Loss: 2.0401, Accuracy: 57.74%
+Val Loss: 2.0001, Val Accuracy: 57.46%
+Epoch [7/10], Step [500/500], Loss: 2.0410, Accuracy: 57.97%
+Val Loss: 2.0170, Val Accuracy: 57.55%
+Epoch [8/10], Step [500/500], Loss: 2.0309, Accuracy: 58.27%
+Val Loss: 2.0034, Val Accuracy: 57.55%
+Epoch [9/10], Step [500/500], Loss: 2.0384, Accuracy: 57.98%
+Val Loss: 2.0239, Val Accuracy: 56.59%
+Epoch [10/10], Step [500/500], Loss: 2.0331, Accuracy: 58.08%
+Val Loss: 1.9839, Val Accuracy: 58.35%
+Epoch [1/10], Step [1000/1000], Loss: 2.2970, Accuracy: 55.34%
+Val Loss: 1.9709, Val Accuracy: 59.10%
+Epoch [2/10], Step [1000/1000], Loss: 2.2339, Accuracy: 57.67%
+Val Loss: 1.9541, Val Accuracy: 59.51%
+Epoch [3/10], Step [1000/1000], Loss: 2.2170, Accuracy: 58.17%
+Val Loss: 1.9377, Val Accuracy: 59.64%
+Epoch [4/10], Step [1000/1000], Loss: 2.2097, Accuracy: 58.22%
+Val Loss: 1.9595, Val Accuracy: 59.83%
+Epoch [5/10], Step [1000/1000], Loss: 2.2097, Accuracy: 58.19%
+Val Loss: 1.9501, Val Accuracy: 60.00%
+Epoch [6/10], Step [1000/1000], Loss: 2.2040, Accuracy: 58.37%
+Val Loss: 1.9482, Val Accuracy: 59.65%
+Epoch [7/10], Step [1000/1000], Loss: 2.2060, Accuracy: 58.49%
+Val Loss: 1.9593, Val Accuracy: 59.74%
+Epoch [8/10], Step [1000/1000], Loss: 2.2053, Accuracy: 58.72%
+Val Loss: 1.9546, Val Accuracy: 59.60%
+Epoch [9/10], Step [1000/1000], Loss: 2.2026, Accuracy: 58.27%
+Val Loss: 1.9522, Val Accuracy: 59.60%
+Epoch [10/10], Step [1000/1000], Loss: 2.2078, Accuracy: 58.27%
+Val Loss: 1.9507, Val Accuracy: 59.74%
+Epoch [1/10], Step [63/63], Loss: 2.0382, Accuracy: 58.48%
+Val Loss: 2.0227, Val Accuracy: 58.99%
+Epoch [2/10], Step [63/63], Loss: 1.9807, Accuracy: 60.28%
+Val Loss: 2.0080, Val Accuracy: 59.16%
+Epoch [3/10], Step [63/63], Loss: 1.9675, Accuracy: 60.63%
+Val Loss: 2.0086, Val Accuracy: 59.16%
+Epoch [4/10], Step [63/63], Loss: 1.9597, Accuracy: 60.63%
+Val Loss: 1.9936, Val Accuracy: 59.36%
+Epoch [5/10], Step [63/63], Loss: 1.9529, Accuracy: 60.81%
+Val Loss: 1.9909, Val Accuracy: 59.15%
+Epoch [6/10], Step [63/63], Loss: 1.9457, Accuracy: 60.67%
+Val Loss: 1.9926, Val Accuracy: 59.31%
+Epoch [7/10], Step [63/63], Loss: 1.9423, Accuracy: 60.87%
+Val Loss: 1.9879, Val Accuracy: 59.20%
+Epoch [8/10], Step [63/63], Loss: 1.9380, Accuracy: 61.00%
+Val Loss: 1.9849, Val Accuracy: 59.19%
+Epoch [9/10], Step [63/63], Loss: 1.9329, Accuracy: 60.92%
+Val Loss: 1.9820, Val Accuracy: 59.11%
+Epoch [10/10], Step [63/63], Loss: 1.9305, Accuracy: 60.89%
+Val Loss: 1.9793, Val Accuracy: 59.17%
+Epoch [1/10], Step [125/125], Loss: 2.1588, Accuracy: 55.19%
+Val Loss: 2.1098, Val Accuracy: 55.73%
+Epoch [2/10], Step [125/125], Loss: 2.1517, Accuracy: 55.58%
+Val Loss: 2.1090, Val Accuracy: 55.84%
+Epoch [3/10], Step [125/125], Loss: 2.1451, Accuracy: 55.75%
+Val Loss: 2.1022, Val Accuracy: 56.14%
+Epoch [4/10], Step [125/125], Loss: 2.1384, Accuracy: 55.92%
+Val Loss: 2.0973, Val Accuracy: 56.21%
+Epoch [5/10], Step [125/125], Loss: 2.1328, Accuracy: 56.15%
+Val Loss: 2.0869, Val Accuracy: 56.44%
+Epoch [6/10], Step [125/125], Loss: 2.1261, Accuracy: 56.27%
+Val Loss: 2.0831, Val Accuracy: 56.74%
+Epoch [7/10], Step [125/125], Loss: 2.1208, Accuracy: 56.40%
+Val Loss: 2.0837, Val Accuracy: 56.66%
+Epoch [8/10], Step [125/125], Loss: 2.1146, Accuracy: 56.58%
+Val Loss: 2.0825, Val Accuracy: 56.67%
+Epoch [9/10], Step [125/125], Loss: 2.1115, Accuracy: 56.73%
+Val Loss: 2.0752, Val Accuracy: 56.75%
+Epoch [10/10], Step [125/125], Loss: 2.1064, Accuracy: 56.87%
+Val Loss: 2.0661, Val Accuracy: 56.99%
+Epoch [1/10], Step [125/125], Loss: 2.1100, Accuracy: 56.47%
+Val Loss: 2.0619, Val Accuracy: 58.14%
+Epoch [2/10], Step [125/125], Loss: 2.0533, Accuracy: 58.43%
+Val Loss: 2.0198, Val Accuracy: 59.17%
+Epoch [3/10], Step [125/125], Loss: 2.0281, Accuracy: 59.34%
+Val Loss: 2.0079, Val Accuracy: 59.81%
+Epoch [4/10], Step [125/125], Loss: 2.0158, Accuracy: 59.64%
+Val Loss: 2.0011, Val Accuracy: 60.04%
+Epoch [5/10], Step [125/125], Loss: 2.0094, Accuracy: 59.97%
+Val Loss: 2.0093, Val Accuracy: 59.99%
+Epoch [6/10], Step [125/125], Loss: 2.0064, Accuracy: 60.21%
+Val Loss: 2.0060, Val Accuracy: 60.23%
+Epoch [7/10], Step [125/125], Loss: 2.0019, Accuracy: 60.08%
+Val Loss: 1.9971, Val Accuracy: 60.25%
+Epoch [8/10], Step [125/125], Loss: 2.0012, Accuracy: 60.30%
+Val Loss: 1.9959, Val Accuracy: 60.26%
+Epoch [9/10], Step [125/125], Loss: 2.0000, Accuracy: 60.25%
+Val Loss: 1.9997, Val Accuracy: 60.46%
+Epoch [10/10], Step [125/125], Loss: 1.9995, Accuracy: 60.41%
+Val Loss: 1.9925, Val Accuracy: 60.29%
+Epoch [1/10], Step [250/250], Loss: 2.1718, Accuracy: 55.10%
+Val Loss: 2.1070, Val Accuracy: 55.86%
+Epoch [2/10], Step [250/250], Loss: 2.1461, Accuracy: 56.09%
+Val Loss: 2.0852, Val Accuracy: 56.52%
+Epoch [3/10], Step [250/250], Loss: 2.1237, Accuracy: 56.89%
+Val Loss: 2.0734, Val Accuracy: 57.15%
+Epoch [4/10], Step [250/250], Loss: 2.1080, Accuracy: 57.38%
+Val Loss: 2.0578, Val Accuracy: 57.65%
+Epoch [5/10], Step [250/250], Loss: 2.0941, Accuracy: 57.94%
+Val Loss: 2.0533, Val Accuracy: 58.19%
+Epoch [6/10], Step [250/250], Loss: 2.0813, Accuracy: 58.34%
+Val Loss: 2.0446, Val Accuracy: 58.14%
+Epoch [7/10], Step [250/250], Loss: 2.0732, Accuracy: 58.69%
+Val Loss: 2.0331, Val Accuracy: 58.60%
+Epoch [8/10], Step [250/250], Loss: 2.0676, Accuracy: 59.02%
+Val Loss: 2.0291, Val Accuracy: 58.62%
+Epoch [9/10], Step [250/250], Loss: 2.0635, Accuracy: 59.09%
+Val Loss: 2.0238, Val Accuracy: 58.85%
+Epoch [10/10], Step [250/250], Loss: 2.0559, Accuracy: 59.16%
+Val Loss: 2.0154, Val Accuracy: 59.14%
+Epoch [1/10], Step [313/313], Loss: 2.0854, Accuracy: 58.31%
+Val Loss: 1.9943, Val Accuracy: 59.86%
+Epoch [2/10], Step [313/313], Loss: 2.0515, Accuracy: 59.37%
+Val Loss: 1.9780, Val Accuracy: 60.03%
+Epoch [3/10], Step [313/313], Loss: 2.0458, Accuracy: 59.49%
+Val Loss: 1.9748, Val Accuracy: 60.52%
+Epoch [4/10], Step [313/313], Loss: 2.0437, Accuracy: 59.62%
+Val Loss: 1.9713, Val Accuracy: 60.09%
+Epoch [5/10], Step [313/313], Loss: 2.0405, Accuracy: 59.61%
+Val Loss: 1.9733, Val Accuracy: 60.13%
+Epoch [6/10], Step [313/313], Loss: 2.0368, Accuracy: 59.39%
+Val Loss: 1.9695, Val Accuracy: 60.44%
+Epoch [7/10], Step [313/313], Loss: 2.0391, Accuracy: 59.52%
+Val Loss: 1.9735, Val Accuracy: 60.04%
+Epoch [8/10], Step [313/313], Loss: 2.0351, Accuracy: 59.82%
+Val Loss: 1.9769, Val Accuracy: 60.25%
+Epoch [9/10], Step [313/313], Loss: 2.0345, Accuracy: 59.60%
+Val Loss: 1.9668, Val Accuracy: 60.50%
+Epoch [10/10], Step [313/313], Loss: 2.0349, Accuracy: 59.67%
+Val Loss: 1.9674, Val Accuracy: 60.05%
+Accuracy of the network on 10000 test images: 60.05%
+Best trial (quant=sparse_r=2):
+ Value:  60.65
+ Params: 
+ lora_alpha: 16
+ optimizer: SGD
+ lr: 0.004775059089204117
+ batch_size: 128
+Epoch [1/10], Step [1000/1000], Loss: 2.2010, Accuracy: 54.35%
+Val Loss: 1.9325, Val Accuracy: 57.51%
+Epoch [2/10], Step [1000/1000], Loss: 2.1328, Accuracy: 56.49%
+Val Loss: 1.8954, Val Accuracy: 58.84%
+Epoch [3/10], Step [1000/1000], Loss: 2.0875, Accuracy: 57.66%
+Val Loss: 1.8656, Val Accuracy: 59.62%
+Epoch [4/10], Step [1000/1000], Loss: 2.0659, Accuracy: 58.27%
+Val Loss: 1.8485, Val Accuracy: 59.86%
+Epoch [5/10], Step [1000/1000], Loss: 2.0498, Accuracy: 58.52%
+Val Loss: 1.8505, Val Accuracy: 59.42%
+Epoch [6/10], Step [1000/1000], Loss: 2.0388, Accuracy: 58.82%
+Val Loss: 1.8390, Val Accuracy: 59.69%
+Epoch [7/10], Step [1000/1000], Loss: 2.0259, Accuracy: 59.05%
+Val Loss: 1.8405, Val Accuracy: 59.71%
+Epoch [8/10], Step [1000/1000], Loss: 2.0172, Accuracy: 58.67%
+Val Loss: 1.8309, Val Accuracy: 59.55%
+Epoch [9/10], Step [1000/1000], Loss: 2.0091, Accuracy: 59.09%
+Val Loss: 1.8298, Val Accuracy: 60.19%
+Epoch [10/10], Step [1000/1000], Loss: 2.0044, Accuracy: 58.97%
+Val Loss: 1.8271, Val Accuracy: 59.46%
+Epoch [1/10], Step [1000/1000], Loss: 2.1325, Accuracy: 56.72%
+Val Loss: 1.8948, Val Accuracy: 59.52%
+Epoch [2/10], Step [1000/1000], Loss: 2.0630, Accuracy: 58.30%
+Val Loss: 1.8684, Val Accuracy: 59.67%
+Epoch [3/10], Step [1000/1000], Loss: 2.0387, Accuracy: 58.54%
+Val Loss: 1.8588, Val Accuracy: 59.69%
+Epoch [4/10], Step [1000/1000], Loss: 2.0170, Accuracy: 58.87%
+Val Loss: 1.8529, Val Accuracy: 59.90%
+Epoch [5/10], Step [1000/1000], Loss: 2.0003, Accuracy: 59.03%
+Val Loss: 1.8589, Val Accuracy: 59.75%
+Epoch [6/10], Step [1000/1000], Loss: 1.9895, Accuracy: 58.98%
+Val Loss: 1.8434, Val Accuracy: 59.95%
+Epoch [7/10], Step [1000/1000], Loss: 1.9764, Accuracy: 59.13%
+Val Loss: 1.8463, Val Accuracy: 59.86%
+Epoch [8/10], Step [1000/1000], Loss: 1.9654, Accuracy: 59.62%
+Val Loss: 1.8436, Val Accuracy: 59.71%
+Epoch [9/10], Step [1000/1000], Loss: 1.9622, Accuracy: 59.38%
+Val Loss: 1.8374, Val Accuracy: 59.85%
+Epoch [10/10], Step [1000/1000], Loss: 1.9557, Accuracy: 59.38%
+Val Loss: 1.8312, Val Accuracy: 59.48%
+Epoch [1/10], Step [63/63], Loss: 1.9548, Accuracy: 58.39%
+Val Loss: 1.9120, Val Accuracy: 59.29%
+Epoch [2/10], Step [63/63], Loss: 1.8632, Accuracy: 60.44%
+Val Loss: 1.8833, Val Accuracy: 59.40%
+Epoch [3/10], Step [63/63], Loss: 1.8337, Accuracy: 60.49%
+Val Loss: 1.8702, Val Accuracy: 59.65%
+Epoch [4/10], Step [63/63], Loss: 1.8108, Accuracy: 60.78%
+Val Loss: 1.8535, Val Accuracy: 59.84%
+Epoch [5/10], Step [63/63], Loss: 1.7879, Accuracy: 61.40%
+Val Loss: 1.8605, Val Accuracy: 59.41%
+Epoch [6/10], Step [63/63], Loss: 1.7738, Accuracy: 61.42%
+Val Loss: 1.8333, Val Accuracy: 59.96%
+Epoch [7/10], Step [63/63], Loss: 1.7588, Accuracy: 61.39%
+Val Loss: 1.8451, Val Accuracy: 59.66%
+Epoch [8/10], Step [63/63], Loss: 1.7550, Accuracy: 61.68%
+Val Loss: 1.8444, Val Accuracy: 59.38%
+Epoch [9/10], Step [63/63], Loss: 1.7481, Accuracy: 61.64%
+Val Loss: 1.8329, Val Accuracy: 59.94%
+Epoch [10/10], Step [63/63], Loss: 1.7427, Accuracy: 61.79%
+Val Loss: 1.8317, Val Accuracy: 59.86%
+Epoch [1/10], Step [1000/1000], Loss: 2.1591, Accuracy: 56.10%
+Val Loss: 1.9112, Val Accuracy: 59.39%
+Epoch [2/10], Step [1000/1000], Loss: 2.1120, Accuracy: 58.10%
+Val Loss: 1.9043, Val Accuracy: 59.74%
+Epoch [3/10], Step [1000/1000], Loss: 2.0982, Accuracy: 58.57%
+Val Loss: 1.8923, Val Accuracy: 59.94%
+Epoch [4/10], Step [1000/1000], Loss: 2.0943, Accuracy: 58.94%
+Val Loss: 1.9008, Val Accuracy: 60.20%
+Epoch [5/10], Step [1000/1000], Loss: 2.0901, Accuracy: 58.88%
+Val Loss: 1.8726, Val Accuracy: 60.20%
+Epoch [6/10], Step [1000/1000], Loss: 2.0925, Accuracy: 59.11%
+Val Loss: 1.8870, Val Accuracy: 60.16%
+Epoch [7/10], Step [1000/1000], Loss: 2.0884, Accuracy: 59.07%
+Val Loss: 1.8852, Val Accuracy: 60.19%
+Epoch [8/10], Step [1000/1000], Loss: 2.0900, Accuracy: 58.90%
+Val Loss: 1.8840, Val Accuracy: 60.19%
+Epoch [9/10], Step [1000/1000], Loss: 2.0861, Accuracy: 59.02%
+Val Loss: 1.8835, Val Accuracy: 60.39%
+Epoch [10/10], Step [1000/1000], Loss: 2.0869, Accuracy: 59.15%
+Val Loss: 1.8881, Val Accuracy: 60.35%
+Epoch [1/10], Step [1000/1000], Loss: 2.1344, Accuracy: 57.08%
+Val Loss: 1.9033, Val Accuracy: 59.48%
+Epoch [2/10], Step [1000/1000], Loss: 2.1151, Accuracy: 58.26%
+Val Loss: 1.9025, Val Accuracy: 59.94%
+Epoch [3/10], Step [1000/1000], Loss: 2.1025, Accuracy: 58.33%
+Val Loss: 1.8984, Val Accuracy: 59.99%
+Epoch [4/10], Step [1000/1000], Loss: 2.1020, Accuracy: 58.35%
+Val Loss: 1.8933, Val Accuracy: 59.90%
+Epoch [5/10], Step [1000/1000], Loss: 2.0932, Accuracy: 58.40%
+Val Loss: 1.9001, Val Accuracy: 59.86%
+Epoch [6/10], Step [1000/1000], Loss: 2.0897, Accuracy: 58.51%
+Val Loss: 1.8841, Val Accuracy: 60.21%
+Epoch [7/10], Step [1000/1000], Loss: 2.0835, Accuracy: 58.50%
+Val Loss: 1.8818, Val Accuracy: 59.98%
+Epoch [8/10], Step [1000/1000], Loss: 2.0819, Accuracy: 58.83%
+Val Loss: 1.8811, Val Accuracy: 59.89%
+Epoch [9/10], Step [1000/1000], Loss: 2.0772, Accuracy: 58.88%
+Val Loss: 1.8906, Val Accuracy: 60.15%
+Epoch [10/10], Step [1000/1000], Loss: 2.0718, Accuracy: 58.75%
+Val Loss: 1.8877, Val Accuracy: 60.04%
+Epoch [1/10], Step [63/63], Loss: 1.9864, Accuracy: 57.59%
+Val Loss: 1.9087, Val Accuracy: 59.55%
+Epoch [2/10], Step [63/63], Loss: 1.8734, Accuracy: 59.94%
+Val Loss: 1.8792, Val Accuracy: 59.70%
+Epoch [3/10], Step [63/63], Loss: 1.8342, Accuracy: 60.26%
+Val Loss: 1.8582, Val Accuracy: 60.01%
+Epoch [4/10], Step [63/63], Loss: 1.8028, Accuracy: 60.88%
+Val Loss: 1.8504, Val Accuracy: 59.58%
+Epoch [5/10], Step [63/63], Loss: 1.7933, Accuracy: 60.73%
+Val Loss: 1.8405, Val Accuracy: 59.62%
+Epoch [6/10], Step [63/63], Loss: 1.7744, Accuracy: 61.41%
+Val Loss: 1.8334, Val Accuracy: 60.15%
+Epoch [7/10], Step [63/63], Loss: 1.7692, Accuracy: 61.18%
+Val Loss: 1.8390, Val Accuracy: 60.06%
+Epoch [8/10], Step [63/63], Loss: 1.7622, Accuracy: 61.63%
+Val Loss: 1.8399, Val Accuracy: 60.10%
+Epoch [9/10], Step [63/63], Loss: 1.7598, Accuracy: 61.33%
+Val Loss: 1.8238, Val Accuracy: 60.20%
+Epoch [10/10], Step [63/63], Loss: 1.7558, Accuracy: 61.51%
+Val Loss: 1.8540, Val Accuracy: 59.26%
+Epoch [1/10], Step [1000/1000], Loss: 2.1427, Accuracy: 56.96%
+Val Loss: 1.8802, Val Accuracy: 60.55%
+Epoch [2/10], Step [1000/1000], Loss: 2.1088, Accuracy: 58.26%
+Val Loss: 1.8695, Val Accuracy: 60.67%
+Epoch [3/10], Step [1000/1000], Loss: 2.1041, Accuracy: 58.50%
+Val Loss: 1.8616, Val Accuracy: 60.86%
+Epoch [4/10], Step [1000/1000], Loss: 2.1030, Accuracy: 58.35%
+Val Loss: 1.8714, Val Accuracy: 60.58%
+Epoch [5/10], Step [1000/1000], Loss: 2.0976, Accuracy: 58.53%
+Val Loss: 1.8685, Val Accuracy: 60.59%
+Epoch [6/10], Step [1000/1000], Loss: 2.0937, Accuracy: 58.68%
+Val Loss: 1.8620, Val Accuracy: 60.86%
+Epoch [7/10], Step [1000/1000], Loss: 2.0907, Accuracy: 58.47%
+Val Loss: 1.8792, Val Accuracy: 60.76%
+Epoch [8/10], Step [1000/1000], Loss: 2.0852, Accuracy: 58.62%
+Val Loss: 1.8602, Val Accuracy: 60.96%
+Epoch [9/10], Step [1000/1000], Loss: 2.0828, Accuracy: 58.71%
+Val Loss: 1.8585, Val Accuracy: 60.59%
+Epoch [10/10], Step [1000/1000], Loss: 2.0818, Accuracy: 58.75%
+Val Loss: 1.8540, Val Accuracy: 60.75%
+Epoch [1/10], Step [125/125], Loss: 1.9617, Accuracy: 58.73%
+Val Loss: 1.9355, Val Accuracy: 60.00%
+Epoch [2/10], Step [125/125], Loss: 1.9208, Accuracy: 60.51%
+Val Loss: 1.9311, Val Accuracy: 60.52%
+Epoch [3/10], Step [125/125], Loss: 1.9149, Accuracy: 60.60%
+Val Loss: 1.9310, Val Accuracy: 60.50%
+Epoch [4/10], Step [125/125], Loss: 1.9117, Accuracy: 60.55%
+Val Loss: 1.9185, Val Accuracy: 60.56%
+Epoch [5/10], Step [125/125], Loss: 1.9085, Accuracy: 60.52%
+Val Loss: 1.9161, Val Accuracy: 60.59%
+Epoch [6/10], Step [125/125], Loss: 1.9058, Accuracy: 60.80%
+Val Loss: 1.9203, Val Accuracy: 60.41%
+Epoch [7/10], Step [125/125], Loss: 1.9042, Accuracy: 60.77%
+Val Loss: 1.9151, Val Accuracy: 60.77%
+Epoch [8/10], Step [125/125], Loss: 1.9015, Accuracy: 60.89%
+Val Loss: 1.9122, Val Accuracy: 60.73%
+Epoch [9/10], Step [125/125], Loss: 1.9014, Accuracy: 60.78%
+Val Loss: 1.9102, Val Accuracy: 60.62%
+Epoch [10/10], Step [125/125], Loss: 1.8973, Accuracy: 60.83%
+Val Loss: 1.9023, Val Accuracy: 60.67%
+Epoch [1/10], Step [1000/1000], Loss: 2.1351, Accuracy: 56.84%
+Val Loss: 1.8331, Val Accuracy: 61.81%
+Epoch [2/10], Step [1000/1000], Loss: 2.0724, Accuracy: 58.50%
+Val Loss: 1.8185, Val Accuracy: 61.67%
+Epoch [3/10], Step [1000/1000], Loss: 2.0460, Accuracy: 58.88%
+Val Loss: 1.7987, Val Accuracy: 61.86%
+Epoch [4/10], Step [1000/1000], Loss: 2.0300, Accuracy: 58.95%
+Val Loss: 1.7845, Val Accuracy: 61.89%
+Epoch [5/10], Step [1000/1000], Loss: 2.0099, Accuracy: 59.27%
+Val Loss: 1.7846, Val Accuracy: 61.88%
+Epoch [6/10], Step [1000/1000], Loss: 2.0000, Accuracy: 59.17%
+Val Loss: 1.7913, Val Accuracy: 61.36%
+Epoch [7/10], Step [1000/1000], Loss: 1.9909, Accuracy: 59.24%
+Val Loss: 1.7784, Val Accuracy: 61.56%
+Epoch [8/10], Step [1000/1000], Loss: 1.9871, Accuracy: 59.20%
+Val Loss: 1.7840, Val Accuracy: 61.39%
+Epoch [9/10], Step [1000/1000], Loss: 1.9778, Accuracy: 59.18%
+Val Loss: 1.7792, Val Accuracy: 61.56%
+Epoch [10/10], Step [1000/1000], Loss: 1.9726, Accuracy: 59.45%
+Val Loss: 1.7693, Val Accuracy: 61.65%
+Epoch [1/10], Step [500/500], Loss: 2.0596, Accuracy: 56.90%
+Val Loss: 1.8950, Val Accuracy: 59.14%
+Epoch [2/10], Step [500/500], Loss: 1.9553, Accuracy: 58.63%
+Val Loss: 1.8463, Val Accuracy: 59.84%
+Epoch [3/10], Step [500/500], Loss: 1.9090, Accuracy: 59.15%
+Val Loss: 1.8348, Val Accuracy: 59.59%
+Epoch [4/10], Step [500/500], Loss: 1.8868, Accuracy: 59.38%
+Val Loss: 1.8269, Val Accuracy: 59.91%
+Epoch [5/10], Step [500/500], Loss: 1.8687, Accuracy: 59.52%
+Val Loss: 1.8198, Val Accuracy: 60.55%
+Epoch [6/10], Step [500/500], Loss: 1.8569, Accuracy: 59.78%
+Val Loss: 1.8239, Val Accuracy: 59.85%
+Epoch [7/10], Step [500/500], Loss: 1.8500, Accuracy: 59.87%
+Val Loss: 1.8143, Val Accuracy: 59.65%
+Epoch [8/10], Step [500/500], Loss: 1.8456, Accuracy: 59.97%
+Val Loss: 1.8111, Val Accuracy: 60.12%
+Epoch [9/10], Step [500/500], Loss: 1.8447, Accuracy: 60.16%
+Val Loss: 1.8157, Val Accuracy: 59.70%
+Epoch [10/10], Step [500/500], Loss: 1.8389, Accuracy: 59.87%
+Val Loss: 1.8118, Val Accuracy: 60.16%
+Epoch [1/10], Step [1250/1250], Loss: 2.1408, Accuracy: 57.19%
+Val Loss: 1.8739, Val Accuracy: 59.78%
+Epoch [2/10], Step [1250/1250], Loss: 2.1135, Accuracy: 58.60%
+Val Loss: 1.8690, Val Accuracy: 59.82%
+Epoch [3/10], Step [1250/1250], Loss: 2.1085, Accuracy: 58.66%
+Val Loss: 1.8658, Val Accuracy: 59.93%
+Epoch [4/10], Step [1250/1250], Loss: 2.1036, Accuracy: 58.53%
+Val Loss: 1.8706, Val Accuracy: 59.84%
+Epoch [5/10], Step [1250/1250], Loss: 2.1041, Accuracy: 58.62%
+Val Loss: 1.8661, Val Accuracy: 59.99%
+Epoch [6/10], Step [1250/1250], Loss: 2.0950, Accuracy: 58.69%
+Val Loss: 1.8558, Val Accuracy: 60.24%
+Epoch [7/10], Step [1250/1250], Loss: 2.0945, Accuracy: 58.85%
+Val Loss: 1.8582, Val Accuracy: 60.00%
+Epoch [8/10], Step [1250/1250], Loss: 2.0910, Accuracy: 58.52%
+Val Loss: 1.8583, Val Accuracy: 60.01%
+Epoch [9/10], Step [1250/1250], Loss: 2.0883, Accuracy: 58.98%
+Val Loss: 1.8549, Val Accuracy: 60.07%
+Epoch [10/10], Step [1250/1250], Loss: 2.0844, Accuracy: 58.79%
+Val Loss: 1.8426, Val Accuracy: 60.21%
+Accuracy of the network on 10000 test images: 60.21%
+Best trial (quant=sparse_r=4):
+ Value:  60.9625
+ Params: 
+ lora_alpha: 8
+ optimizer: SGD
+ lr: 0.0009170670135203171
+ batch_size: 32
+Epoch [1/10], Step [250/250], Loss: 1.8776, Accuracy: 59.47%
+Val Loss: 1.7884, Val Accuracy: 61.50%
+Epoch [2/10], Step [250/250], Loss: 1.8534, Accuracy: 60.55%
+Val Loss: 1.7895, Val Accuracy: 61.29%
+Epoch [3/10], Step [250/250], Loss: 1.8444, Accuracy: 60.72%
+Val Loss: 1.7760, Val Accuracy: 61.35%
+Epoch [4/10], Step [250/250], Loss: 1.8349, Accuracy: 60.86%
+Val Loss: 1.7736, Val Accuracy: 61.31%
+Epoch [5/10], Step [250/250], Loss: 1.8294, Accuracy: 60.92%
+Val Loss: 1.7735, Val Accuracy: 61.42%
+Epoch [6/10], Step [250/250], Loss: 1.8230, Accuracy: 61.13%
+Val Loss: 1.7681, Val Accuracy: 61.77%
+Epoch [7/10], Step [250/250], Loss: 1.8131, Accuracy: 61.33%
+Val Loss: 1.7636, Val Accuracy: 61.79%
+Epoch [8/10], Step [250/250], Loss: 1.8064, Accuracy: 61.38%
+Val Loss: 1.7595, Val Accuracy: 61.76%
+Epoch [9/10], Step [250/250], Loss: 1.8042, Accuracy: 61.44%
+Val Loss: 1.7589, Val Accuracy: 61.42%
+Epoch [10/10], Step [250/250], Loss: 1.7974, Accuracy: 61.25%
+Val Loss: 1.7512, Val Accuracy: 61.94%
+Epoch [1/10], Step [125/125], Loss: 1.8892, Accuracy: 58.36%
+Val Loss: 1.8833, Val Accuracy: 58.17%
+Epoch [2/10], Step [125/125], Loss: 1.8602, Accuracy: 59.59%
+Val Loss: 1.8594, Val Accuracy: 58.85%
+Epoch [3/10], Step [125/125], Loss: 1.8411, Accuracy: 60.30%
+Val Loss: 1.8426, Val Accuracy: 59.33%
+Epoch [4/10], Step [125/125], Loss: 1.8293, Accuracy: 60.84%
+Val Loss: 1.8507, Val Accuracy: 59.55%
+Epoch [5/10], Step [125/125], Loss: 1.8211, Accuracy: 61.23%
+Val Loss: 1.8326, Val Accuracy: 60.10%
+Epoch [6/10], Step [125/125], Loss: 1.8166, Accuracy: 61.41%
+Val Loss: 1.8347, Val Accuracy: 60.33%
+Epoch [7/10], Step [125/125], Loss: 1.8116, Accuracy: 61.62%
+Val Loss: 1.8239, Val Accuracy: 60.50%
+Epoch [8/10], Step [125/125], Loss: 1.8088, Accuracy: 61.87%
+Val Loss: 1.8318, Val Accuracy: 60.62%
+Epoch [9/10], Step [125/125], Loss: 1.8071, Accuracy: 61.83%
+Val Loss: 1.8275, Val Accuracy: 60.50%
+Epoch [10/10], Step [125/125], Loss: 1.8062, Accuracy: 61.80%
+Val Loss: 1.8351, Val Accuracy: 60.67%
+Epoch [1/10], Step [500/500], Loss: 1.9168, Accuracy: 58.83%
+Val Loss: 1.7717, Val Accuracy: 60.59%
+Epoch [2/10], Step [500/500], Loss: 1.7909, Accuracy: 60.76%
+Val Loss: 1.7500, Val Accuracy: 60.23%
+Epoch [3/10], Step [500/500], Loss: 1.7365, Accuracy: 61.51%
+Val Loss: 1.7361, Val Accuracy: 60.74%
+Epoch [4/10], Step [500/500], Loss: 1.7018, Accuracy: 61.87%
+Val Loss: 1.7323, Val Accuracy: 60.25%
+Epoch [5/10], Step [500/500], Loss: 1.6801, Accuracy: 62.03%
+Val Loss: 1.7162, Val Accuracy: 60.39%
+Epoch [6/10], Step [500/500], Loss: 1.6611, Accuracy: 62.42%
+Val Loss: 1.7252, Val Accuracy: 60.24%
+Epoch [7/10], Step [500/500], Loss: 1.6431, Accuracy: 62.49%
+Val Loss: 1.7150, Val Accuracy: 59.83%
+Epoch [8/10], Step [500/500], Loss: 1.6349, Accuracy: 62.47%
+Val Loss: 1.7190, Val Accuracy: 60.09%
+Epoch [9/10], Step [500/500], Loss: 1.6261, Accuracy: 62.81%
+Val Loss: 1.7262, Val Accuracy: 59.75%
+Epoch [10/10], Step [500/500], Loss: 1.6163, Accuracy: 62.88%
+Val Loss: 1.7225, Val Accuracy: 60.15%
+Epoch [1/10], Step [63/63], Loss: 1.9028, Accuracy: 57.49%
+Val Loss: 1.8783, Val Accuracy: 58.25%
+Epoch [2/10], Step [63/63], Loss: 1.8965, Accuracy: 57.66%
+Val Loss: 1.8779, Val Accuracy: 58.27%
+Epoch [3/10], Step [63/63], Loss: 1.8931, Accuracy: 57.89%
+Val Loss: 1.8678, Val Accuracy: 58.62%
+Epoch [4/10], Step [63/63], Loss: 1.8880, Accuracy: 58.08%
+Val Loss: 1.8672, Val Accuracy: 58.83%
+Epoch [5/10], Step [63/63], Loss: 1.8842, Accuracy: 58.38%
+Val Loss: 1.8599, Val Accuracy: 58.99%
+Epoch [6/10], Step [63/63], Loss: 1.8822, Accuracy: 58.56%
+Val Loss: 1.8612, Val Accuracy: 59.08%
+Epoch [7/10], Step [63/63], Loss: 1.8740, Accuracy: 58.65%
+Val Loss: 1.8609, Val Accuracy: 59.01%
+Epoch [8/10], Step [63/63], Loss: 1.8711, Accuracy: 58.77%
+Val Loss: 1.8570, Val Accuracy: 59.17%
+Epoch [9/10], Step [63/63], Loss: 1.8686, Accuracy: 59.09%
+Val Loss: 1.8530, Val Accuracy: 59.42%
+Epoch [10/10], Step [63/63], Loss: 1.8652, Accuracy: 59.12%
+Val Loss: 1.8517, Val Accuracy: 59.49%
+Epoch [1/10], Step [63/63], Loss: 1.8847, Accuracy: 58.17%
+Val Loss: 1.8868, Val Accuracy: 58.06%
+Epoch [2/10], Step [63/63], Loss: 1.8644, Accuracy: 58.98%
+Val Loss: 1.8718, Val Accuracy: 58.67%
+Epoch [3/10], Step [63/63], Loss: 1.8489, Accuracy: 59.52%
+Val Loss: 1.8621, Val Accuracy: 59.11%
+Epoch [4/10], Step [63/63], Loss: 1.8372, Accuracy: 60.13%
+Val Loss: 1.8529, Val Accuracy: 59.52%
+Epoch [5/10], Step [63/63], Loss: 1.8281, Accuracy: 60.42%
+Val Loss: 1.8471, Val Accuracy: 59.95%
+Epoch [6/10], Step [63/63], Loss: 1.8197, Accuracy: 60.77%
+Val Loss: 1.8432, Val Accuracy: 60.01%
+Epoch [7/10], Step [63/63], Loss: 1.8160, Accuracy: 60.87%
+Val Loss: 1.8386, Val Accuracy: 60.11%
+Epoch [8/10], Step [63/63], Loss: 1.8098, Accuracy: 61.23%
+Val Loss: 1.8346, Val Accuracy: 60.49%
+Epoch [9/10], Step [63/63], Loss: 1.8057, Accuracy: 61.42%
+Val Loss: 1.8378, Val Accuracy: 60.71%
+Epoch [10/10], Step [63/63], Loss: 1.8014, Accuracy: 61.45%
+Val Loss: 1.8291, Val Accuracy: 60.66%
+Epoch [1/10], Step [250/250], Loss: 1.8799, Accuracy: 58.97%
+Val Loss: 1.7855, Val Accuracy: 60.70%
+Epoch [2/10], Step [250/250], Loss: 1.7483, Accuracy: 61.13%
+Val Loss: 1.7631, Val Accuracy: 60.27%
+Epoch [3/10], Step [250/250], Loss: 1.6939, Accuracy: 61.82%
+Val Loss: 1.7503, Val Accuracy: 60.12%
+Epoch [4/10], Step [250/250], Loss: 1.6550, Accuracy: 62.51%
+Val Loss: 1.7270, Val Accuracy: 60.41%
+Epoch [5/10], Step [250/250], Loss: 1.6327, Accuracy: 62.82%
+Val Loss: 1.7423, Val Accuracy: 59.88%
+Epoch [6/10], Step [250/250], Loss: 1.6162, Accuracy: 62.87%
+Val Loss: 1.7446, Val Accuracy: 59.92%
+Epoch [7/10], Step [250/250], Loss: 1.6035, Accuracy: 63.07%
+Val Loss: 1.7429, Val Accuracy: 59.88%
+Epoch [8/10], Step [250/250], Loss: 1.5942, Accuracy: 63.03%
+Val Loss: 1.7393, Val Accuracy: 59.88%
+Epoch [9/10], Step [250/250], Loss: 1.5831, Accuracy: 63.34%
+Val Loss: 1.7442, Val Accuracy: 59.66%
+Epoch [10/10], Step [250/250], Loss: 1.5730, Accuracy: 63.51%
+Val Loss: 1.7514, Val Accuracy: 59.38%
+Epoch [1/10], Step [1000/1000], Loss: 2.0256, Accuracy: 57.75%
+Val Loss: 1.8063, Val Accuracy: 60.56%
+Epoch [2/10], Step [1000/1000], Loss: 1.9969, Accuracy: 58.37%
+Val Loss: 1.8025, Val Accuracy: 60.45%
+Epoch [3/10], Step [1000/1000], Loss: 1.9860, Accuracy: 58.70%
+Val Loss: 1.7975, Val Accuracy: 60.60%
+Epoch [4/10], Step [1000/1000], Loss: 1.9792, Accuracy: 58.95%
+Val Loss: 1.7912, Val Accuracy: 60.77%
+Epoch [5/10], Step [1000/1000], Loss: 1.9661, Accuracy: 59.08%
+Val Loss: 1.7870, Val Accuracy: 60.55%
+Epoch [6/10], Step [1000/1000], Loss: 1.9562, Accuracy: 59.28%
+Val Loss: 1.7784, Val Accuracy: 61.33%
+Epoch [7/10], Step [1000/1000], Loss: 1.9523, Accuracy: 59.16%
+Val Loss: 1.7841, Val Accuracy: 60.89%
+Epoch [8/10], Step [1000/1000], Loss: 1.9408, Accuracy: 59.63%
+Val Loss: 1.7765, Val Accuracy: 61.11%
+Epoch [9/10], Step [1000/1000], Loss: 1.9324, Accuracy: 59.83%
+Val Loss: 1.7806, Val Accuracy: 60.67%
+Epoch [10/10], Step [1000/1000], Loss: 1.9289, Accuracy: 59.76%
+Val Loss: 1.7654, Val Accuracy: 60.90%
+Epoch [1/10], Step [500/500], Loss: 1.9806, Accuracy: 56.64%
+Val Loss: 1.8683, Val Accuracy: 58.61%
+Epoch [2/10], Step [500/500], Loss: 1.9549, Accuracy: 57.75%
+Val Loss: 1.8524, Val Accuracy: 59.21%
+Epoch [3/10], Step [500/500], Loss: 1.9450, Accuracy: 58.01%
+Val Loss: 1.8424, Val Accuracy: 59.90%
+Epoch [4/10], Step [500/500], Loss: 1.9317, Accuracy: 58.91%
+Val Loss: 1.8367, Val Accuracy: 60.06%
+Epoch [5/10], Step [500/500], Loss: 1.9233, Accuracy: 58.82%
+Val Loss: 1.8245, Val Accuracy: 60.21%
+Epoch [6/10], Step [500/500], Loss: 1.9170, Accuracy: 59.36%
+Val Loss: 1.8178, Val Accuracy: 60.40%
+Epoch [7/10], Step [500/500], Loss: 1.9075, Accuracy: 59.71%
+Val Loss: 1.8166, Val Accuracy: 60.60%
+Epoch [8/10], Step [500/500], Loss: 1.9049, Accuracy: 60.02%
+Val Loss: 1.8150, Val Accuracy: 60.98%
+Epoch [9/10], Step [500/500], Loss: 1.8984, Accuracy: 60.14%
+Val Loss: 1.8139, Val Accuracy: 60.73%
+Epoch [10/10], Step [500/500], Loss: 1.8962, Accuracy: 60.38%
+Val Loss: 1.8079, Val Accuracy: 60.91%
+Epoch [1/10], Step [250/250], Loss: 1.8897, Accuracy: 59.08%
+Val Loss: 1.7711, Val Accuracy: 61.67%
+Epoch [2/10], Step [250/250], Loss: 1.8293, Accuracy: 61.01%
+Val Loss: 1.7518, Val Accuracy: 62.19%
+Epoch [3/10], Step [250/250], Loss: 1.7978, Accuracy: 61.60%
+Val Loss: 1.7402, Val Accuracy: 62.60%
+Epoch [4/10], Step [250/250], Loss: 1.7790, Accuracy: 61.73%
+Val Loss: 1.7263, Val Accuracy: 62.73%
+Epoch [5/10], Step [250/250], Loss: 1.7583, Accuracy: 62.19%
+Val Loss: 1.7154, Val Accuracy: 62.79%
+Epoch [6/10], Step [250/250], Loss: 1.7397, Accuracy: 62.49%
+Val Loss: 1.7109, Val Accuracy: 62.51%
+Epoch [7/10], Step [250/250], Loss: 1.7271, Accuracy: 62.61%
+Val Loss: 1.7021, Val Accuracy: 62.66%
+Epoch [8/10], Step [250/250], Loss: 1.7134, Accuracy: 62.77%
+Val Loss: 1.6956, Val Accuracy: 62.85%
+Epoch [9/10], Step [250/250], Loss: 1.7001, Accuracy: 62.83%
+Val Loss: 1.6914, Val Accuracy: 62.54%
+Epoch [10/10], Step [250/250], Loss: 1.6865, Accuracy: 63.21%
+Val Loss: 1.6851, Val Accuracy: 62.52%
+Epoch [1/10], Step [500/500], Loss: 1.9229, Accuracy: 58.71%
+Val Loss: 1.7993, Val Accuracy: 60.69%
+Epoch [2/10], Step [500/500], Loss: 1.9006, Accuracy: 59.41%
+Val Loss: 1.8000, Val Accuracy: 60.79%
+Epoch [3/10], Step [500/500], Loss: 1.8867, Accuracy: 59.97%
+Val Loss: 1.7963, Val Accuracy: 60.46%
+Epoch [4/10], Step [500/500], Loss: 1.8767, Accuracy: 59.84%
+Val Loss: 1.7854, Val Accuracy: 61.05%
+Epoch [5/10], Step [500/500], Loss: 1.8642, Accuracy: 60.36%
+Val Loss: 1.7772, Val Accuracy: 61.02%
+Epoch [6/10], Step [500/500], Loss: 1.8560, Accuracy: 60.63%
+Val Loss: 1.7711, Val Accuracy: 60.99%
+Epoch [7/10], Step [500/500], Loss: 1.8459, Accuracy: 60.66%
+Val Loss: 1.7608, Val Accuracy: 61.60%
+Epoch [8/10], Step [500/500], Loss: 1.8367, Accuracy: 60.88%
+Val Loss: 1.7584, Val Accuracy: 61.46%
+Epoch [9/10], Step [500/500], Loss: 1.8314, Accuracy: 61.10%
+Val Loss: 1.7562, Val Accuracy: 61.30%
+Epoch [10/10], Step [500/500], Loss: 1.8186, Accuracy: 61.23%
+Val Loss: 1.7567, Val Accuracy: 61.58%
+Epoch [1/10], Step [313/313], Loss: 1.8728, Accuracy: 59.69%
+Val Loss: 1.8027, Val Accuracy: 61.42%
+Epoch [2/10], Step [313/313], Loss: 1.8502, Accuracy: 60.36%
+Val Loss: 1.7988, Val Accuracy: 61.06%
+Epoch [3/10], Step [313/313], Loss: 1.8387, Accuracy: 60.57%
+Val Loss: 1.7897, Val Accuracy: 61.31%
+Epoch [4/10], Step [313/313], Loss: 1.8331, Accuracy: 60.68%
+Val Loss: 1.7820, Val Accuracy: 61.78%
+Epoch [5/10], Step [313/313], Loss: 1.8217, Accuracy: 61.07%
+Val Loss: 1.7878, Val Accuracy: 61.67%
+Epoch [6/10], Step [313/313], Loss: 1.8134, Accuracy: 61.33%
+Val Loss: 1.7778, Val Accuracy: 61.57%
+Epoch [7/10], Step [313/313], Loss: 1.8066, Accuracy: 61.42%
+Val Loss: 1.7645, Val Accuracy: 61.56%
+Epoch [8/10], Step [313/313], Loss: 1.8017, Accuracy: 61.35%
+Val Loss: 1.7759, Val Accuracy: 61.57%
+Epoch [9/10], Step [313/313], Loss: 1.7908, Accuracy: 61.50%
+Val Loss: 1.7592, Val Accuracy: 61.57%
+Epoch [10/10], Step [313/313], Loss: 1.7883, Accuracy: 61.50%
+Val Loss: 1.7652, Val Accuracy: 61.53%
+Accuracy of the network on 10000 test images: 61.53%
+Best trial (quant=sparse_r=8):
+ Value:  61.9375
+ Params: 
+ lora_alpha: 24
+ optimizer: SGD
+ lr: 0.0063357686417715355
+ batch_size: 128
+Epoch [1/10], Step [500/500], Loss: 1.7873, Accuracy: 60.27%
+Val Loss: 1.6813, Val Accuracy: 61.66%
+Epoch [2/10], Step [500/500], Loss: 1.7069, Accuracy: 62.46%
+Val Loss: 1.6553, Val Accuracy: 62.34%
+Epoch [3/10], Step [500/500], Loss: 1.6586, Accuracy: 62.97%
+Val Loss: 1.6318, Val Accuracy: 62.65%
+Epoch [4/10], Step [500/500], Loss: 1.6166, Accuracy: 63.96%
+Val Loss: 1.6192, Val Accuracy: 62.67%
+Epoch [5/10], Step [500/500], Loss: 1.5838, Accuracy: 64.42%
+Val Loss: 1.6099, Val Accuracy: 62.83%
+Epoch [6/10], Step [500/500], Loss: 1.5554, Accuracy: 64.98%
+Val Loss: 1.5974, Val Accuracy: 62.66%
+Epoch [7/10], Step [500/500], Loss: 1.5292, Accuracy: 65.31%
+Val Loss: 1.5941, Val Accuracy: 62.64%
+Epoch [8/10], Step [500/500], Loss: 1.5102, Accuracy: 65.53%
+Val Loss: 1.5942, Val Accuracy: 62.55%
+Epoch [9/10], Step [500/500], Loss: 1.4908, Accuracy: 65.92%
+Val Loss: 1.5853, Val Accuracy: 62.14%
+Epoch [10/10], Step [500/500], Loss: 1.4722, Accuracy: 66.05%
+Val Loss: 1.5880, Val Accuracy: 62.31%
+Epoch [1/10], Step [500/500], Loss: 1.7884, Accuracy: 60.19%
+Val Loss: 1.6617, Val Accuracy: 62.83%
+Epoch [2/10], Step [500/500], Loss: 1.7119, Accuracy: 62.20%
+Val Loss: 1.6322, Val Accuracy: 63.08%
+Epoch [3/10], Step [500/500], Loss: 1.6702, Accuracy: 62.78%
+Val Loss: 1.6131, Val Accuracy: 63.34%
+Epoch [4/10], Step [500/500], Loss: 1.6353, Accuracy: 63.58%
+Val Loss: 1.5988, Val Accuracy: 63.21%
+Epoch [5/10], Step [500/500], Loss: 1.6030, Accuracy: 64.15%
+Val Loss: 1.5910, Val Accuracy: 63.33%
+Epoch [6/10], Step [500/500], Loss: 1.5736, Accuracy: 64.40%
+Val Loss: 1.5745, Val Accuracy: 63.58%
+Epoch [7/10], Step [500/500], Loss: 1.5505, Accuracy: 64.74%
+Val Loss: 1.5618, Val Accuracy: 63.80%
+Epoch [8/10], Step [500/500], Loss: 1.5264, Accuracy: 65.24%
+Val Loss: 1.5649, Val Accuracy: 63.76%
+Epoch [9/10], Step [500/500], Loss: 1.5058, Accuracy: 65.38%
+Val Loss: 1.5625, Val Accuracy: 63.38%
+Epoch [10/10], Step [500/500], Loss: 1.4879, Accuracy: 65.88%
+Val Loss: 1.5643, Val Accuracy: 63.52%
+Epoch [1/10], Step [125/125], Loss: 1.7799, Accuracy: 59.04%
+Val Loss: 1.6600, Val Accuracy: 60.81%
+Epoch [2/10], Step [125/125], Loss: 1.5804, Accuracy: 62.80%
+Val Loss: 1.6475, Val Accuracy: 60.36%
+Epoch [3/10], Step [125/125], Loss: 1.5047, Accuracy: 63.66%
+Val Loss: 1.6468, Val Accuracy: 60.36%
+Epoch [4/10], Step [125/125], Loss: 1.4529, Accuracy: 65.02%
+Val Loss: 1.6734, Val Accuracy: 60.55%
+Epoch [5/10], Step [125/125], Loss: 1.4243, Accuracy: 65.15%
+Val Loss: 1.6587, Val Accuracy: 60.38%
+Epoch [6/10], Step [125/125], Loss: 1.3890, Accuracy: 66.06%
+Val Loss: 1.6961, Val Accuracy: 59.64%
+Epoch [7/10], Step [125/125], Loss: 1.3650, Accuracy: 66.34%
+Val Loss: 1.7138, Val Accuracy: 59.16%
+Epoch [8/10], Step [125/125], Loss: 1.3565, Accuracy: 66.50%
+Val Loss: 1.7452, Val Accuracy: 58.33%
+Epoch [9/10], Step [125/125], Loss: 1.3309, Accuracy: 67.42%
+Val Loss: 1.7146, Val Accuracy: 59.39%
+Epoch [10/10], Step [125/125], Loss: 1.3173, Accuracy: 67.57%
+Val Loss: 1.7304, Val Accuracy: 58.49%
+Epoch [1/10], Step [500/500], Loss: 1.9109, Accuracy: 56.90%
+Val Loss: 1.7065, Val Accuracy: 60.40%
+Epoch [2/10], Step [500/500], Loss: 1.7110, Accuracy: 59.83%
+Val Loss: 1.6833, Val Accuracy: 60.30%
+Epoch [3/10], Step [500/500], Loss: 1.6394, Accuracy: 61.06%
+Val Loss: 1.7158, Val Accuracy: 59.30%
+Epoch [4/10], Step [500/500], Loss: 1.5841, Accuracy: 62.20%
+Val Loss: 1.7122, Val Accuracy: 59.98%
+Epoch [5/10], Step [500/500], Loss: 1.5606, Accuracy: 62.16%
+Val Loss: 1.7446, Val Accuracy: 58.85%
+Epoch [6/10], Step [500/500], Loss: 1.5400, Accuracy: 62.61%
+Val Loss: 1.7282, Val Accuracy: 59.54%
+Epoch [7/10], Step [500/500], Loss: 1.5140, Accuracy: 62.94%
+Val Loss: 1.7815, Val Accuracy: 58.31%
+Epoch [8/10], Step [500/500], Loss: 1.5008, Accuracy: 63.52%
+Val Loss: 1.8299, Val Accuracy: 57.73%
+Epoch [9/10], Step [500/500], Loss: 1.4950, Accuracy: 63.30%
+Val Loss: 1.7584, Val Accuracy: 58.62%
+Epoch [10/10], Step [500/500], Loss: 1.4872, Accuracy: 63.49%
+Val Loss: 1.8003, Val Accuracy: 58.15%
+Epoch [1/10], Step [63/63], Loss: 1.7586, Accuracy: 59.48%
+Val Loss: 1.7509, Val Accuracy: 59.64%
+Epoch [2/10], Step [63/63], Loss: 1.7369, Accuracy: 60.22%
+Val Loss: 1.7381, Val Accuracy: 60.11%
+Epoch [3/10], Step [63/63], Loss: 1.7242, Accuracy: 60.80%
+Val Loss: 1.7286, Val Accuracy: 60.64%
+Epoch [4/10], Step [63/63], Loss: 1.7115, Accuracy: 61.25%
+Val Loss: 1.7226, Val Accuracy: 61.02%
+Epoch [5/10], Step [63/63], Loss: 1.7037, Accuracy: 61.68%
+Val Loss: 1.7167, Val Accuracy: 61.10%
+Epoch [6/10], Step [63/63], Loss: 1.6955, Accuracy: 61.76%
+Val Loss: 1.7114, Val Accuracy: 61.31%
+Epoch [7/10], Step [63/63], Loss: 1.6917, Accuracy: 62.16%
+Val Loss: 1.7090, Val Accuracy: 61.48%
+Epoch [8/10], Step [63/63], Loss: 1.6898, Accuracy: 62.10%
+Val Loss: 1.7146, Val Accuracy: 61.64%
+Epoch [9/10], Step [63/63], Loss: 1.6874, Accuracy: 62.35%
+Val Loss: 1.7081, Val Accuracy: 61.75%
+Epoch [10/10], Step [63/63], Loss: 1.6829, Accuracy: 62.48%
+Val Loss: 1.7076, Val Accuracy: 61.80%
+Epoch [1/10], Step [1000/1000], Loss: 1.8822, Accuracy: 58.59%
+Val Loss: 1.7022, Val Accuracy: 61.98%
+Epoch [2/10], Step [1000/1000], Loss: 1.8482, Accuracy: 59.92%
+Val Loss: 1.6892, Val Accuracy: 62.16%
+Epoch [3/10], Step [1000/1000], Loss: 1.8401, Accuracy: 60.34%
+Val Loss: 1.6966, Val Accuracy: 62.38%
+Epoch [4/10], Step [1000/1000], Loss: 1.8322, Accuracy: 60.34%
+Val Loss: 1.6942, Val Accuracy: 62.58%
+Epoch [5/10], Step [1000/1000], Loss: 1.8292, Accuracy: 60.50%
+Val Loss: 1.6885, Val Accuracy: 62.33%
+Epoch [6/10], Step [1000/1000], Loss: 1.8276, Accuracy: 60.56%
+Val Loss: 1.6779, Val Accuracy: 62.40%
+Epoch [7/10], Step [1000/1000], Loss: 1.8220, Accuracy: 60.47%
+Val Loss: 1.6884, Val Accuracy: 62.50%
+Epoch [8/10], Step [1000/1000], Loss: 1.8182, Accuracy: 60.57%
+Val Loss: 1.6715, Val Accuracy: 62.58%
+Epoch [9/10], Step [1000/1000], Loss: 1.8123, Accuracy: 60.88%
+Val Loss: 1.6719, Val Accuracy: 62.50%
+Epoch [10/10], Step [1000/1000], Loss: 1.8066, Accuracy: 60.85%
+Val Loss: 1.6687, Val Accuracy: 62.66%
+Epoch [1/10], Step [250/250], Loss: 1.7720, Accuracy: 59.82%
+Val Loss: 1.7075, Val Accuracy: 60.98%
+Epoch [2/10], Step [250/250], Loss: 1.7358, Accuracy: 61.22%
+Val Loss: 1.6944, Val Accuracy: 61.51%
+Epoch [3/10], Step [250/250], Loss: 1.7196, Accuracy: 61.79%
+Val Loss: 1.6868, Val Accuracy: 61.99%
+Epoch [4/10], Step [250/250], Loss: 1.7127, Accuracy: 61.98%
+Val Loss: 1.6835, Val Accuracy: 61.89%
+Epoch [5/10], Step [250/250], Loss: 1.7088, Accuracy: 62.06%
+Val Loss: 1.6867, Val Accuracy: 62.02%
+Epoch [6/10], Step [250/250], Loss: 1.7073, Accuracy: 62.30%
+Val Loss: 1.6829, Val Accuracy: 62.05%
+Epoch [7/10], Step [250/250], Loss: 1.7042, Accuracy: 62.47%
+Val Loss: 1.6788, Val Accuracy: 62.19%
+Epoch [8/10], Step [250/250], Loss: 1.7008, Accuracy: 62.33%
+Val Loss: 1.6816, Val Accuracy: 62.24%
+Epoch [9/10], Step [250/250], Loss: 1.6978, Accuracy: 62.54%
+Val Loss: 1.6765, Val Accuracy: 62.30%
+Epoch [10/10], Step [250/250], Loss: 1.6971, Accuracy: 62.54%
+Val Loss: 1.6835, Val Accuracy: 62.24%
+Epoch [1/10], Step [63/63], Loss: 1.7340, Accuracy: 60.13%
+Val Loss: 1.6346, Val Accuracy: 62.41%
+Epoch [2/10], Step [63/63], Loss: 1.5333, Accuracy: 64.09%
+Val Loss: 1.6124, Val Accuracy: 62.05%
+Epoch [3/10], Step [63/63], Loss: 1.4668, Accuracy: 65.10%
+Val Loss: 1.6238, Val Accuracy: 61.39%
+Epoch [4/10], Step [63/63], Loss: 1.4209, Accuracy: 65.89%
+Val Loss: 1.6393, Val Accuracy: 60.96%
+Epoch [5/10], Step [63/63], Loss: 1.3870, Accuracy: 66.42%
+Val Loss: 1.6564, Val Accuracy: 60.59%
+Epoch [6/10], Step [63/63], Loss: 1.3583, Accuracy: 67.35%
+Val Loss: 1.6630, Val Accuracy: 60.12%
+Epoch [7/10], Step [63/63], Loss: 1.3341, Accuracy: 67.63%
+Val Loss: 1.6643, Val Accuracy: 60.60%
+Epoch [8/10], Step [63/63], Loss: 1.3138, Accuracy: 67.97%
+Val Loss: 1.6813, Val Accuracy: 59.50%
+Epoch [9/10], Step [63/63], Loss: 1.2950, Accuracy: 68.33%
+Val Loss: 1.6906, Val Accuracy: 59.55%
+Epoch [10/10], Step [63/63], Loss: 1.2826, Accuracy: 68.75%
+Val Loss: 1.7037, Val Accuracy: 59.60%
+Epoch [1/10], Step [63/63], Loss: 1.7493, Accuracy: 60.01%
+Val Loss: 1.7273, Val Accuracy: 60.01%
+Epoch [2/10], Step [63/63], Loss: 1.7216, Accuracy: 61.04%
+Val Loss: 1.7064, Val Accuracy: 60.66%
+Epoch [3/10], Step [63/63], Loss: 1.7034, Accuracy: 61.73%
+Val Loss: 1.6987, Val Accuracy: 61.09%
+Epoch [4/10], Step [63/63], Loss: 1.6923, Accuracy: 61.98%
+Val Loss: 1.6929, Val Accuracy: 61.60%
+Epoch [5/10], Step [63/63], Loss: 1.6864, Accuracy: 62.44%
+Val Loss: 1.6902, Val Accuracy: 61.70%
+Epoch [6/10], Step [63/63], Loss: 1.6807, Accuracy: 62.67%
+Val Loss: 1.6918, Val Accuracy: 61.89%
+Epoch [7/10], Step [63/63], Loss: 1.6780, Accuracy: 62.73%
+Val Loss: 1.6870, Val Accuracy: 61.89%
+Epoch [8/10], Step [63/63], Loss: 1.6764, Accuracy: 62.72%
+Val Loss: 1.6872, Val Accuracy: 62.01%
+Epoch [9/10], Step [63/63], Loss: 1.6714, Accuracy: 62.92%
+Val Loss: 1.6868, Val Accuracy: 62.15%
+Epoch [10/10], Step [63/63], Loss: 1.6707, Accuracy: 62.93%
+Val Loss: 1.6858, Val Accuracy: 62.24%
+Epoch [1/10], Step [1000/1000], Loss: 1.8720, Accuracy: 59.23%
+Val Loss: 1.7030, Val Accuracy: 61.15%
+Epoch [2/10], Step [1000/1000], Loss: 1.8420, Accuracy: 60.09%
+Val Loss: 1.6892, Val Accuracy: 61.59%
+Epoch [3/10], Step [1000/1000], Loss: 1.8352, Accuracy: 60.33%
+Val Loss: 1.6891, Val Accuracy: 61.67%
+Epoch [4/10], Step [1000/1000], Loss: 1.8288, Accuracy: 60.79%
+Val Loss: 1.6924, Val Accuracy: 61.67%
+Epoch [5/10], Step [1000/1000], Loss: 1.8217, Accuracy: 60.56%
+Val Loss: 1.6843, Val Accuracy: 61.74%
+Epoch [6/10], Step [1000/1000], Loss: 1.8153, Accuracy: 60.69%
+Val Loss: 1.6917, Val Accuracy: 61.81%
+Epoch [7/10], Step [1000/1000], Loss: 1.8120, Accuracy: 60.97%
+Val Loss: 1.6712, Val Accuracy: 61.94%
+Epoch [8/10], Step [1000/1000], Loss: 1.8025, Accuracy: 61.02%
+Val Loss: 1.6731, Val Accuracy: 61.79%
+Epoch [9/10], Step [1000/1000], Loss: 1.7972, Accuracy: 61.16%
+Val Loss: 1.6750, Val Accuracy: 61.66%
+Epoch [10/10], Step [1000/1000], Loss: 1.7897, Accuracy: 61.29%
+Val Loss: 1.6690, Val Accuracy: 62.23%
+Epoch [1/10], Step [625/625], Loss: 1.7833, Accuracy: 60.38%
+Val Loss: 1.6354, Val Accuracy: 62.81%
+Epoch [2/10], Step [625/625], Loss: 1.7055, Accuracy: 62.22%
+Val Loss: 1.6098, Val Accuracy: 63.39%
+Epoch [3/10], Step [625/625], Loss: 1.6581, Accuracy: 63.07%
+Val Loss: 1.5847, Val Accuracy: 63.36%
+Epoch [4/10], Step [625/625], Loss: 1.6223, Accuracy: 63.60%
+Val Loss: 1.5670, Val Accuracy: 63.42%
+Epoch [5/10], Step [625/625], Loss: 1.5892, Accuracy: 64.32%
+Val Loss: 1.5528, Val Accuracy: 63.58%
+Epoch [6/10], Step [625/625], Loss: 1.5598, Accuracy: 64.61%
+Val Loss: 1.5481, Val Accuracy: 63.59%
+Epoch [7/10], Step [625/625], Loss: 1.5369, Accuracy: 64.91%
+Val Loss: 1.5418, Val Accuracy: 63.81%
+Epoch [8/10], Step [625/625], Loss: 1.5193, Accuracy: 65.19%
+Val Loss: 1.5318, Val Accuracy: 64.01%
+Epoch [9/10], Step [625/625], Loss: 1.5034, Accuracy: 65.42%
+Val Loss: 1.5329, Val Accuracy: 63.71%
+Epoch [10/10], Step [625/625], Loss: 1.4865, Accuracy: 65.81%
+Val Loss: 1.5273, Val Accuracy: 63.51%
+Accuracy of the network on 10000 test images: 63.51%
+Best trial (quant=sparse_r=16):
+ Value:  63.8
+ Params: 
+ lora_alpha: 40
+ optimizer: Adam
+ lr: 0.0001800593833823333
+ batch_size: 64
+Epoch [1/10], Step [500/500], Loss: 1.8075, Accuracy: 57.31%
+Val Loss: 1.6835, Val Accuracy: 59.21%
+Epoch [2/10], Step [500/500], Loss: 1.5824, Accuracy: 61.23%
+Val Loss: 1.7285, Val Accuracy: 58.45%
+Epoch [3/10], Step [500/500], Loss: 1.4767, Accuracy: 63.28%
+Val Loss: 1.7866, Val Accuracy: 57.77%
+Epoch [4/10], Step [500/500], Loss: 1.4090, Accuracy: 64.52%
+Val Loss: 1.8220, Val Accuracy: 57.41%
+Epoch [5/10], Step [500/500], Loss: 1.3576, Accuracy: 65.63%
+Val Loss: 1.9021, Val Accuracy: 55.86%
+Epoch [6/10], Step [500/500], Loss: 1.3272, Accuracy: 65.83%
+Val Loss: 1.9062, Val Accuracy: 57.15%
+Epoch [7/10], Step [500/500], Loss: 1.2943, Accuracy: 66.63%
+Val Loss: 1.9660, Val Accuracy: 55.40%
+Epoch [8/10], Step [500/500], Loss: 1.2679, Accuracy: 67.28%
+Val Loss: 1.9675, Val Accuracy: 56.38%
+Epoch [9/10], Step [500/500], Loss: 1.2337, Accuracy: 67.85%
+Val Loss: 1.9937, Val Accuracy: 55.52%
+Epoch [10/10], Step [500/500], Loss: 1.2300, Accuracy: 67.96%
+Val Loss: 2.0796, Val Accuracy: 54.85%
+Epoch [1/10], Step [250/250], Loss: 1.7160, Accuracy: 59.10%
+Val Loss: 1.6263, Val Accuracy: 61.25%
+Epoch [2/10], Step [250/250], Loss: 1.4576, Accuracy: 64.27%
+Val Loss: 1.7221, Val Accuracy: 58.60%
+Epoch [3/10], Step [250/250], Loss: 1.3581, Accuracy: 65.94%
+Val Loss: 1.7359, Val Accuracy: 58.59%
+Epoch [4/10], Step [250/250], Loss: 1.2826, Accuracy: 67.55%
+Val Loss: 1.7946, Val Accuracy: 58.26%
+Epoch [5/10], Step [250/250], Loss: 1.2356, Accuracy: 68.27%
+Val Loss: 1.8643, Val Accuracy: 57.46%
+Epoch [6/10], Step [250/250], Loss: 1.1849, Accuracy: 69.20%
+Val Loss: 1.8772, Val Accuracy: 57.23%
+Epoch [7/10], Step [250/250], Loss: 1.1358, Accuracy: 70.42%
+Val Loss: 1.9227, Val Accuracy: 56.42%
+Epoch [8/10], Step [250/250], Loss: 1.1188, Accuracy: 70.67%
+Val Loss: 1.9693, Val Accuracy: 56.30%
+Epoch [9/10], Step [250/250], Loss: 1.0985, Accuracy: 70.88%
+Val Loss: 2.0234, Val Accuracy: 55.41%
+Epoch [10/10], Step [250/250], Loss: 1.0714, Accuracy: 71.64%
+Val Loss: 2.0364, Val Accuracy: 55.41%
+Epoch [1/10], Step [63/63], Loss: 1.6604, Accuracy: 60.13%
+Val Loss: 1.6014, Val Accuracy: 62.06%
+Epoch [2/10], Step [63/63], Loss: 1.3817, Accuracy: 66.01%
+Val Loss: 1.6588, Val Accuracy: 60.44%
+Epoch [3/10], Step [63/63], Loss: 1.2691, Accuracy: 68.31%
+Val Loss: 1.6945, Val Accuracy: 59.76%
+Epoch [4/10], Step [63/63], Loss: 1.1928, Accuracy: 69.82%
+Val Loss: 1.7842, Val Accuracy: 58.52%
+Epoch [5/10], Step [63/63], Loss: 1.1435, Accuracy: 70.68%
+Val Loss: 1.7751, Val Accuracy: 58.69%
+Epoch [6/10], Step [63/63], Loss: 1.0839, Accuracy: 72.04%
+Val Loss: 1.8708, Val Accuracy: 57.16%
+Epoch [7/10], Step [63/63], Loss: 1.0481, Accuracy: 72.72%
+Val Loss: 1.9116, Val Accuracy: 57.59%
+Epoch [8/10], Step [63/63], Loss: 1.0196, Accuracy: 73.32%
+Val Loss: 1.9756, Val Accuracy: 56.16%
+Epoch [9/10], Step [63/63], Loss: 0.9985, Accuracy: 73.73%
+Val Loss: 1.9888, Val Accuracy: 56.51%
+Epoch [10/10], Step [63/63], Loss: 0.9624, Accuracy: 74.51%
+Val Loss: 2.0050, Val Accuracy: 56.77%
+Epoch [1/10], Step [125/125], Loss: 1.5787, Accuracy: 62.90%
+Val Loss: 1.5034, Val Accuracy: 64.79%
+Epoch [2/10], Step [125/125], Loss: 1.5032, Accuracy: 64.99%
+Val Loss: 1.4818, Val Accuracy: 65.35%
+Epoch [3/10], Step [125/125], Loss: 1.4616, Accuracy: 66.15%
+Val Loss: 1.4594, Val Accuracy: 65.49%
+Epoch [4/10], Step [125/125], Loss: 1.4233, Accuracy: 67.00%
+Val Loss: 1.4463, Val Accuracy: 65.41%
+Epoch [5/10], Step [125/125], Loss: 1.3892, Accuracy: 67.70%
+Val Loss: 1.4362, Val Accuracy: 65.80%
+Epoch [6/10], Step [125/125], Loss: 1.3563, Accuracy: 68.31%
+Val Loss: 1.4298, Val Accuracy: 65.76%
+Epoch [7/10], Step [125/125], Loss: 1.3273, Accuracy: 69.24%
+Val Loss: 1.4306, Val Accuracy: 65.97%
+Epoch [8/10], Step [125/125], Loss: 1.3005, Accuracy: 69.65%
+Val Loss: 1.4193, Val Accuracy: 66.14%
+Epoch [9/10], Step [125/125], Loss: 1.2772, Accuracy: 70.17%
+Val Loss: 1.4267, Val Accuracy: 65.79%
+Epoch [10/10], Step [125/125], Loss: 1.2528, Accuracy: 70.49%
+Val Loss: 1.4105, Val Accuracy: 65.86%
+Epoch [1/10], Step [500/500], Loss: 1.6193, Accuracy: 62.10%
+Val Loss: 1.5088, Val Accuracy: 64.51%
+Epoch [2/10], Step [500/500], Loss: 1.4815, Accuracy: 65.67%
+Val Loss: 1.4767, Val Accuracy: 64.74%
+Epoch [3/10], Step [500/500], Loss: 1.3869, Accuracy: 67.00%
+Val Loss: 1.4614, Val Accuracy: 64.76%
+Epoch [4/10], Step [500/500], Loss: 1.3136, Accuracy: 68.69%
+Val Loss: 1.4660, Val Accuracy: 64.64%
+Epoch [5/10], Step [500/500], Loss: 1.2654, Accuracy: 69.34%
+Val Loss: 1.4791, Val Accuracy: 64.00%
+Epoch [6/10], Step [500/500], Loss: 1.2219, Accuracy: 69.95%
+Val Loss: 1.4883, Val Accuracy: 63.33%
+Epoch [7/10], Step [500/500], Loss: 1.1802, Accuracy: 71.08%
+Val Loss: 1.5092, Val Accuracy: 62.80%
+Epoch [8/10], Step [500/500], Loss: 1.1531, Accuracy: 71.48%
+Val Loss: 1.5217, Val Accuracy: 62.92%
+Epoch [9/10], Step [500/500], Loss: 1.1239, Accuracy: 71.94%
+Val Loss: 1.5300, Val Accuracy: 62.98%
+Epoch [10/10], Step [500/500], Loss: 1.1061, Accuracy: 72.53%
+Val Loss: 1.5529, Val Accuracy: 62.48%
+Epoch [1/10], Step [250/250], Loss: 1.5958, Accuracy: 62.69%
+Val Loss: 1.5238, Val Accuracy: 63.80%
+Epoch [2/10], Step [250/250], Loss: 1.5094, Accuracy: 65.14%
+Val Loss: 1.4945, Val Accuracy: 64.56%
+Epoch [3/10], Step [250/250], Loss: 1.4558, Accuracy: 66.30%
+Val Loss: 1.4809, Val Accuracy: 64.83%
+Epoch [4/10], Step [250/250], Loss: 1.4089, Accuracy: 67.23%
+Val Loss: 1.4673, Val Accuracy: 64.80%
+Epoch [5/10], Step [250/250], Loss: 1.3695, Accuracy: 68.04%
+Val Loss: 1.4584, Val Accuracy: 64.97%
+Epoch [6/10], Step [250/250], Loss: 1.3290, Accuracy: 68.71%
+Val Loss: 1.4516, Val Accuracy: 64.76%
+Epoch [7/10], Step [250/250], Loss: 1.2975, Accuracy: 69.53%
+Val Loss: 1.4542, Val Accuracy: 64.65%
+Epoch [8/10], Step [250/250], Loss: 1.2683, Accuracy: 69.99%
+Val Loss: 1.4484, Val Accuracy: 64.44%
+Epoch [9/10], Step [250/250], Loss: 1.2408, Accuracy: 70.50%
+Val Loss: 1.4512, Val Accuracy: 64.42%
+Epoch [10/10], Step [250/250], Loss: 1.2161, Accuracy: 71.34%
+Val Loss: 1.4544, Val Accuracy: 64.20%
+Epoch [1/10], Step [1000/1000], Loss: 1.7069, Accuracy: 61.03%
+Val Loss: 1.5437, Val Accuracy: 63.08%
+Epoch [2/10], Step [1000/1000], Loss: 1.6791, Accuracy: 61.80%
+Val Loss: 1.5487, Val Accuracy: 63.10%
+Epoch [3/10], Step [1000/1000], Loss: 1.6660, Accuracy: 62.42%
+Val Loss: 1.5475, Val Accuracy: 63.23%
+Epoch [4/10], Step [1000/1000], Loss: 1.6594, Accuracy: 62.23%
+Val Loss: 1.5405, Val Accuracy: 63.38%
+Epoch [5/10], Step [1000/1000], Loss: 1.6568, Accuracy: 62.52%
+Val Loss: 1.5338, Val Accuracy: 63.52%
+Epoch [6/10], Step [1000/1000], Loss: 1.6501, Accuracy: 62.43%
+Val Loss: 1.5331, Val Accuracy: 63.41%
+Epoch [7/10], Step [1000/1000], Loss: 1.6451, Accuracy: 62.58%
+Val Loss: 1.5266, Val Accuracy: 63.65%
+Epoch [8/10], Step [1000/1000], Loss: 1.6385, Accuracy: 62.98%
+Val Loss: 1.5253, Val Accuracy: 63.50%
+Epoch [9/10], Step [1000/1000], Loss: 1.6319, Accuracy: 62.92%
+Val Loss: 1.5246, Val Accuracy: 63.89%
+Epoch [10/10], Step [1000/1000], Loss: 1.6276, Accuracy: 62.90%
+Val Loss: 1.5187, Val Accuracy: 63.95%
+Epoch [1/10], Step [1000/1000], Loss: 1.7242, Accuracy: 59.96%
+Val Loss: 1.5681, Val Accuracy: 62.65%
+Epoch [2/10], Step [1000/1000], Loss: 1.6770, Accuracy: 61.22%
+Val Loss: 1.5437, Val Accuracy: 63.06%
+Epoch [3/10], Step [1000/1000], Loss: 1.6377, Accuracy: 62.06%
+Val Loss: 1.5351, Val Accuracy: 63.49%
+Epoch [4/10], Step [1000/1000], Loss: 1.6118, Accuracy: 62.73%
+Val Loss: 1.5136, Val Accuracy: 64.14%
+Epoch [5/10], Step [1000/1000], Loss: 1.5792, Accuracy: 63.65%
+Val Loss: 1.4974, Val Accuracy: 64.20%
+Epoch [6/10], Step [1000/1000], Loss: 1.5499, Accuracy: 64.28%
+Val Loss: 1.4958, Val Accuracy: 64.54%
+Epoch [7/10], Step [1000/1000], Loss: 1.5261, Accuracy: 64.72%
+Val Loss: 1.4850, Val Accuracy: 64.31%
+Epoch [8/10], Step [1000/1000], Loss: 1.5058, Accuracy: 64.94%
+Val Loss: 1.4871, Val Accuracy: 64.70%
+Epoch [9/10], Step [1000/1000], Loss: 1.4791, Accuracy: 66.03%
+Val Loss: 1.4792, Val Accuracy: 64.92%
+Epoch [10/10], Step [1000/1000], Loss: 1.4685, Accuracy: 65.80%
+Val Loss: 1.4604, Val Accuracy: 65.16%
+Epoch [1/10], Step [63/63], Loss: 1.5990, Accuracy: 62.09%
+Val Loss: 1.5362, Val Accuracy: 63.65%
+Epoch [2/10], Step [63/63], Loss: 1.5529, Accuracy: 63.58%
+Val Loss: 1.5174, Val Accuracy: 64.42%
+Epoch [3/10], Step [63/63], Loss: 1.5225, Accuracy: 64.51%
+Val Loss: 1.5031, Val Accuracy: 64.60%
+Epoch [4/10], Step [63/63], Loss: 1.5022, Accuracy: 65.06%
+Val Loss: 1.4968, Val Accuracy: 64.99%
+Epoch [5/10], Step [63/63], Loss: 1.4826, Accuracy: 65.60%
+Val Loss: 1.4906, Val Accuracy: 65.15%
+Epoch [6/10], Step [63/63], Loss: 1.4683, Accuracy: 65.91%
+Val Loss: 1.4857, Val Accuracy: 65.45%
+Epoch [7/10], Step [63/63], Loss: 1.4513, Accuracy: 66.21%
+Val Loss: 1.4771, Val Accuracy: 65.44%
+Epoch [8/10], Step [63/63], Loss: 1.4394, Accuracy: 66.52%
+Val Loss: 1.4708, Val Accuracy: 65.69%
+Epoch [9/10], Step [63/63], Loss: 1.4241, Accuracy: 67.02%
+Val Loss: 1.4646, Val Accuracy: 65.64%
+Epoch [10/10], Step [63/63], Loss: 1.4117, Accuracy: 67.20%
+Val Loss: 1.4604, Val Accuracy: 65.91%
+Epoch [1/10], Step [1000/1000], Loss: 1.7101, Accuracy: 60.77%
+Val Loss: 1.5718, Val Accuracy: 63.20%
+Epoch [2/10], Step [1000/1000], Loss: 1.6800, Accuracy: 61.73%
+Val Loss: 1.5571, Val Accuracy: 63.74%
+Epoch [3/10], Step [1000/1000], Loss: 1.6691, Accuracy: 62.28%
+Val Loss: 1.5628, Val Accuracy: 63.45%
+Epoch [4/10], Step [1000/1000], Loss: 1.6664, Accuracy: 62.32%
+Val Loss: 1.5469, Val Accuracy: 63.79%
+Epoch [5/10], Step [1000/1000], Loss: 1.6615, Accuracy: 62.55%
+Val Loss: 1.5464, Val Accuracy: 63.66%
+Epoch [6/10], Step [1000/1000], Loss: 1.6542, Accuracy: 62.58%
+Val Loss: 1.5453, Val Accuracy: 63.80%
+Epoch [7/10], Step [1000/1000], Loss: 1.6473, Accuracy: 62.58%
+Val Loss: 1.5514, Val Accuracy: 63.69%
+Epoch [8/10], Step [1000/1000], Loss: 1.6475, Accuracy: 62.75%
+Val Loss: 1.5557, Val Accuracy: 63.70%
+Epoch [9/10], Step [1000/1000], Loss: 1.6397, Accuracy: 62.76%
+Val Loss: 1.5366, Val Accuracy: 63.89%
+Epoch [10/10], Step [1000/1000], Loss: 1.6402, Accuracy: 62.97%
+Val Loss: 1.5426, Val Accuracy: 63.62%
+Epoch [1/10], Step [157/157], Loss: 1.5725, Accuracy: 63.23%
+Val Loss: 1.5252, Val Accuracy: 64.53%
+Epoch [2/10], Step [157/157], Loss: 1.4980, Accuracy: 65.14%
+Val Loss: 1.4867, Val Accuracy: 65.19%
+Epoch [3/10], Step [157/157], Loss: 1.4534, Accuracy: 66.20%
+Val Loss: 1.4774, Val Accuracy: 65.01%
+Epoch [4/10], Step [157/157], Loss: 1.4146, Accuracy: 66.99%
+Val Loss: 1.4919, Val Accuracy: 65.27%
+Epoch [5/10], Step [157/157], Loss: 1.3810, Accuracy: 67.67%
+Val Loss: 1.4476, Val Accuracy: 65.29%
+Epoch [6/10], Step [157/157], Loss: 1.3474, Accuracy: 68.32%
+Val Loss: 1.4426, Val Accuracy: 65.54%
+Epoch [7/10], Step [157/157], Loss: 1.3220, Accuracy: 68.92%
+Val Loss: 1.4301, Val Accuracy: 65.30%
+Epoch [8/10], Step [157/157], Loss: 1.2960, Accuracy: 69.55%
+Val Loss: 1.4340, Val Accuracy: 65.54%
+Epoch [9/10], Step [157/157], Loss: 1.2742, Accuracy: 70.05%
+Val Loss: 1.4390, Val Accuracy: 65.09%
+Epoch [10/10], Step [157/157], Loss: 1.2499, Accuracy: 70.42%
+Val Loss: 1.4519, Val Accuracy: 64.92%
+Accuracy of the network on 10000 test images: 64.92%
+Best trial (quant=sparse_r=32):
+ Value:  66.1375
+ Params: 
+ lora_alpha: 48
+ optimizer: Adam
+ lr: 0.00025694871165026786
+ batch_size: 256
+Epoch [1/10], Step [125/125], Loss: 1.5546, Accuracy: 62.12%
+Val Loss: 1.5384, Val Accuracy: 62.41%
+Epoch [2/10], Step [125/125], Loss: 1.2125, Accuracy: 69.65%
+Val Loss: 1.6355, Val Accuracy: 60.20%
+Epoch [3/10], Step [125/125], Loss: 1.0675, Accuracy: 72.37%
+Val Loss: 1.7392, Val Accuracy: 58.86%
+Epoch [4/10], Step [125/125], Loss: 0.9587, Accuracy: 74.87%
+Val Loss: 1.8616, Val Accuracy: 58.38%
+Epoch [5/10], Step [125/125], Loss: 0.8639, Accuracy: 76.67%
+Val Loss: 1.9627, Val Accuracy: 58.17%
+Epoch [6/10], Step [125/125], Loss: 0.7824, Accuracy: 78.77%
+Val Loss: 2.0520, Val Accuracy: 57.34%
+Epoch [7/10], Step [125/125], Loss: 0.7209, Accuracy: 79.91%
+Val Loss: 2.1891, Val Accuracy: 55.30%
+Epoch [8/10], Step [125/125], Loss: 0.6632, Accuracy: 81.30%
+Val Loss: 2.3043, Val Accuracy: 55.40%
+Epoch [9/10], Step [125/125], Loss: 0.6259, Accuracy: 82.03%
+Val Loss: 2.3898, Val Accuracy: 54.49%
+Epoch [10/10], Step [125/125], Loss: 0.5679, Accuracy: 83.54%
+Val Loss: 2.4748, Val Accuracy: 54.96%
+Epoch [1/10], Step [125/125], Loss: 1.8915, Accuracy: 55.47%
+Val Loss: 1.8448, Val Accuracy: 56.89%
+Epoch [2/10], Step [125/125], Loss: 1.5686, Accuracy: 61.73%
+Val Loss: 1.8875, Val Accuracy: 56.62%
+Epoch [3/10], Step [125/125], Loss: 1.4507, Accuracy: 64.06%
+Val Loss: 2.1162, Val Accuracy: 54.85%
+Epoch [4/10], Step [125/125], Loss: 1.4119, Accuracy: 64.90%
+Val Loss: 2.2753, Val Accuracy: 53.66%
+Epoch [5/10], Step [125/125], Loss: 1.3691, Accuracy: 65.81%
+Val Loss: 2.5453, Val Accuracy: 51.79%
+Epoch [6/10], Step [125/125], Loss: 1.3414, Accuracy: 66.67%
+Val Loss: 2.6770, Val Accuracy: 52.21%
+Epoch [7/10], Step [125/125], Loss: 1.2762, Accuracy: 68.32%
+Val Loss: 2.7367, Val Accuracy: 51.58%
+Epoch [8/10], Step [125/125], Loss: 1.2433, Accuracy: 68.90%
+Val Loss: 3.0230, Val Accuracy: 49.84%
+Epoch [9/10], Step [125/125], Loss: 1.2065, Accuracy: 69.87%
+Val Loss: 3.0797, Val Accuracy: 50.69%
+Epoch [10/10], Step [125/125], Loss: 1.2305, Accuracy: 69.61%
+Val Loss: 3.2789, Val Accuracy: 50.21%
+Epoch [1/10], Step [1000/1000], Loss: 1.6999, Accuracy: 59.29%
+Val Loss: 1.5730, Val Accuracy: 61.39%
+Epoch [2/10], Step [1000/1000], Loss: 1.4178, Accuracy: 64.73%
+Val Loss: 1.6661, Val Accuracy: 60.45%
+Epoch [3/10], Step [1000/1000], Loss: 1.2812, Accuracy: 67.28%
+Val Loss: 1.6967, Val Accuracy: 60.49%
+Epoch [4/10], Step [1000/1000], Loss: 1.1794, Accuracy: 69.53%
+Val Loss: 1.8208, Val Accuracy: 58.73%
+Epoch [5/10], Step [1000/1000], Loss: 1.1119, Accuracy: 70.64%
+Val Loss: 1.9019, Val Accuracy: 58.64%
+Epoch [6/10], Step [1000/1000], Loss: 1.0473, Accuracy: 71.74%
+Val Loss: 1.9762, Val Accuracy: 58.10%
+Epoch [7/10], Step [1000/1000], Loss: 0.9938, Accuracy: 73.11%
+Val Loss: 2.0635, Val Accuracy: 56.66%
+Epoch [8/10], Step [1000/1000], Loss: 0.9618, Accuracy: 73.29%
+Val Loss: 2.1527, Val Accuracy: 56.20%
+Epoch [9/10], Step [1000/1000], Loss: 0.9228, Accuracy: 74.55%
+Val Loss: 2.2113, Val Accuracy: 56.56%
+Epoch [10/10], Step [1000/1000], Loss: 0.8981, Accuracy: 75.01%
+Val Loss: 2.2316, Val Accuracy: 56.25%
+Epoch [1/10], Step [500/500], Loss: 2.5439, Accuracy: 45.33%
+Val Loss: 2.5295, Val Accuracy: 47.58%
+Epoch [2/10], Step [500/500], Loss: 2.5573, Accuracy: 48.00%
+Val Loss: 2.8750, Val Accuracy: 46.05%
+Epoch [3/10], Step [500/500], Loss: 2.6711, Accuracy: 48.22%
+Val Loss: 3.5845, Val Accuracy: 41.44%
+Epoch [4/10], Step [500/500], Loss: 2.6729, Accuracy: 49.23%
+Val Loss: 3.1649, Val Accuracy: 46.12%
+Epoch [5/10], Step [500/500], Loss: 2.6761, Accuracy: 50.78%
+Val Loss: 3.6710, Val Accuracy: 44.23%
+Epoch [6/10], Step [500/500], Loss: 2.7308, Accuracy: 50.77%
+Val Loss: 3.5983, Val Accuracy: 45.36%
+Epoch [7/10], Step [500/500], Loss: 2.7897, Accuracy: 51.25%
+Val Loss: 3.7100, Val Accuracy: 46.10%
+Epoch [8/10], Step [500/500], Loss: 2.7676, Accuracy: 52.55%
+Val Loss: 4.2645, Val Accuracy: 43.39%
+Epoch [9/10], Step [500/500], Loss: 2.7566, Accuracy: 53.22%
+Val Loss: 4.2738, Val Accuracy: 44.73%
+Epoch [10/10], Step [500/500], Loss: 2.8739, Accuracy: 53.34%
+Val Loss: 4.7025, Val Accuracy: 43.46%
+Epoch [1/10], Step [1000/1000], Loss: 1.6666, Accuracy: 59.91%
+Val Loss: 1.4953, Val Accuracy: 62.96%
+Epoch [2/10], Step [1000/1000], Loss: 1.3881, Accuracy: 65.33%
+Val Loss: 1.5514, Val Accuracy: 61.61%
+Epoch [3/10], Step [1000/1000], Loss: 1.2473, Accuracy: 68.27%
+Val Loss: 1.6714, Val Accuracy: 60.26%
+Epoch [4/10], Step [1000/1000], Loss: 1.1437, Accuracy: 70.38%
+Val Loss: 1.7483, Val Accuracy: 59.55%
+Epoch [5/10], Step [1000/1000], Loss: 1.0706, Accuracy: 71.82%
+Val Loss: 1.8735, Val Accuracy: 58.52%
+Epoch [6/10], Step [1000/1000], Loss: 1.0123, Accuracy: 72.64%
+Val Loss: 1.8600, Val Accuracy: 59.06%
+Epoch [7/10], Step [1000/1000], Loss: 0.9640, Accuracy: 74.02%
+Val Loss: 1.9632, Val Accuracy: 57.83%
+Epoch [8/10], Step [1000/1000], Loss: 0.9179, Accuracy: 74.92%
+Val Loss: 2.0058, Val Accuracy: 57.94%
+Epoch [9/10], Step [1000/1000], Loss: 0.8892, Accuracy: 75.38%
+Val Loss: 2.0738, Val Accuracy: 57.83%
+Epoch [10/10], Step [1000/1000], Loss: 0.8504, Accuracy: 76.45%
+Val Loss: 2.1188, Val Accuracy: 57.64%
+Epoch [1/10], Step [250/250], Loss: 1.4545, Accuracy: 64.96%
+Val Loss: 1.4151, Val Accuracy: 65.95%
+Epoch [2/10], Step [250/250], Loss: 1.4291, Accuracy: 65.67%
+Val Loss: 1.4106, Val Accuracy: 66.01%
+Epoch [3/10], Step [250/250], Loss: 1.4199, Accuracy: 65.80%
+Val Loss: 1.4119, Val Accuracy: 66.36%
+Epoch [4/10], Step [250/250], Loss: 1.4127, Accuracy: 66.21%
+Val Loss: 1.4038, Val Accuracy: 66.25%
+Epoch [5/10], Step [250/250], Loss: 1.4080, Accuracy: 66.25%
+Val Loss: 1.4089, Val Accuracy: 66.47%
+Epoch [6/10], Step [250/250], Loss: 1.4046, Accuracy: 66.22%
+Val Loss: 1.4033, Val Accuracy: 66.35%
+Epoch [7/10], Step [250/250], Loss: 1.4012, Accuracy: 66.22%
+Val Loss: 1.3995, Val Accuracy: 66.28%
+Epoch [8/10], Step [250/250], Loss: 1.3969, Accuracy: 66.39%
+Val Loss: 1.3983, Val Accuracy: 66.35%
+Epoch [9/10], Step [250/250], Loss: 1.3965, Accuracy: 66.53%
+Val Loss: 1.3973, Val Accuracy: 66.38%
+Epoch [10/10], Step [250/250], Loss: 1.3892, Accuracy: 66.57%
+Val Loss: 1.4004, Val Accuracy: 66.30%
+Epoch [1/10], Step [500/500], Loss: 1.4775, Accuracy: 64.31%
+Val Loss: 1.4170, Val Accuracy: 65.84%
+Epoch [2/10], Step [500/500], Loss: 1.3085, Accuracy: 68.35%
+Val Loss: 1.3950, Val Accuracy: 66.47%
+Epoch [3/10], Step [500/500], Loss: 1.1907, Accuracy: 71.00%
+Val Loss: 1.4113, Val Accuracy: 65.64%
+Epoch [4/10], Step [500/500], Loss: 1.0974, Accuracy: 72.99%
+Val Loss: 1.4262, Val Accuracy: 64.72%
+Epoch [5/10], Step [500/500], Loss: 1.0224, Accuracy: 74.92%
+Val Loss: 1.4414, Val Accuracy: 64.79%
+Epoch [6/10], Step [500/500], Loss: 0.9577, Accuracy: 76.21%
+Val Loss: 1.4867, Val Accuracy: 63.98%
+Epoch [7/10], Step [500/500], Loss: 0.8990, Accuracy: 77.58%
+Val Loss: 1.5104, Val Accuracy: 63.85%
+Epoch [8/10], Step [500/500], Loss: 0.8549, Accuracy: 78.59%
+Val Loss: 1.5507, Val Accuracy: 62.96%
+Epoch [9/10], Step [500/500], Loss: 0.8099, Accuracy: 79.53%
+Val Loss: 1.5739, Val Accuracy: 62.84%
+Epoch [10/10], Step [500/500], Loss: 0.7740, Accuracy: 80.40%
+Val Loss: 1.6166, Val Accuracy: 62.15%
+Epoch [1/10], Step [63/63], Loss: 1.4281, Accuracy: 65.37%
+Val Loss: 1.3944, Val Accuracy: 65.75%
+Epoch [2/10], Step [63/63], Loss: 1.2399, Accuracy: 69.89%
+Val Loss: 1.3745, Val Accuracy: 66.20%
+Epoch [3/10], Step [63/63], Loss: 1.1256, Accuracy: 72.58%
+Val Loss: 1.3759, Val Accuracy: 65.94%
+Epoch [4/10], Step [63/63], Loss: 1.0274, Accuracy: 74.97%
+Val Loss: 1.3932, Val Accuracy: 64.76%
+Epoch [5/10], Step [63/63], Loss: 0.9535, Accuracy: 76.67%
+Val Loss: 1.4192, Val Accuracy: 64.92%
+Epoch [6/10], Step [63/63], Loss: 0.8833, Accuracy: 78.33%
+Val Loss: 1.4517, Val Accuracy: 64.30%
+Epoch [7/10], Step [63/63], Loss: 0.8259, Accuracy: 79.69%
+Val Loss: 1.4942, Val Accuracy: 63.94%
+Epoch [8/10], Step [63/63], Loss: 0.7712, Accuracy: 81.05%
+Val Loss: 1.5180, Val Accuracy: 63.25%
+Epoch [9/10], Step [63/63], Loss: 0.7257, Accuracy: 82.23%
+Val Loss: 1.5520, Val Accuracy: 62.84%
+Epoch [10/10], Step [63/63], Loss: 0.6818, Accuracy: 83.45%
+Val Loss: 1.6011, Val Accuracy: 61.92%
+Epoch [1/10], Step [250/250], Loss: 1.4333, Accuracy: 65.09%
+Val Loss: 1.4218, Val Accuracy: 65.29%
+Epoch [2/10], Step [250/250], Loss: 1.3396, Accuracy: 67.65%
+Val Loss: 1.4029, Val Accuracy: 65.79%
+Epoch [3/10], Step [250/250], Loss: 1.2743, Accuracy: 69.20%
+Val Loss: 1.3929, Val Accuracy: 65.86%
+Epoch [4/10], Step [250/250], Loss: 1.2154, Accuracy: 70.69%
+Val Loss: 1.3798, Val Accuracy: 65.92%
+Epoch [5/10], Step [250/250], Loss: 1.1651, Accuracy: 71.71%
+Val Loss: 1.3785, Val Accuracy: 65.88%
+Epoch [6/10], Step [250/250], Loss: 1.1175, Accuracy: 72.90%
+Val Loss: 1.3778, Val Accuracy: 65.95%
+Epoch [7/10], Step [250/250], Loss: 1.0754, Accuracy: 74.04%
+Val Loss: 1.3787, Val Accuracy: 65.74%
+Epoch [8/10], Step [250/250], Loss: 1.0362, Accuracy: 74.91%
+Val Loss: 1.3864, Val Accuracy: 65.79%
+Epoch [9/10], Step [250/250], Loss: 0.9996, Accuracy: 75.58%
+Val Loss: 1.3966, Val Accuracy: 65.26%
+Epoch [10/10], Step [250/250], Loss: 0.9680, Accuracy: 76.44%
+Val Loss: 1.3993, Val Accuracy: 65.11%
+Epoch [1/10], Step [125/125], Loss: 1.4437, Accuracy: 64.66%
+Val Loss: 1.4150, Val Accuracy: 65.33%
+Epoch [2/10], Step [125/125], Loss: 1.2089, Accuracy: 70.30%
+Val Loss: 1.4210, Val Accuracy: 64.75%
+Epoch [3/10], Step [125/125], Loss: 1.0690, Accuracy: 73.55%
+Val Loss: 1.4494, Val Accuracy: 64.36%
+Epoch [4/10], Step [125/125], Loss: 0.9662, Accuracy: 75.71%
+Val Loss: 1.4716, Val Accuracy: 63.71%
+Epoch [5/10], Step [125/125], Loss: 0.8766, Accuracy: 77.77%
+Val Loss: 1.5312, Val Accuracy: 62.75%
+Epoch [6/10], Step [125/125], Loss: 0.8031, Accuracy: 79.39%
+Val Loss: 1.5781, Val Accuracy: 62.27%
+Epoch [7/10], Step [125/125], Loss: 0.7382, Accuracy: 81.16%
+Val Loss: 1.6396, Val Accuracy: 61.89%
+Epoch [8/10], Step [125/125], Loss: 0.6806, Accuracy: 82.61%
+Val Loss: 1.7091, Val Accuracy: 60.80%
+Epoch [9/10], Step [125/125], Loss: 0.6359, Accuracy: 83.72%
+Val Loss: 1.7502, Val Accuracy: 60.27%
+Epoch [10/10], Step [125/125], Loss: 0.5915, Accuracy: 84.99%
+Val Loss: 1.8179, Val Accuracy: 59.85%
+Epoch [1/10], Step [1250/1250], Loss: 1.6541, Accuracy: 60.23%
+Val Loss: 1.4628, Val Accuracy: 63.57%
+Epoch [2/10], Step [1250/1250], Loss: 1.4104, Accuracy: 65.03%
+Val Loss: 1.5371, Val Accuracy: 62.57%
+Epoch [3/10], Step [1250/1250], Loss: 1.2833, Accuracy: 67.19%
+Val Loss: 1.5970, Val Accuracy: 61.48%
+Epoch [4/10], Step [1250/1250], Loss: 1.2026, Accuracy: 68.87%
+Val Loss: 1.6536, Val Accuracy: 61.01%
+Epoch [5/10], Step [1250/1250], Loss: 1.1374, Accuracy: 70.09%
+Val Loss: 1.7287, Val Accuracy: 60.39%
+Epoch [6/10], Step [1250/1250], Loss: 1.0920, Accuracy: 71.06%
+Val Loss: 1.7829, Val Accuracy: 59.65%
+Epoch [7/10], Step [1250/1250], Loss: 1.0602, Accuracy: 71.60%
+Val Loss: 1.8269, Val Accuracy: 59.74%
+Epoch [8/10], Step [1250/1250], Loss: 1.0231, Accuracy: 72.30%
+Val Loss: 1.8478, Val Accuracy: 59.40%
+Epoch [9/10], Step [1250/1250], Loss: 0.9920, Accuracy: 72.83%
+Val Loss: 1.9825, Val Accuracy: 58.15%
+Epoch [10/10], Step [1250/1250], Loss: 0.9703, Accuracy: 73.31%
+Val Loss: 1.9746, Val Accuracy: 58.23%
+Accuracy of the network on 10000 test images: 58.23%
+Best trial (quant=sparse_r=64):
+ Value:  62.9625
+ Params: 
+ lora_alpha: 16
+ optimizer: Adam
+ lr: 0.0013042340850734223
+ batch_size: 32
+Epoch [1/10], Step [125/125], Loss: 1.3363, Accuracy: 67.01%
+Val Loss: 1.3252, Val Accuracy: 67.26%
+Epoch [2/10], Step [125/125], Loss: 1.1195, Accuracy: 72.22%
+Val Loss: 1.3108, Val Accuracy: 67.41%
+Epoch [3/10], Step [125/125], Loss: 0.9810, Accuracy: 75.74%
+Val Loss: 1.3396, Val Accuracy: 67.60%
+Epoch [4/10], Step [125/125], Loss: 0.8642, Accuracy: 78.64%
+Val Loss: 1.3592, Val Accuracy: 67.16%
+Epoch [5/10], Step [125/125], Loss: 0.7684, Accuracy: 81.15%
+Val Loss: 1.4052, Val Accuracy: 66.15%
+Epoch [6/10], Step [125/125], Loss: 0.6837, Accuracy: 83.58%
+Val Loss: 1.4241, Val Accuracy: 65.50%
+Epoch [7/10], Step [125/125], Loss: 0.6098, Accuracy: 85.51%
+Val Loss: 1.4697, Val Accuracy: 65.29%
+Epoch [8/10], Step [125/125], Loss: 0.5432, Accuracy: 87.27%
+Val Loss: 1.5040, Val Accuracy: 64.28%
+Epoch [9/10], Step [125/125], Loss: 0.4861, Accuracy: 88.98%
+Val Loss: 1.5653, Val Accuracy: 64.22%
+Epoch [10/10], Step [125/125], Loss: 0.4332, Accuracy: 90.44%
+Val Loss: 1.6132, Val Accuracy: 63.79%
+Epoch [1/10], Step [125/125], Loss: 1.3393, Accuracy: 67.28%
+Val Loss: 1.3291, Val Accuracy: 67.17%
+Epoch [2/10], Step [125/125], Loss: 1.3353, Accuracy: 67.33%
+Val Loss: 1.3380, Val Accuracy: 67.26%
+Epoch [3/10], Step [125/125], Loss: 1.3308, Accuracy: 67.67%
+Val Loss: 1.3207, Val Accuracy: 67.25%
+Epoch [4/10], Step [125/125], Loss: 1.3283, Accuracy: 67.52%
+Val Loss: 1.3253, Val Accuracy: 67.39%
+Epoch [5/10], Step [125/125], Loss: 1.3263, Accuracy: 67.64%
+Val Loss: 1.3276, Val Accuracy: 67.38%
+Epoch [6/10], Step [125/125], Loss: 1.3214, Accuracy: 67.67%
+Val Loss: 1.3281, Val Accuracy: 67.45%
+Epoch [7/10], Step [125/125], Loss: 1.3207, Accuracy: 67.76%
+Val Loss: 1.3174, Val Accuracy: 67.42%
+Epoch [8/10], Step [125/125], Loss: 1.3172, Accuracy: 68.00%
+Val Loss: 1.3103, Val Accuracy: 67.58%
+Epoch [9/10], Step [125/125], Loss: 1.3139, Accuracy: 67.87%
+Val Loss: 1.3194, Val Accuracy: 67.45%
+Epoch [10/10], Step [125/125], Loss: 1.3127, Accuracy: 68.11%
+Val Loss: 1.3332, Val Accuracy: 67.50%
+Epoch [1/10], Step [250/250], Loss: 1.3340, Accuracy: 67.42%
+Val Loss: 1.3374, Val Accuracy: 67.12%
+Epoch [2/10], Step [250/250], Loss: 1.3170, Accuracy: 67.88%
+Val Loss: 1.3382, Val Accuracy: 67.19%
+Epoch [3/10], Step [250/250], Loss: 1.3122, Accuracy: 68.05%
+Val Loss: 1.3370, Val Accuracy: 67.34%
+Epoch [4/10], Step [250/250], Loss: 1.3036, Accuracy: 68.17%
+Val Loss: 1.3302, Val Accuracy: 67.26%
+Epoch [5/10], Step [250/250], Loss: 1.3007, Accuracy: 68.17%
+Val Loss: 1.3313, Val Accuracy: 67.35%
+Epoch [6/10], Step [250/250], Loss: 1.2975, Accuracy: 68.19%
+Val Loss: 1.3293, Val Accuracy: 67.42%
+Epoch [7/10], Step [250/250], Loss: 1.2936, Accuracy: 68.20%
+Val Loss: 1.3311, Val Accuracy: 67.40%
+Epoch [8/10], Step [250/250], Loss: 1.2923, Accuracy: 68.22%
+Val Loss: 1.3315, Val Accuracy: 67.69%
+Epoch [9/10], Step [250/250], Loss: 1.2900, Accuracy: 68.34%
+Val Loss: 1.3260, Val Accuracy: 67.69%
+Epoch [10/10], Step [250/250], Loss: 1.2882, Accuracy: 68.36%
+Val Loss: 1.3320, Val Accuracy: 67.41%
+Epoch [1/10], Step [1000/1000], Loss: 1.4487, Accuracy: 64.30%
+Val Loss: 1.3362, Val Accuracy: 66.92%
+Epoch [2/10], Step [1000/1000], Loss: 1.2004, Accuracy: 70.27%
+Val Loss: 1.3499, Val Accuracy: 66.65%
+Epoch [3/10], Step [1000/1000], Loss: 1.0429, Accuracy: 73.94%
+Val Loss: 1.3781, Val Accuracy: 65.92%
+Epoch [4/10], Step [1000/1000], Loss: 0.9211, Accuracy: 76.61%
+Val Loss: 1.4112, Val Accuracy: 65.56%
+Epoch [5/10], Step [1000/1000], Loss: 0.8204, Accuracy: 78.95%
+Val Loss: 1.4629, Val Accuracy: 64.96%
+Epoch [6/10], Step [1000/1000], Loss: 0.7355, Accuracy: 80.77%
+Val Loss: 1.5197, Val Accuracy: 64.41%
+Epoch [7/10], Step [1000/1000], Loss: 0.6629, Accuracy: 82.59%
+Val Loss: 1.5952, Val Accuracy: 63.48%
+Epoch [8/10], Step [1000/1000], Loss: 0.6058, Accuracy: 83.83%
+Val Loss: 1.6481, Val Accuracy: 62.94%
+Epoch [9/10], Step [1000/1000], Loss: 0.5549, Accuracy: 84.94%
+Val Loss: 1.7005, Val Accuracy: 62.70%
+Epoch [10/10], Step [1000/1000], Loss: 0.5071, Accuracy: 86.42%
+Val Loss: 1.7601, Val Accuracy: 62.39%
+Epoch [1/10], Step [1000/1000], Loss: 1.4740, Accuracy: 63.87%
+Val Loss: 1.3373, Val Accuracy: 67.31%
+Epoch [2/10], Step [1000/1000], Loss: 1.3651, Accuracy: 66.32%
+Val Loss: 1.3119, Val Accuracy: 67.64%
+Epoch [3/10], Step [1000/1000], Loss: 1.2948, Accuracy: 68.26%
+Val Loss: 1.2964, Val Accuracy: 68.25%
+Epoch [4/10], Step [1000/1000], Loss: 1.2330, Accuracy: 69.38%
+Val Loss: 1.2791, Val Accuracy: 68.71%
+Epoch [5/10], Step [1000/1000], Loss: 1.1803, Accuracy: 70.94%
+Val Loss: 1.2776, Val Accuracy: 68.67%
+Epoch [6/10], Step [1000/1000], Loss: 1.1402, Accuracy: 71.84%
+Val Loss: 1.2866, Val Accuracy: 68.26%
+Epoch [7/10], Step [1000/1000], Loss: 1.1041, Accuracy: 72.77%
+Val Loss: 1.2790, Val Accuracy: 68.70%
+Epoch [8/10], Step [1000/1000], Loss: 1.0646, Accuracy: 73.79%
+Val Loss: 1.2873, Val Accuracy: 68.79%
+Epoch [9/10], Step [1000/1000], Loss: 1.0322, Accuracy: 74.42%
+Val Loss: 1.2835, Val Accuracy: 68.60%
+Epoch [10/10], Step [1000/1000], Loss: 1.0025, Accuracy: 75.21%
+Val Loss: 1.2933, Val Accuracy: 68.41%
+Epoch [1/10], Step [63/63], Loss: 1.6460, Accuracy: 60.08%
+Val Loss: 1.5850, Val Accuracy: 61.98%
+Epoch [2/10], Step [63/63], Loss: 1.1065, Accuracy: 71.47%
+Val Loss: 1.7487, Val Accuracy: 59.49%
+Epoch [3/10], Step [63/63], Loss: 0.9209, Accuracy: 75.28%
+Val Loss: 1.9285, Val Accuracy: 58.24%
+Epoch [4/10], Step [63/63], Loss: 0.8063, Accuracy: 77.66%
+Val Loss: 2.1697, Val Accuracy: 56.44%
+Epoch [5/10], Step [63/63], Loss: 0.7116, Accuracy: 79.93%
+Val Loss: 2.3338, Val Accuracy: 56.62%
+Epoch [6/10], Step [63/63], Loss: 0.6396, Accuracy: 81.74%
+Val Loss: 2.5821, Val Accuracy: 55.17%
+Epoch [7/10], Step [63/63], Loss: 0.5732, Accuracy: 82.93%
+Val Loss: 2.7305, Val Accuracy: 54.62%
+Epoch [8/10], Step [63/63], Loss: 0.5687, Accuracy: 83.44%
+Val Loss: 2.9881, Val Accuracy: 54.00%
+Epoch [9/10], Step [63/63], Loss: 0.5315, Accuracy: 84.47%
+Val Loss: 3.1590, Val Accuracy: 54.21%
+Epoch [10/10], Step [63/63], Loss: 0.5015, Accuracy: 85.20%
+Val Loss: 3.4484, Val Accuracy: 53.16%
+Epoch [1/10], Step [1000/1000], Loss: 1.4718, Accuracy: 64.02%
+Val Loss: 1.3053, Val Accuracy: 67.19%
+Epoch [2/10], Step [1000/1000], Loss: 1.4024, Accuracy: 65.37%
+Val Loss: 1.2716, Val Accuracy: 68.62%
+Epoch [3/10], Step [1000/1000], Loss: 1.3398, Accuracy: 67.12%
+Val Loss: 1.2701, Val Accuracy: 68.55%
+Epoch [4/10], Step [1000/1000], Loss: 1.2936, Accuracy: 68.10%
+Val Loss: 1.2509, Val Accuracy: 68.66%
+Epoch [5/10], Step [1000/1000], Loss: 1.2496, Accuracy: 69.27%
+Val Loss: 1.2490, Val Accuracy: 68.94%
+Epoch [6/10], Step [1000/1000], Loss: 1.2069, Accuracy: 70.36%
+Val Loss: 1.2386, Val Accuracy: 68.97%
+Epoch [7/10], Step [1000/1000], Loss: 1.1762, Accuracy: 71.19%
+Val Loss: 1.2368, Val Accuracy: 68.96%
+Epoch [8/10], Step [1000/1000], Loss: 1.1458, Accuracy: 71.96%
+Val Loss: 1.2404, Val Accuracy: 68.62%
+Epoch [9/10], Step [1000/1000], Loss: 1.1162, Accuracy: 72.45%
+Val Loss: 1.2344, Val Accuracy: 69.08%
+Epoch [10/10], Step [1000/1000], Loss: 1.0890, Accuracy: 73.26%
+Val Loss: 1.2333, Val Accuracy: 68.83%
+Epoch [1/10], Step [125/125], Loss: 1.3455, Accuracy: 66.96%
+Val Loss: 1.3073, Val Accuracy: 67.90%
+Epoch [2/10], Step [125/125], Loss: 1.3311, Accuracy: 67.34%
+Val Loss: 1.2975, Val Accuracy: 68.36%
+Epoch [3/10], Step [125/125], Loss: 1.3216, Accuracy: 67.73%
+Val Loss: 1.2899, Val Accuracy: 68.39%
+Epoch [4/10], Step [125/125], Loss: 1.3156, Accuracy: 67.69%
+Val Loss: 1.2959, Val Accuracy: 68.41%
+Epoch [5/10], Step [125/125], Loss: 1.3110, Accuracy: 67.75%
+Val Loss: 1.2926, Val Accuracy: 68.46%
+Epoch [6/10], Step [125/125], Loss: 1.3075, Accuracy: 67.85%
+Val Loss: 1.3024, Val Accuracy: 68.49%
+Epoch [7/10], Step [125/125], Loss: 1.3034, Accuracy: 67.99%
+Val Loss: 1.3024, Val Accuracy: 68.60%
+Epoch [8/10], Step [125/125], Loss: 1.3010, Accuracy: 68.02%
+Val Loss: 1.2930, Val Accuracy: 68.64%
+Epoch [9/10], Step [125/125], Loss: 1.3003, Accuracy: 67.99%
+Val Loss: 1.2955, Val Accuracy: 68.50%
+Epoch [10/10], Step [125/125], Loss: 1.2956, Accuracy: 68.05%
+Val Loss: 1.2825, Val Accuracy: 68.46%
+Epoch [1/10], Step [63/63], Loss: 1.4228, Accuracy: 65.07%
+Val Loss: 1.3843, Val Accuracy: 65.61%
+Epoch [2/10], Step [63/63], Loss: 1.0194, Accuracy: 74.34%
+Val Loss: 1.4190, Val Accuracy: 64.88%
+Epoch [3/10], Step [63/63], Loss: 0.8186, Accuracy: 79.09%
+Val Loss: 1.5188, Val Accuracy: 62.99%
+Epoch [4/10], Step [63/63], Loss: 0.6630, Accuracy: 83.09%
+Val Loss: 1.6146, Val Accuracy: 62.19%
+Epoch [5/10], Step [63/63], Loss: 0.5480, Accuracy: 85.99%
+Val Loss: 1.7362, Val Accuracy: 61.23%
+Epoch [6/10], Step [63/63], Loss: 0.4491, Accuracy: 88.44%
+Val Loss: 1.7883, Val Accuracy: 60.54%
+Epoch [7/10], Step [63/63], Loss: 0.3614, Accuracy: 91.00%
+Val Loss: 1.9148, Val Accuracy: 59.96%
+Epoch [8/10], Step [63/63], Loss: 0.2991, Accuracy: 92.71%
+Val Loss: 2.0174, Val Accuracy: 59.71%
+Epoch [9/10], Step [63/63], Loss: 0.2462, Accuracy: 94.22%
+Val Loss: 2.0972, Val Accuracy: 59.25%
+Epoch [10/10], Step [63/63], Loss: 0.2052, Accuracy: 95.39%
+Val Loss: 2.2366, Val Accuracy: 58.50%
+Epoch [1/10], Step [1000/1000], Loss: 1.4214, Accuracy: 65.38%
+Val Loss: 1.2841, Val Accuracy: 68.33%
+Epoch [2/10], Step [1000/1000], Loss: 1.2463, Accuracy: 69.44%
+Val Loss: 1.2749, Val Accuracy: 68.29%
+Epoch [3/10], Step [1000/1000], Loss: 1.1268, Accuracy: 71.80%
+Val Loss: 1.2790, Val Accuracy: 68.16%
+Epoch [4/10], Step [1000/1000], Loss: 1.0209, Accuracy: 74.57%
+Val Loss: 1.2997, Val Accuracy: 67.50%
+Epoch [5/10], Step [1000/1000], Loss: 0.9389, Accuracy: 76.32%
+Val Loss: 1.3157, Val Accuracy: 66.99%
+Epoch [6/10], Step [1000/1000], Loss: 0.8555, Accuracy: 78.48%
+Val Loss: 1.3375, Val Accuracy: 66.65%
+Epoch [7/10], Step [1000/1000], Loss: 0.7956, Accuracy: 79.84%
+Val Loss: 1.3768, Val Accuracy: 66.25%
+Epoch [8/10], Step [1000/1000], Loss: 0.7363, Accuracy: 81.51%
+Val Loss: 1.4082, Val Accuracy: 65.70%
+Epoch [9/10], Step [1000/1000], Loss: 0.6854, Accuracy: 82.69%
+Val Loss: 1.4418, Val Accuracy: 65.62%
+Epoch [10/10], Step [1000/1000], Loss: 0.6377, Accuracy: 83.77%
+Val Loss: 1.4718, Val Accuracy: 65.00%
+Epoch [1/10], Step [1250/1250], Loss: 1.4622, Accuracy: 63.79%
+Val Loss: 1.3583, Val Accuracy: 66.27%
+Epoch [2/10], Step [1250/1250], Loss: 1.3480, Accuracy: 66.92%
+Val Loss: 1.3190, Val Accuracy: 67.49%
+Epoch [3/10], Step [1250/1250], Loss: 1.2747, Accuracy: 68.56%
+Val Loss: 1.2979, Val Accuracy: 67.98%
+Epoch [4/10], Step [1250/1250], Loss: 1.2170, Accuracy: 70.16%
+Val Loss: 1.2933, Val Accuracy: 68.46%
+Epoch [5/10], Step [1250/1250], Loss: 1.1691, Accuracy: 71.17%
+Val Loss: 1.2972, Val Accuracy: 67.86%
+Epoch [6/10], Step [1250/1250], Loss: 1.1318, Accuracy: 71.75%
+Val Loss: 1.2920, Val Accuracy: 68.10%
+Epoch [7/10], Step [1250/1250], Loss: 1.0949, Accuracy: 72.88%
+Val Loss: 1.2911, Val Accuracy: 68.11%
+Epoch [8/10], Step [1250/1250], Loss: 1.0624, Accuracy: 73.72%
+Val Loss: 1.2939, Val Accuracy: 68.04%
+Epoch [9/10], Step [1250/1250], Loss: 1.0322, Accuracy: 74.37%
+Val Loss: 1.2974, Val Accuracy: 67.79%
+Epoch [10/10], Step [1250/1250], Loss: 1.0029, Accuracy: 74.96%
+Val Loss: 1.3046, Val Accuracy: 67.87%
+Accuracy of the network on 10000 test images: 67.87%
+Best trial (quant=sparse_r=128):
+ Value:  68.7875
+ Params: 
+ lora_alpha: 24
+ optimizer: SGD
+ lr: 0.009667826194025023
+ batch_size: 32
+Accuracy of the network on 10000 test images: 70.13%
+Accuracy of the network on 10000 test images: 50.31%
+Epoch [1/10], Step [250/250], Loss: 11.2658, Accuracy: 60.09%
+Val Loss: 10.9143, Val Accuracy: 61.23%
+Epoch [2/10], Step [250/250], Loss: 10.5369, Accuracy: 61.25%
+Val Loss: 10.4260, Val Accuracy: 62.04%
+Epoch [3/10], Step [250/250], Loss: 10.1687, Accuracy: 61.88%
+Val Loss: 10.2679, Val Accuracy: 62.25%
+Epoch [4/10], Step [250/250], Loss: 9.9030, Accuracy: 62.44%
+Val Loss: 10.0813, Val Accuracy: 62.38%
+Epoch [5/10], Step [250/250], Loss: 9.7590, Accuracy: 62.64%
+Val Loss: 10.0024, Val Accuracy: 62.60%
+Epoch [6/10], Step [250/250], Loss: 9.6713, Accuracy: 62.78%
+Val Loss: 9.9610, Val Accuracy: 62.73%
+Epoch [7/10], Step [250/250], Loss: 9.6019, Accuracy: 63.04%
+Val Loss: 9.8779, Val Accuracy: 62.79%
+Epoch [8/10], Step [250/250], Loss: 9.5570, Accuracy: 62.87%
+Val Loss: 9.8808, Val Accuracy: 62.83%
+Epoch [9/10], Step [250/250], Loss: 9.5155, Accuracy: 63.09%
+Val Loss: 9.8852, Val Accuracy: 63.00%
+Epoch [10/10], Step [250/250], Loss: 9.4512, Accuracy: 63.12%
+Val Loss: 9.8611, Val Accuracy: 62.94%
+Epoch [1/10], Step [1000/1000], Loss: 11.2041, Accuracy: 59.02%
+Val Loss: 11.2074, Val Accuracy: 60.27%
+Epoch [2/10], Step [1000/1000], Loss: 10.8366, Accuracy: 59.69%
+Val Loss: 10.9700, Val Accuracy: 60.58%
+Epoch [3/10], Step [1000/1000], Loss: 10.5324, Accuracy: 59.97%
+Val Loss: 10.9225, Val Accuracy: 60.74%
+Epoch [4/10], Step [1000/1000], Loss: 10.3282, Accuracy: 60.51%
+Val Loss: 10.4021, Val Accuracy: 61.71%
+Epoch [5/10], Step [1000/1000], Loss: 10.1796, Accuracy: 60.42%
+Val Loss: 10.6094, Val Accuracy: 61.76%
+Epoch [6/10], Step [1000/1000], Loss: 10.1483, Accuracy: 60.89%
+Val Loss: 10.4304, Val Accuracy: 62.01%
+Epoch [7/10], Step [1000/1000], Loss: 10.0194, Accuracy: 60.96%
+Val Loss: 10.3346, Val Accuracy: 62.10%
+Epoch [8/10], Step [1000/1000], Loss: 9.9315, Accuracy: 61.23%
+Val Loss: 10.4420, Val Accuracy: 61.76%
+Epoch [9/10], Step [1000/1000], Loss: 9.9058, Accuracy: 61.27%
+Val Loss: 10.3477, Val Accuracy: 61.62%
+Epoch [10/10], Step [1000/1000], Loss: 9.8833, Accuracy: 61.45%
+Val Loss: 10.3470, Val Accuracy: 62.16%
+Epoch [1/10], Step [125/125], Loss: 10.3964, Accuracy: 61.91%
+Val Loss: 10.0392, Val Accuracy: 62.23%
+Epoch [2/10], Step [125/125], Loss: 9.6913, Accuracy: 63.24%
+Val Loss: 9.8688, Val Accuracy: 62.33%
+Epoch [3/10], Step [125/125], Loss: 9.5881, Accuracy: 63.36%
+Val Loss: 9.9682, Val Accuracy: 62.54%
+Epoch [4/10], Step [125/125], Loss: 9.5569, Accuracy: 63.30%
+Val Loss: 9.8957, Val Accuracy: 62.52%
+Epoch [5/10], Step [125/125], Loss: 9.5391, Accuracy: 63.43%
+Val Loss: 9.9349, Val Accuracy: 62.77%
+Epoch [6/10], Step [125/125], Loss: 9.5414, Accuracy: 63.43%
+Val Loss: 9.8685, Val Accuracy: 62.52%
+Epoch [7/10], Step [125/125], Loss: 9.4754, Accuracy: 63.46%
+Val Loss: 9.8409, Val Accuracy: 62.48%
+Epoch [8/10], Step [125/125], Loss: 9.4815, Accuracy: 63.37%
+Val Loss: 9.7709, Val Accuracy: 62.49%
+Epoch [9/10], Step [125/125], Loss: 9.4668, Accuracy: 63.39%
+Val Loss: 9.7980, Val Accuracy: 62.35%
+Epoch [10/10], Step [125/125], Loss: 9.4624, Accuracy: 63.48%
+Val Loss: 9.7680, Val Accuracy: 62.48%
+Epoch [1/10], Step [1000/1000], Loss: 10.7461, Accuracy: 59.93%
+Val Loss: 10.2611, Val Accuracy: 61.45%
+Epoch [2/10], Step [1000/1000], Loss: 10.1155, Accuracy: 60.93%
+Val Loss: 10.1056, Val Accuracy: 61.69%
+Epoch [3/10], Step [1000/1000], Loss: 9.9885, Accuracy: 61.32%
+Val Loss: 10.1054, Val Accuracy: 61.98%
+Epoch [4/10], Step [1000/1000], Loss: 9.9345, Accuracy: 61.12%
+Val Loss: 10.0612, Val Accuracy: 62.38%
+Epoch [5/10], Step [1000/1000], Loss: 10.0050, Accuracy: 61.20%
+Val Loss: 10.0258, Val Accuracy: 62.06%
+Epoch [6/10], Step [1000/1000], Loss: 9.8999, Accuracy: 61.27%
+Val Loss: 9.9659, Val Accuracy: 61.90%
+Epoch [7/10], Step [1000/1000], Loss: 9.9111, Accuracy: 61.26%
+Val Loss: 10.0769, Val Accuracy: 62.17%
+Epoch [8/10], Step [1000/1000], Loss: 9.9038, Accuracy: 61.23%
+Val Loss: 10.0239, Val Accuracy: 62.09%
+Epoch [9/10], Step [1000/1000], Loss: 9.8861, Accuracy: 61.38%
+Val Loss: 10.0471, Val Accuracy: 61.90%
+Epoch [10/10], Step [1000/1000], Loss: 9.9388, Accuracy: 61.09%
+Val Loss: 9.9711, Val Accuracy: 62.31%
+Epoch [1/10], Step [63/63], Loss: 10.5911, Accuracy: 61.48%
+Val Loss: 10.5819, Val Accuracy: 61.74%
+Epoch [2/10], Step [63/63], Loss: 9.6808, Accuracy: 63.27%
+Val Loss: 10.2299, Val Accuracy: 62.30%
+Epoch [3/10], Step [63/63], Loss: 9.4149, Accuracy: 63.66%
+Val Loss: 10.1254, Val Accuracy: 62.34%
+Epoch [4/10], Step [63/63], Loss: 9.3196, Accuracy: 63.87%
+Val Loss: 10.0841, Val Accuracy: 62.44%
+Epoch [5/10], Step [63/63], Loss: 9.2319, Accuracy: 63.94%
+Val Loss: 10.0022, Val Accuracy: 62.45%
+Epoch [6/10], Step [63/63], Loss: 9.2047, Accuracy: 63.92%
+Val Loss: 9.9805, Val Accuracy: 62.65%
+Epoch [7/10], Step [63/63], Loss: 9.1863, Accuracy: 63.98%
+Val Loss: 9.9983, Val Accuracy: 62.56%
+Epoch [8/10], Step [63/63], Loss: 9.1433, Accuracy: 64.17%
+Val Loss: 10.0086, Val Accuracy: 62.48%
+Epoch [9/10], Step [63/63], Loss: 9.1480, Accuracy: 64.12%
+Val Loss: 9.9308, Val Accuracy: 62.49%
+Epoch [10/10], Step [63/63], Loss: 9.1173, Accuracy: 64.08%
+Val Loss: 9.9202, Val Accuracy: 62.56%
+Epoch [1/10], Step [250/250], Loss: 10.3677, Accuracy: 61.39%
+Val Loss: 9.7457, Val Accuracy: 63.34%
+Epoch [2/10], Step [250/250], Loss: 9.6077, Accuracy: 62.82%
+Val Loss: 9.6080, Val Accuracy: 63.36%
+Epoch [3/10], Step [250/250], Loss: 9.4981, Accuracy: 63.09%
+Val Loss: 9.5013, Val Accuracy: 63.89%
+Epoch [4/10], Step [250/250], Loss: 9.3965, Accuracy: 63.00%
+Val Loss: 9.4553, Val Accuracy: 63.56%
+Epoch [5/10], Step [250/250], Loss: 9.3449, Accuracy: 63.16%
+Val Loss: 9.4894, Val Accuracy: 63.81%
+Epoch [6/10], Step [250/250], Loss: 9.3434, Accuracy: 63.37%
+Val Loss: 9.5086, Val Accuracy: 63.58%
+Epoch [7/10], Step [250/250], Loss: 9.2678, Accuracy: 63.16%
+Val Loss: 9.4649, Val Accuracy: 63.69%
+Epoch [8/10], Step [250/250], Loss: 9.2884, Accuracy: 63.29%
+Val Loss: 9.4769, Val Accuracy: 63.67%
+Epoch [9/10], Step [250/250], Loss: 9.2545, Accuracy: 63.47%
+Val Loss: 9.4872, Val Accuracy: 63.76%
+Epoch [10/10], Step [250/250], Loss: 9.2445, Accuracy: 63.39%
+Val Loss: 9.4852, Val Accuracy: 63.88%
+Epoch [1/10], Step [1000/1000], Loss: 11.6088, Accuracy: 58.40%
+Val Loss: 11.3345, Val Accuracy: 60.94%
+Epoch [2/10], Step [1000/1000], Loss: 10.8220, Accuracy: 59.73%
+Val Loss: 10.8876, Val Accuracy: 61.30%
+Epoch [3/10], Step [1000/1000], Loss: 10.4725, Accuracy: 60.32%
+Val Loss: 10.6408, Val Accuracy: 61.89%
+Epoch [4/10], Step [1000/1000], Loss: 10.2285, Accuracy: 60.86%
+Val Loss: 10.5083, Val Accuracy: 62.30%
+Epoch [5/10], Step [1000/1000], Loss: 10.0325, Accuracy: 61.22%
+Val Loss: 10.4061, Val Accuracy: 62.42%
+Epoch [6/10], Step [1000/1000], Loss: 9.9634, Accuracy: 61.04%
+Val Loss: 10.2440, Val Accuracy: 62.48%
+Epoch [7/10], Step [1000/1000], Loss: 9.9118, Accuracy: 61.30%
+Val Loss: 10.2771, Val Accuracy: 62.36%
+Epoch [8/10], Step [1000/1000], Loss: 9.8414, Accuracy: 61.56%
+Val Loss: 10.3119, Val Accuracy: 62.62%
+Epoch [9/10], Step [1000/1000], Loss: 9.8055, Accuracy: 61.74%
+Val Loss: 10.2842, Val Accuracy: 62.75%
+Epoch [10/10], Step [1000/1000], Loss: 9.8170, Accuracy: 61.33%
+Val Loss: 10.2711, Val Accuracy: 62.86%
+Epoch [1/10], Step [63/63], Loss: 10.9953, Accuracy: 60.75%
+Val Loss: 10.3857, Val Accuracy: 62.27%
+Epoch [2/10], Step [63/63], Loss: 10.0879, Accuracy: 62.42%
+Val Loss: 10.0527, Val Accuracy: 62.55%
+Epoch [3/10], Step [63/63], Loss: 9.7506, Accuracy: 62.94%
+Val Loss: 9.8739, Val Accuracy: 62.96%
+Epoch [4/10], Step [63/63], Loss: 9.5564, Accuracy: 63.23%
+Val Loss: 9.7990, Val Accuracy: 63.09%
+Epoch [5/10], Step [63/63], Loss: 9.4415, Accuracy: 63.43%
+Val Loss: 9.7048, Val Accuracy: 63.10%
+Epoch [6/10], Step [63/63], Loss: 9.3773, Accuracy: 63.64%
+Val Loss: 9.6994, Val Accuracy: 63.14%
+Epoch [7/10], Step [63/63], Loss: 9.3319, Accuracy: 63.59%
+Val Loss: 9.6865, Val Accuracy: 63.30%
+Epoch [8/10], Step [63/63], Loss: 9.3296, Accuracy: 63.64%
+Val Loss: 9.6772, Val Accuracy: 63.45%
+Epoch [9/10], Step [63/63], Loss: 9.2713, Accuracy: 63.76%
+Val Loss: 9.6657, Val Accuracy: 63.48%
+Epoch [10/10], Step [63/63], Loss: 9.2561, Accuracy: 63.80%
+Val Loss: 9.6474, Val Accuracy: 63.35%
+Epoch [1/10], Step [500/500], Loss: 11.5993, Accuracy: 59.16%
+Val Loss: 11.2478, Val Accuracy: 60.54%
+Epoch [2/10], Step [500/500], Loss: 11.2141, Accuracy: 59.72%
+Val Loss: 10.9423, Val Accuracy: 61.27%
+Epoch [3/10], Step [500/500], Loss: 10.9036, Accuracy: 60.36%
+Val Loss: 10.7290, Val Accuracy: 61.69%
+Epoch [4/10], Step [500/500], Loss: 10.6532, Accuracy: 60.70%
+Val Loss: 10.5218, Val Accuracy: 61.98%
+Epoch [5/10], Step [500/500], Loss: 10.4834, Accuracy: 61.07%
+Val Loss: 10.4121, Val Accuracy: 62.31%
+Epoch [6/10], Step [500/500], Loss: 10.3633, Accuracy: 61.27%
+Val Loss: 10.3592, Val Accuracy: 62.45%
+Epoch [7/10], Step [500/500], Loss: 10.1837, Accuracy: 61.64%
+Val Loss: 10.2058, Val Accuracy: 62.60%
+Epoch [8/10], Step [500/500], Loss: 10.1291, Accuracy: 61.78%
+Val Loss: 10.0885, Val Accuracy: 63.06%
+Epoch [9/10], Step [500/500], Loss: 10.0563, Accuracy: 61.97%
+Val Loss: 10.0640, Val Accuracy: 63.06%
+Epoch [10/10], Step [500/500], Loss: 9.9628, Accuracy: 61.86%
+Val Loss: 9.9850, Val Accuracy: 62.99%
+Epoch [1/10], Step [125/125], Loss: 10.6998, Accuracy: 61.14%
+Val Loss: 10.1645, Val Accuracy: 62.31%
+Epoch [2/10], Step [125/125], Loss: 9.8484, Accuracy: 62.74%
+Val Loss: 9.9253, Val Accuracy: 62.81%
+Epoch [3/10], Step [125/125], Loss: 9.6143, Accuracy: 63.17%
+Val Loss: 9.9003, Val Accuracy: 63.00%
+Epoch [4/10], Step [125/125], Loss: 9.4942, Accuracy: 63.43%
+Val Loss: 9.7481, Val Accuracy: 62.96%
+Epoch [5/10], Step [125/125], Loss: 9.4733, Accuracy: 63.42%
+Val Loss: 9.7457, Val Accuracy: 63.08%
+Epoch [6/10], Step [125/125], Loss: 9.4346, Accuracy: 63.31%
+Val Loss: 9.7464, Val Accuracy: 63.36%
+Epoch [7/10], Step [125/125], Loss: 9.3942, Accuracy: 63.45%
+Val Loss: 9.8220, Val Accuracy: 63.19%
+Epoch [8/10], Step [125/125], Loss: 9.3878, Accuracy: 63.44%
+Val Loss: 9.6929, Val Accuracy: 63.10%
+Epoch [9/10], Step [125/125], Loss: 9.3411, Accuracy: 63.46%
+Val Loss: 9.6566, Val Accuracy: 63.34%
+Epoch [10/10], Step [125/125], Loss: 9.3474, Accuracy: 63.37%
+Val Loss: 9.6874, Val Accuracy: 63.29%
+Epoch [1/10], Step [625/625], Loss: 11.5633, Accuracy: 59.23%
+Val Loss: 10.9584, Val Accuracy: 61.06%
+Epoch [2/10], Step [625/625], Loss: 11.1423, Accuracy: 60.03%
+Val Loss: 10.7148, Val Accuracy: 61.12%
+Epoch [3/10], Step [625/625], Loss: 10.7889, Accuracy: 60.39%
+Val Loss: 10.3531, Val Accuracy: 61.75%
+Epoch [4/10], Step [625/625], Loss: 10.5049, Accuracy: 61.25%
+Val Loss: 10.2411, Val Accuracy: 62.03%
+Epoch [5/10], Step [625/625], Loss: 10.3278, Accuracy: 61.26%
+Val Loss: 10.0582, Val Accuracy: 62.30%
+Epoch [6/10], Step [625/625], Loss: 10.1833, Accuracy: 61.79%
+Val Loss: 9.9222, Val Accuracy: 62.47%
+Epoch [7/10], Step [625/625], Loss: 10.1477, Accuracy: 61.75%
+Val Loss: 9.8072, Val Accuracy: 62.70%
+Epoch [8/10], Step [625/625], Loss: 9.9899, Accuracy: 62.03%
+Val Loss: 9.9194, Val Accuracy: 62.73%
+Epoch [9/10], Step [625/625], Loss: 9.9227, Accuracy: 62.19%
+Val Loss: 9.7928, Val Accuracy: 62.77%
+Epoch [10/10], Step [625/625], Loss: 9.9026, Accuracy: 62.14%
+Val Loss: 9.6783, Val Accuracy: 62.75%
+Accuracy of the network on 10000 test images: 62.75%
+Best trial (quant=int1_r=2):
+ Value:  63.0625
+ Params: 
+ lora_alpha: 16
+ optimizer: SGD
+ lr: 0.00010934061950061456
+ batch_size: 64
+Epoch [1/10], Step [500/500], Loss: 10.7194, Accuracy: 59.66%
+Val Loss: 10.2671, Val Accuracy: 61.94%
+Epoch [2/10], Step [500/500], Loss: 10.0117, Accuracy: 61.17%
+Val Loss: 9.9247, Val Accuracy: 62.91%
+Epoch [3/10], Step [500/500], Loss: 9.7352, Accuracy: 61.50%
+Val Loss: 9.7907, Val Accuracy: 63.19%
+Epoch [4/10], Step [500/500], Loss: 9.5698, Accuracy: 61.75%
+Val Loss: 9.6851, Val Accuracy: 63.26%
+Epoch [5/10], Step [500/500], Loss: 9.5536, Accuracy: 61.84%
+Val Loss: 9.5994, Val Accuracy: 63.30%
+Epoch [6/10], Step [500/500], Loss: 9.4965, Accuracy: 62.19%
+Val Loss: 9.6234, Val Accuracy: 63.24%
+Epoch [7/10], Step [500/500], Loss: 9.4915, Accuracy: 61.87%
+Val Loss: 9.6422, Val Accuracy: 63.24%
+Epoch [8/10], Step [500/500], Loss: 9.4647, Accuracy: 61.99%
+Val Loss: 9.5852, Val Accuracy: 63.20%
+Epoch [9/10], Step [500/500], Loss: 9.4588, Accuracy: 62.04%
+Val Loss: 9.6247, Val Accuracy: 63.25%
+Epoch [10/10], Step [500/500], Loss: 9.4185, Accuracy: 62.12%
+Val Loss: 9.6397, Val Accuracy: 63.48%
+Epoch [1/10], Step [1000/1000], Loss: 11.2294, Accuracy: 58.58%
+Val Loss: 10.6586, Val Accuracy: 60.69%
+Epoch [2/10], Step [1000/1000], Loss: 10.7319, Accuracy: 59.25%
+Val Loss: 10.4364, Val Accuracy: 61.44%
+Epoch [3/10], Step [1000/1000], Loss: 10.2462, Accuracy: 60.17%
+Val Loss: 10.1658, Val Accuracy: 61.81%
+Epoch [4/10], Step [1000/1000], Loss: 10.1673, Accuracy: 60.59%
+Val Loss: 9.9650, Val Accuracy: 61.80%
+Epoch [5/10], Step [1000/1000], Loss: 10.0491, Accuracy: 60.93%
+Val Loss: 9.8901, Val Accuracy: 62.17%
+Epoch [6/10], Step [1000/1000], Loss: 9.8535, Accuracy: 60.94%
+Val Loss: 9.8411, Val Accuracy: 62.08%
+Epoch [7/10], Step [1000/1000], Loss: 9.8532, Accuracy: 61.20%
+Val Loss: 9.7350, Val Accuracy: 62.09%
+Epoch [8/10], Step [1000/1000], Loss: 9.8091, Accuracy: 61.20%
+Val Loss: 9.7442, Val Accuracy: 62.25%
+Epoch [9/10], Step [1000/1000], Loss: 9.7316, Accuracy: 61.38%
+Val Loss: 9.7486, Val Accuracy: 62.61%
+Epoch [10/10], Step [1000/1000], Loss: 9.7594, Accuracy: 61.32%
+Val Loss: 9.7344, Val Accuracy: 62.45%
+Epoch [1/10], Step [1000/1000], Loss: 11.1734, Accuracy: 58.20%
+Val Loss: 10.4586, Val Accuracy: 60.64%
+Epoch [2/10], Step [1000/1000], Loss: 10.5765, Accuracy: 59.56%
+Val Loss: 10.1312, Val Accuracy: 61.44%
+Epoch [3/10], Step [1000/1000], Loss: 10.2380, Accuracy: 60.16%
+Val Loss: 10.0157, Val Accuracy: 61.90%
+Epoch [4/10], Step [1000/1000], Loss: 9.9675, Accuracy: 60.62%
+Val Loss: 9.8195, Val Accuracy: 62.21%
+Epoch [5/10], Step [1000/1000], Loss: 9.9472, Accuracy: 60.72%
+Val Loss: 9.8200, Val Accuracy: 62.46%
+Epoch [6/10], Step [1000/1000], Loss: 9.8799, Accuracy: 60.77%
+Val Loss: 9.8016, Val Accuracy: 62.20%
+Epoch [7/10], Step [1000/1000], Loss: 9.8035, Accuracy: 60.97%
+Val Loss: 9.7194, Val Accuracy: 62.31%
+Epoch [8/10], Step [1000/1000], Loss: 9.7565, Accuracy: 61.19%
+Val Loss: 9.7713, Val Accuracy: 62.30%
+Epoch [9/10], Step [1000/1000], Loss: 9.7281, Accuracy: 61.00%
+Val Loss: 9.6198, Val Accuracy: 62.64%
+Epoch [10/10], Step [1000/1000], Loss: 9.7554, Accuracy: 60.91%
+Val Loss: 9.5792, Val Accuracy: 62.56%
+Epoch [1/10], Step [500/500], Loss: 10.2583, Accuracy: 60.84%
+Val Loss: 10.0237, Val Accuracy: 61.89%
+Epoch [2/10], Step [500/500], Loss: 9.8750, Accuracy: 61.29%
+Val Loss: 9.8262, Val Accuracy: 62.16%
+Epoch [3/10], Step [500/500], Loss: 9.7967, Accuracy: 61.47%
+Val Loss: 9.9597, Val Accuracy: 62.39%
+Epoch [4/10], Step [500/500], Loss: 9.7169, Accuracy: 61.74%
+Val Loss: 9.8240, Val Accuracy: 62.56%
+Epoch [5/10], Step [500/500], Loss: 9.7251, Accuracy: 61.61%
+Val Loss: 9.8244, Val Accuracy: 62.21%
+Epoch [6/10], Step [500/500], Loss: 9.6268, Accuracy: 61.84%
+Val Loss: 9.7579, Val Accuracy: 62.49%
+Epoch [7/10], Step [500/500], Loss: 9.6191, Accuracy: 61.80%
+Val Loss: 9.7175, Val Accuracy: 62.77%
+Epoch [8/10], Step [500/500], Loss: 9.6071, Accuracy: 61.68%
+Val Loss: 9.8013, Val Accuracy: 62.50%
+Epoch [9/10], Step [500/500], Loss: 9.5758, Accuracy: 62.02%
+Val Loss: 9.7167, Val Accuracy: 62.41%
+Epoch [10/10], Step [500/500], Loss: 9.4853, Accuracy: 62.12%
+Val Loss: 9.8240, Val Accuracy: 62.58%
+Epoch [1/10], Step [500/500], Loss: 10.4587, Accuracy: 60.55%
+Val Loss: 9.8824, Val Accuracy: 62.33%
+Epoch [2/10], Step [500/500], Loss: 9.6808, Accuracy: 61.98%
+Val Loss: 9.6296, Val Accuracy: 62.96%
+Epoch [3/10], Step [500/500], Loss: 9.4036, Accuracy: 62.52%
+Val Loss: 9.5670, Val Accuracy: 62.83%
+Epoch [4/10], Step [500/500], Loss: 9.2906, Accuracy: 62.73%
+Val Loss: 9.5096, Val Accuracy: 62.62%
+Epoch [5/10], Step [500/500], Loss: 9.2589, Accuracy: 62.80%
+Val Loss: 9.4466, Val Accuracy: 63.09%
+Epoch [6/10], Step [500/500], Loss: 9.1784, Accuracy: 62.85%
+Val Loss: 9.5045, Val Accuracy: 63.06%
+Epoch [7/10], Step [500/500], Loss: 9.1405, Accuracy: 62.95%
+Val Loss: 9.5188, Val Accuracy: 63.36%
+Epoch [8/10], Step [500/500], Loss: 9.0918, Accuracy: 62.81%
+Val Loss: 9.4525, Val Accuracy: 63.15%
+Epoch [9/10], Step [500/500], Loss: 9.0562, Accuracy: 63.08%
+Val Loss: 9.4703, Val Accuracy: 63.52%
+Epoch [10/10], Step [500/500], Loss: 9.0808, Accuracy: 62.85%
+Val Loss: 9.4439, Val Accuracy: 63.11%
+Epoch [1/10], Step [1000/1000], Loss: 11.0034, Accuracy: 59.08%
+Val Loss: 10.5917, Val Accuracy: 60.70%
+Epoch [2/10], Step [1000/1000], Loss: 10.2671, Accuracy: 60.28%
+Val Loss: 10.3218, Val Accuracy: 61.40%
+Epoch [3/10], Step [1000/1000], Loss: 9.9371, Accuracy: 60.87%
+Val Loss: 10.1985, Val Accuracy: 61.86%
+Epoch [4/10], Step [1000/1000], Loss: 9.8241, Accuracy: 61.11%
+Val Loss: 10.0483, Val Accuracy: 62.19%
+Epoch [5/10], Step [1000/1000], Loss: 9.7931, Accuracy: 61.07%
+Val Loss: 10.0188, Val Accuracy: 62.17%
+Epoch [6/10], Step [1000/1000], Loss: 9.6891, Accuracy: 61.17%
+Val Loss: 9.9782, Val Accuracy: 62.35%
+Epoch [7/10], Step [1000/1000], Loss: 9.7829, Accuracy: 61.28%
+Val Loss: 9.8747, Val Accuracy: 62.08%
+Epoch [8/10], Step [1000/1000], Loss: 9.6798, Accuracy: 61.61%
+Val Loss: 9.9371, Val Accuracy: 62.02%
+Epoch [9/10], Step [1000/1000], Loss: 9.6943, Accuracy: 61.35%
+Val Loss: 10.0118, Val Accuracy: 62.10%
+Epoch [10/10], Step [1000/1000], Loss: 9.6272, Accuracy: 61.53%
+Val Loss: 9.8981, Val Accuracy: 62.01%
+Epoch [1/10], Step [250/250], Loss: 11.1467, Accuracy: 59.53%
+Val Loss: 10.6488, Val Accuracy: 61.75%
+Epoch [2/10], Step [250/250], Loss: 10.8415, Accuracy: 60.04%
+Val Loss: 10.4127, Val Accuracy: 61.88%
+Epoch [3/10], Step [250/250], Loss: 10.5894, Accuracy: 60.54%
+Val Loss: 10.2219, Val Accuracy: 62.29%
+Epoch [4/10], Step [250/250], Loss: 10.3987, Accuracy: 60.87%
+Val Loss: 10.0549, Val Accuracy: 62.62%
+Epoch [5/10], Step [250/250], Loss: 10.2258, Accuracy: 61.14%
+Val Loss: 9.9867, Val Accuracy: 62.84%
+Epoch [6/10], Step [250/250], Loss: 10.0860, Accuracy: 61.47%
+Val Loss: 9.8075, Val Accuracy: 63.01%
+Epoch [7/10], Step [250/250], Loss: 9.9707, Accuracy: 61.57%
+Val Loss: 9.7958, Val Accuracy: 63.12%
+Epoch [8/10], Step [250/250], Loss: 9.9039, Accuracy: 61.81%
+Val Loss: 9.7648, Val Accuracy: 63.14%
+Epoch [9/10], Step [250/250], Loss: 9.8210, Accuracy: 61.90%
+Val Loss: 9.6658, Val Accuracy: 62.91%
+Epoch [10/10], Step [250/250], Loss: 9.7608, Accuracy: 62.08%
+Val Loss: 9.6236, Val Accuracy: 63.19%
+Epoch [1/10], Step [500/500], Loss: 11.0603, Accuracy: 59.67%
+Val Loss: 10.5602, Val Accuracy: 60.80%
+Epoch [2/10], Step [500/500], Loss: 10.4565, Accuracy: 61.06%
+Val Loss: 10.1834, Val Accuracy: 61.56%
+Epoch [3/10], Step [500/500], Loss: 10.0886, Accuracy: 61.57%
+Val Loss: 10.0481, Val Accuracy: 61.64%
+Epoch [4/10], Step [500/500], Loss: 9.8762, Accuracy: 62.05%
+Val Loss: 9.9622, Val Accuracy: 62.02%
+Epoch [5/10], Step [500/500], Loss: 9.7311, Accuracy: 62.22%
+Val Loss: 9.8659, Val Accuracy: 62.02%
+Epoch [6/10], Step [500/500], Loss: 9.6405, Accuracy: 62.37%
+Val Loss: 9.7875, Val Accuracy: 62.12%
+Epoch [7/10], Step [500/500], Loss: 9.6138, Accuracy: 62.64%
+Val Loss: 9.7846, Val Accuracy: 61.94%
+Epoch [8/10], Step [500/500], Loss: 9.5424, Accuracy: 62.61%
+Val Loss: 9.7517, Val Accuracy: 62.16%
+Epoch [9/10], Step [500/500], Loss: 9.5222, Accuracy: 62.58%
+Val Loss: 9.7567, Val Accuracy: 62.14%
+Epoch [10/10], Step [500/500], Loss: 9.4677, Accuracy: 62.57%
+Val Loss: 9.7408, Val Accuracy: 62.11%
+Epoch [1/10], Step [125/125], Loss: 9.9214, Accuracy: 61.98%
+Val Loss: 9.7584, Val Accuracy: 62.60%
+Epoch [2/10], Step [125/125], Loss: 9.2948, Accuracy: 63.33%
+Val Loss: 9.6746, Val Accuracy: 62.86%
+Epoch [3/10], Step [125/125], Loss: 9.1228, Accuracy: 63.37%
+Val Loss: 9.6302, Val Accuracy: 62.89%
+Epoch [4/10], Step [125/125], Loss: 9.0232, Accuracy: 63.66%
+Val Loss: 9.6005, Val Accuracy: 62.94%
+Epoch [5/10], Step [125/125], Loss: 8.9089, Accuracy: 63.66%
+Val Loss: 9.5318, Val Accuracy: 62.60%
+Epoch [6/10], Step [125/125], Loss: 8.8320, Accuracy: 63.81%
+Val Loss: 9.6385, Val Accuracy: 62.61%
+Epoch [7/10], Step [125/125], Loss: 8.7647, Accuracy: 64.20%
+Val Loss: 9.6478, Val Accuracy: 62.73%
+Epoch [8/10], Step [125/125], Loss: 8.7032, Accuracy: 64.02%
+Val Loss: 9.6445, Val Accuracy: 62.75%
+Epoch [9/10], Step [125/125], Loss: 8.6485, Accuracy: 64.30%
+Val Loss: 9.5979, Val Accuracy: 62.80%
+Epoch [10/10], Step [125/125], Loss: 8.6275, Accuracy: 64.30%
+Val Loss: 9.6770, Val Accuracy: 62.66%
+Epoch [1/10], Step [125/125], Loss: 10.9260, Accuracy: 60.24%
+Val Loss: 10.6599, Val Accuracy: 61.33%
+Epoch [2/10], Step [125/125], Loss: 10.2899, Accuracy: 61.35%
+Val Loss: 10.3319, Val Accuracy: 61.65%
+Epoch [3/10], Step [125/125], Loss: 9.9249, Accuracy: 61.91%
+Val Loss: 10.0887, Val Accuracy: 62.01%
+Epoch [4/10], Step [125/125], Loss: 9.7439, Accuracy: 62.32%
+Val Loss: 10.0113, Val Accuracy: 62.06%
+Epoch [5/10], Step [125/125], Loss: 9.6020, Accuracy: 62.60%
+Val Loss: 9.8429, Val Accuracy: 62.11%
+Epoch [6/10], Step [125/125], Loss: 9.5103, Accuracy: 62.75%
+Val Loss: 9.8273, Val Accuracy: 62.04%
+Epoch [7/10], Step [125/125], Loss: 9.4272, Accuracy: 62.92%
+Val Loss: 9.8725, Val Accuracy: 62.25%
+Epoch [8/10], Step [125/125], Loss: 9.3987, Accuracy: 62.92%
+Val Loss: 9.7509, Val Accuracy: 62.19%
+Epoch [9/10], Step [125/125], Loss: 9.3582, Accuracy: 63.10%
+Val Loss: 9.8066, Val Accuracy: 62.34%
+Epoch [10/10], Step [125/125], Loss: 9.3447, Accuracy: 63.06%
+Val Loss: 9.7352, Val Accuracy: 62.19%
+Epoch [1/10], Step [625/625], Loss: 10.2966, Accuracy: 60.91%
+Val Loss: 9.9787, Val Accuracy: 61.88%
+Epoch [2/10], Step [625/625], Loss: 9.5572, Accuracy: 62.05%
+Val Loss: 9.7129, Val Accuracy: 62.33%
+Epoch [3/10], Step [625/625], Loss: 9.3817, Accuracy: 62.61%
+Val Loss: 9.7017, Val Accuracy: 62.62%
+Epoch [4/10], Step [625/625], Loss: 9.2949, Accuracy: 62.80%
+Val Loss: 9.6781, Val Accuracy: 62.97%
+Epoch [5/10], Step [625/625], Loss: 9.2348, Accuracy: 62.57%
+Val Loss: 9.6861, Val Accuracy: 62.78%
+Epoch [6/10], Step [625/625], Loss: 9.2014, Accuracy: 63.02%
+Val Loss: 9.6151, Val Accuracy: 62.95%
+Epoch [7/10], Step [625/625], Loss: 9.1589, Accuracy: 63.00%
+Val Loss: 9.6211, Val Accuracy: 62.91%
+Epoch [8/10], Step [625/625], Loss: 9.1239, Accuracy: 62.99%
+Val Loss: 9.5597, Val Accuracy: 62.92%
+Epoch [9/10], Step [625/625], Loss: 9.0896, Accuracy: 63.22%
+Val Loss: 9.5744, Val Accuracy: 63.17%
+Epoch [10/10], Step [625/625], Loss: 9.0595, Accuracy: 63.14%
+Val Loss: 9.6360, Val Accuracy: 63.02%
+Accuracy of the network on 10000 test images: 63.02%
+Best trial (quant=int1_r=4):
+ Value:  63.525
+ Params: 
+ lora_alpha: 32
+ optimizer: Adam
+ lr: 0.0004316654024951906
+ batch_size: 64
+Epoch [1/10], Step [500/500], Loss: 10.8667, Accuracy: 58.57%
+Val Loss: 10.5824, Val Accuracy: 60.62%
+Epoch [2/10], Step [500/500], Loss: 10.2774, Accuracy: 59.68%
+Val Loss: 10.1772, Val Accuracy: 61.19%
+Epoch [3/10], Step [500/500], Loss: 9.8962, Accuracy: 60.42%
+Val Loss: 10.0360, Val Accuracy: 61.39%
+Epoch [4/10], Step [500/500], Loss: 9.7206, Accuracy: 60.76%
+Val Loss: 9.9356, Val Accuracy: 61.49%
+Epoch [5/10], Step [500/500], Loss: 9.6292, Accuracy: 60.87%
+Val Loss: 9.8093, Val Accuracy: 61.83%
+Epoch [6/10], Step [500/500], Loss: 9.5782, Accuracy: 60.98%
+Val Loss: 9.7961, Val Accuracy: 61.91%
+Epoch [7/10], Step [500/500], Loss: 9.5218, Accuracy: 61.19%
+Val Loss: 9.7923, Val Accuracy: 61.90%
+Epoch [8/10], Step [500/500], Loss: 9.4787, Accuracy: 61.20%
+Val Loss: 9.7600, Val Accuracy: 61.91%
+Epoch [9/10], Step [500/500], Loss: 9.4105, Accuracy: 61.21%
+Val Loss: 9.7316, Val Accuracy: 61.83%
+Epoch [10/10], Step [500/500], Loss: 9.4389, Accuracy: 61.20%
+Val Loss: 9.6627, Val Accuracy: 61.80%
+Epoch [1/10], Step [125/125], Loss: 10.1235, Accuracy: 60.54%
+Val Loss: 9.8878, Val Accuracy: 61.59%
+Epoch [2/10], Step [125/125], Loss: 9.4288, Accuracy: 61.83%
+Val Loss: 9.6730, Val Accuracy: 61.42%
+Epoch [3/10], Step [125/125], Loss: 9.3253, Accuracy: 61.90%
+Val Loss: 9.7242, Val Accuracy: 61.70%
+Epoch [4/10], Step [125/125], Loss: 9.2386, Accuracy: 62.08%
+Val Loss: 9.6868, Val Accuracy: 61.59%
+Epoch [5/10], Step [125/125], Loss: 9.1785, Accuracy: 62.18%
+Val Loss: 9.6377, Val Accuracy: 61.73%
+Epoch [6/10], Step [125/125], Loss: 9.1621, Accuracy: 62.31%
+Val Loss: 9.5390, Val Accuracy: 61.79%
+Epoch [7/10], Step [125/125], Loss: 9.1383, Accuracy: 62.23%
+Val Loss: 9.6416, Val Accuracy: 61.83%
+Epoch [8/10], Step [125/125], Loss: 9.1193, Accuracy: 62.25%
+Val Loss: 9.4841, Val Accuracy: 61.86%
+Epoch [9/10], Step [125/125], Loss: 9.0655, Accuracy: 62.33%
+Val Loss: 9.6417, Val Accuracy: 61.60%
+Epoch [10/10], Step [125/125], Loss: 9.0436, Accuracy: 62.49%
+Val Loss: 9.5489, Val Accuracy: 61.71%
+Epoch [1/10], Step [63/63], Loss: 10.1319, Accuracy: 60.64%
+Val Loss: 9.8991, Val Accuracy: 61.84%
+Epoch [2/10], Step [63/63], Loss: 9.4482, Accuracy: 61.69%
+Val Loss: 9.7008, Val Accuracy: 61.90%
+Epoch [3/10], Step [63/63], Loss: 9.3208, Accuracy: 61.94%
+Val Loss: 9.6794, Val Accuracy: 61.85%
+Epoch [4/10], Step [63/63], Loss: 9.2437, Accuracy: 62.14%
+Val Loss: 9.7023, Val Accuracy: 61.77%
+Epoch [5/10], Step [63/63], Loss: 9.1934, Accuracy: 62.22%
+Val Loss: 9.6764, Val Accuracy: 61.77%
+Epoch [6/10], Step [63/63], Loss: 9.1473, Accuracy: 62.29%
+Val Loss: 9.6833, Val Accuracy: 61.90%
+Epoch [7/10], Step [63/63], Loss: 9.1541, Accuracy: 62.28%
+Val Loss: 9.6704, Val Accuracy: 61.99%
+Epoch [8/10], Step [63/63], Loss: 9.0952, Accuracy: 62.28%
+Val Loss: 9.5738, Val Accuracy: 61.98%
+Epoch [9/10], Step [63/63], Loss: 9.0830, Accuracy: 62.45%
+Val Loss: 9.6508, Val Accuracy: 62.02%
+Epoch [10/10], Step [63/63], Loss: 9.0327, Accuracy: 62.33%
+Val Loss: 9.5799, Val Accuracy: 62.05%
+Epoch [1/10], Step [1000/1000], Loss: 10.1808, Accuracy: 59.49%
+Val Loss: 9.7914, Val Accuracy: 61.66%
+Epoch [2/10], Step [1000/1000], Loss: 9.5201, Accuracy: 60.73%
+Val Loss: 9.6590, Val Accuracy: 62.12%
+Epoch [3/10], Step [1000/1000], Loss: 9.3120, Accuracy: 61.05%
+Val Loss: 9.5006, Val Accuracy: 62.15%
+Epoch [4/10], Step [1000/1000], Loss: 9.1295, Accuracy: 61.25%
+Val Loss: 9.4661, Val Accuracy: 62.50%
+Epoch [5/10], Step [1000/1000], Loss: 8.9833, Accuracy: 61.73%
+Val Loss: 9.4051, Val Accuracy: 62.46%
+Epoch [6/10], Step [1000/1000], Loss: 8.9292, Accuracy: 61.89%
+Val Loss: 9.4150, Val Accuracy: 62.33%
+Epoch [7/10], Step [1000/1000], Loss: 8.8344, Accuracy: 61.73%
+Val Loss: 9.3803, Val Accuracy: 62.21%
+Epoch [8/10], Step [1000/1000], Loss: 8.7371, Accuracy: 62.12%
+Val Loss: 9.3423, Val Accuracy: 62.35%
+Epoch [9/10], Step [1000/1000], Loss: 8.7183, Accuracy: 62.14%
+Val Loss: 9.3641, Val Accuracy: 62.88%
+Epoch [10/10], Step [1000/1000], Loss: 8.5496, Accuracy: 62.52%
+Val Loss: 9.4033, Val Accuracy: 63.05%
+Epoch [1/10], Step [125/125], Loss: 9.9829, Accuracy: 60.97%
+Val Loss: 9.5055, Val Accuracy: 62.86%
+Epoch [2/10], Step [125/125], Loss: 8.9384, Accuracy: 62.95%
+Val Loss: 9.4715, Val Accuracy: 62.95%
+Epoch [3/10], Step [125/125], Loss: 8.5099, Accuracy: 63.56%
+Val Loss: 9.5470, Val Accuracy: 63.08%
+Epoch [4/10], Step [125/125], Loss: 8.1978, Accuracy: 64.53%
+Val Loss: 9.4431, Val Accuracy: 63.39%
+Epoch [5/10], Step [125/125], Loss: 7.9737, Accuracy: 64.73%
+Val Loss: 9.4940, Val Accuracy: 63.29%
+Epoch [6/10], Step [125/125], Loss: 7.7826, Accuracy: 65.25%
+Val Loss: 9.6493, Val Accuracy: 62.91%
+Epoch [7/10], Step [125/125], Loss: 7.6331, Accuracy: 65.59%
+Val Loss: 9.6339, Val Accuracy: 63.34%
+Epoch [8/10], Step [125/125], Loss: 7.4795, Accuracy: 65.78%
+Val Loss: 9.6017, Val Accuracy: 63.09%
+Epoch [9/10], Step [125/125], Loss: 7.4010, Accuracy: 66.07%
+Val Loss: 9.8834, Val Accuracy: 62.40%
+Epoch [10/10], Step [125/125], Loss: 7.3194, Accuracy: 65.96%
+Val Loss: 9.7862, Val Accuracy: 62.77%
+Epoch [1/10], Step [63/63], Loss: 10.9030, Accuracy: 59.24%
+Val Loss: 10.9974, Val Accuracy: 58.85%
+Epoch [2/10], Step [63/63], Loss: 10.7418, Accuracy: 59.51%
+Val Loss: 10.9012, Val Accuracy: 59.10%
+Epoch [3/10], Step [63/63], Loss: 10.6181, Accuracy: 59.75%
+Val Loss: 10.7704, Val Accuracy: 59.20%
+Epoch [4/10], Step [63/63], Loss: 10.5001, Accuracy: 60.01%
+Val Loss: 10.7378, Val Accuracy: 59.40%
+Epoch [5/10], Step [63/63], Loss: 10.3769, Accuracy: 60.27%
+Val Loss: 10.5481, Val Accuracy: 59.70%
+Epoch [6/10], Step [63/63], Loss: 10.2903, Accuracy: 60.33%
+Val Loss: 10.5228, Val Accuracy: 59.79%
+Epoch [7/10], Step [63/63], Loss: 10.2191, Accuracy: 60.60%
+Val Loss: 10.4490, Val Accuracy: 59.86%
+Epoch [8/10], Step [63/63], Loss: 10.1334, Accuracy: 60.65%
+Val Loss: 10.3616, Val Accuracy: 60.09%
+Epoch [9/10], Step [63/63], Loss: 10.0554, Accuracy: 60.89%
+Val Loss: 10.2520, Val Accuracy: 60.34%
+Epoch [10/10], Step [63/63], Loss: 9.9846, Accuracy: 61.05%
+Val Loss: 10.3007, Val Accuracy: 60.41%
+Epoch [1/10], Step [1000/1000], Loss: 10.7754, Accuracy: 58.19%
+Val Loss: 10.2663, Val Accuracy: 60.54%
+Epoch [2/10], Step [1000/1000], Loss: 10.0565, Accuracy: 59.42%
+Val Loss: 9.7322, Val Accuracy: 61.85%
+Epoch [3/10], Step [1000/1000], Loss: 9.7254, Accuracy: 60.08%
+Val Loss: 9.6074, Val Accuracy: 61.94%
+Epoch [4/10], Step [1000/1000], Loss: 9.5729, Accuracy: 60.28%
+Val Loss: 9.4828, Val Accuracy: 62.71%
+Epoch [5/10], Step [1000/1000], Loss: 9.4287, Accuracy: 60.69%
+Val Loss: 9.4496, Val Accuracy: 62.71%
+Epoch [6/10], Step [1000/1000], Loss: 9.3464, Accuracy: 60.85%
+Val Loss: 9.4898, Val Accuracy: 62.89%
+Epoch [7/10], Step [1000/1000], Loss: 9.2539, Accuracy: 60.91%
+Val Loss: 9.3945, Val Accuracy: 62.69%
+Epoch [8/10], Step [1000/1000], Loss: 9.2511, Accuracy: 61.15%
+Val Loss: 9.3757, Val Accuracy: 62.90%
+Epoch [9/10], Step [1000/1000], Loss: 9.1933, Accuracy: 61.25%
+Val Loss: 9.3355, Val Accuracy: 62.94%
+Epoch [10/10], Step [1000/1000], Loss: 9.0880, Accuracy: 61.39%
+Val Loss: 9.3127, Val Accuracy: 63.16%
+Epoch [1/10], Step [63/63], Loss: 10.9260, Accuracy: 59.38%
+Val Loss: 10.6620, Val Accuracy: 59.24%
+Epoch [2/10], Step [63/63], Loss: 10.7560, Accuracy: 59.66%
+Val Loss: 10.5463, Val Accuracy: 59.48%
+Epoch [3/10], Step [63/63], Loss: 10.5992, Accuracy: 60.11%
+Val Loss: 10.4134, Val Accuracy: 59.62%
+Epoch [4/10], Step [63/63], Loss: 10.4935, Accuracy: 60.17%
+Val Loss: 10.3299, Val Accuracy: 59.83%
+Epoch [5/10], Step [63/63], Loss: 10.3953, Accuracy: 60.48%
+Val Loss: 10.2640, Val Accuracy: 60.26%
+Epoch [6/10], Step [63/63], Loss: 10.2539, Accuracy: 60.47%
+Val Loss: 10.1343, Val Accuracy: 60.45%
+Epoch [7/10], Step [63/63], Loss: 10.1837, Accuracy: 60.79%
+Val Loss: 10.0732, Val Accuracy: 60.38%
+Epoch [8/10], Step [63/63], Loss: 10.0747, Accuracy: 60.94%
+Val Loss: 10.0376, Val Accuracy: 60.61%
+Epoch [9/10], Step [63/63], Loss: 10.0288, Accuracy: 60.97%
+Val Loss: 9.9755, Val Accuracy: 60.99%
+Epoch [10/10], Step [63/63], Loss: 9.9493, Accuracy: 61.29%
+Val Loss: 9.8779, Val Accuracy: 60.96%
+Epoch [1/10], Step [1000/1000], Loss: 10.3621, Accuracy: 59.02%
+Val Loss: 9.4134, Val Accuracy: 62.89%
+Epoch [2/10], Step [1000/1000], Loss: 9.5898, Accuracy: 60.35%
+Val Loss: 9.1702, Val Accuracy: 63.67%
+Epoch [3/10], Step [1000/1000], Loss: 9.4275, Accuracy: 60.77%
+Val Loss: 9.1963, Val Accuracy: 64.03%
+Epoch [4/10], Step [1000/1000], Loss: 9.2300, Accuracy: 61.20%
+Val Loss: 9.2010, Val Accuracy: 63.65%
+Epoch [5/10], Step [1000/1000], Loss: 9.1143, Accuracy: 61.31%
+Val Loss: 9.2362, Val Accuracy: 63.67%
+Epoch [6/10], Step [1000/1000], Loss: 9.0563, Accuracy: 61.58%
+Val Loss: 9.1521, Val Accuracy: 64.00%
+Epoch [7/10], Step [1000/1000], Loss: 8.9431, Accuracy: 61.75%
+Val Loss: 9.2362, Val Accuracy: 63.95%
+Epoch [8/10], Step [1000/1000], Loss: 8.8453, Accuracy: 61.78%
+Val Loss: 9.1738, Val Accuracy: 63.99%
+Epoch [9/10], Step [1000/1000], Loss: 8.7940, Accuracy: 61.79%
+Val Loss: 9.1798, Val Accuracy: 63.79%
+Epoch [10/10], Step [1000/1000], Loss: 8.7694, Accuracy: 61.75%
+Val Loss: 9.2552, Val Accuracy: 63.91%
+Epoch [1/10], Step [1000/1000], Loss: 10.3637, Accuracy: 58.98%
+Val Loss: 9.4534, Val Accuracy: 62.36%
+Epoch [2/10], Step [1000/1000], Loss: 9.5683, Accuracy: 60.68%
+Val Loss: 9.3685, Val Accuracy: 63.01%
+Epoch [3/10], Step [1000/1000], Loss: 9.2853, Accuracy: 60.95%
+Val Loss: 9.3075, Val Accuracy: 62.88%
+Epoch [4/10], Step [1000/1000], Loss: 9.0932, Accuracy: 61.40%
+Val Loss: 9.2445, Val Accuracy: 62.91%
+Epoch [5/10], Step [1000/1000], Loss: 8.8963, Accuracy: 61.84%
+Val Loss: 9.2114, Val Accuracy: 63.00%
+Epoch [6/10], Step [1000/1000], Loss: 8.7510, Accuracy: 61.87%
+Val Loss: 9.2469, Val Accuracy: 63.34%
+Epoch [7/10], Step [1000/1000], Loss: 8.6560, Accuracy: 62.36%
+Val Loss: 9.3168, Val Accuracy: 62.80%
+Epoch [8/10], Step [1000/1000], Loss: 8.4879, Accuracy: 62.45%
+Val Loss: 9.2325, Val Accuracy: 63.51%
+Epoch [9/10], Step [1000/1000], Loss: 8.4656, Accuracy: 62.58%
+Val Loss: 9.3489, Val Accuracy: 63.27%
+Epoch [10/10], Step [1000/1000], Loss: 8.3328, Accuracy: 62.87%
+Val Loss: 9.3823, Val Accuracy: 62.95%
+Epoch [1/10], Step [157/157], Loss: 9.8756, Accuracy: 61.35%
+Val Loss: 9.3311, Val Accuracy: 62.29%
+Epoch [2/10], Step [157/157], Loss: 8.9860, Accuracy: 63.21%
+Val Loss: 9.3537, Val Accuracy: 62.33%
+Epoch [3/10], Step [157/157], Loss: 8.5934, Accuracy: 63.96%
+Val Loss: 9.2142, Val Accuracy: 62.54%
+Epoch [4/10], Step [157/157], Loss: 8.3701, Accuracy: 64.37%
+Val Loss: 9.3903, Val Accuracy: 62.76%
+Epoch [5/10], Step [157/157], Loss: 8.1402, Accuracy: 64.76%
+Val Loss: 9.2028, Val Accuracy: 62.72%
+Epoch [6/10], Step [157/157], Loss: 7.9979, Accuracy: 64.97%
+Val Loss: 9.1570, Val Accuracy: 62.78%
+Epoch [7/10], Step [157/157], Loss: 7.8659, Accuracy: 65.19%
+Val Loss: 9.2587, Val Accuracy: 62.90%
+Epoch [8/10], Step [157/157], Loss: 7.7087, Accuracy: 65.45%
+Val Loss: 9.5707, Val Accuracy: 62.74%
+Epoch [9/10], Step [157/157], Loss: 7.6519, Accuracy: 65.47%
+Val Loss: 9.5493, Val Accuracy: 62.44%
+Epoch [10/10], Step [157/157], Loss: 7.5556, Accuracy: 65.73%
+Val Loss: 9.4410, Val Accuracy: 62.64%
+Accuracy of the network on 10000 test images: 62.64%
+Best trial (quant=int1_r=8):
+ Value:  63.3875
+ Params: 
+ lora_alpha: 24
+ optimizer: Adam
+ lr: 0.00832106581028296
+ batch_size: 256
+Epoch [1/10], Step [250/250], Loss: 10.3266, Accuracy: 58.20%
+Val Loss: 9.5528, Val Accuracy: 60.35%
+Epoch [2/10], Step [250/250], Loss: 9.6130, Accuracy: 59.58%
+Val Loss: 9.2220, Val Accuracy: 60.71%
+Epoch [3/10], Step [250/250], Loss: 9.3968, Accuracy: 59.96%
+Val Loss: 9.1144, Val Accuracy: 60.83%
+Epoch [4/10], Step [250/250], Loss: 9.2904, Accuracy: 59.97%
+Val Loss: 9.0838, Val Accuracy: 61.01%
+Epoch [5/10], Step [250/250], Loss: 9.2239, Accuracy: 60.11%
+Val Loss: 9.0786, Val Accuracy: 61.08%
+Epoch [6/10], Step [250/250], Loss: 9.2162, Accuracy: 60.21%
+Val Loss: 9.0127, Val Accuracy: 61.02%
+Epoch [7/10], Step [250/250], Loss: 9.1417, Accuracy: 60.22%
+Val Loss: 8.9756, Val Accuracy: 61.25%
+Epoch [8/10], Step [250/250], Loss: 9.1285, Accuracy: 60.19%
+Val Loss: 9.0489, Val Accuracy: 60.86%
+Epoch [9/10], Step [250/250], Loss: 9.0650, Accuracy: 60.27%
+Val Loss: 8.9465, Val Accuracy: 61.25%
+Epoch [10/10], Step [250/250], Loss: 9.0550, Accuracy: 60.29%
+Val Loss: 8.9886, Val Accuracy: 61.23%
+Epoch [1/10], Step [63/63], Loss: 9.9572, Accuracy: 59.12%
+Val Loss: 9.2911, Val Accuracy: 61.24%
+Epoch [2/10], Step [63/63], Loss: 8.9117, Accuracy: 61.20%
+Val Loss: 9.0463, Val Accuracy: 61.80%
+Epoch [3/10], Step [63/63], Loss: 8.5529, Accuracy: 62.12%
+Val Loss: 8.8661, Val Accuracy: 61.99%
+Epoch [4/10], Step [63/63], Loss: 8.2914, Accuracy: 62.59%
+Val Loss: 8.8501, Val Accuracy: 62.19%
+Epoch [5/10], Step [63/63], Loss: 8.1158, Accuracy: 63.07%
+Val Loss: 8.7314, Val Accuracy: 62.31%
+Epoch [6/10], Step [63/63], Loss: 7.9728, Accuracy: 63.23%
+Val Loss: 8.7039, Val Accuracy: 62.29%
+Epoch [7/10], Step [63/63], Loss: 7.7910, Accuracy: 63.62%
+Val Loss: 8.6958, Val Accuracy: 62.27%
+Epoch [8/10], Step [63/63], Loss: 7.6930, Accuracy: 64.04%
+Val Loss: 8.7380, Val Accuracy: 62.38%
+Epoch [9/10], Step [63/63], Loss: 7.5643, Accuracy: 64.13%
+Val Loss: 8.7028, Val Accuracy: 62.38%
+Epoch [10/10], Step [63/63], Loss: 7.4765, Accuracy: 64.59%
+Val Loss: 8.7129, Val Accuracy: 62.46%
+Epoch [1/10], Step [1000/1000], Loss: 9.8017, Accuracy: 58.33%
+Val Loss: 9.2759, Val Accuracy: 60.79%
+Epoch [2/10], Step [1000/1000], Loss: 8.9372, Accuracy: 60.37%
+Val Loss: 9.1802, Val Accuracy: 61.20%
+Epoch [3/10], Step [1000/1000], Loss: 8.5538, Accuracy: 61.41%
+Val Loss: 9.0755, Val Accuracy: 61.75%
+Epoch [4/10], Step [1000/1000], Loss: 8.3012, Accuracy: 61.86%
+Val Loss: 9.1564, Val Accuracy: 61.69%
+Epoch [5/10], Step [1000/1000], Loss: 8.0532, Accuracy: 62.30%
+Val Loss: 9.0687, Val Accuracy: 62.02%
+Epoch [6/10], Step [1000/1000], Loss: 7.8353, Accuracy: 62.77%
+Val Loss: 9.1628, Val Accuracy: 62.39%
+Epoch [7/10], Step [1000/1000], Loss: 7.6968, Accuracy: 63.26%
+Val Loss: 9.0824, Val Accuracy: 62.11%
+Epoch [8/10], Step [1000/1000], Loss: 7.5224, Accuracy: 63.50%
+Val Loss: 9.0843, Val Accuracy: 62.17%
+Epoch [9/10], Step [1000/1000], Loss: 7.3847, Accuracy: 63.70%
+Val Loss: 9.1514, Val Accuracy: 62.17%
+Epoch [10/10], Step [1000/1000], Loss: 7.3034, Accuracy: 63.83%
+Val Loss: 9.0939, Val Accuracy: 62.06%
+Epoch [1/10], Step [250/250], Loss: 10.0818, Accuracy: 58.65%
+Val Loss: 9.8250, Val Accuracy: 59.24%
+Epoch [2/10], Step [250/250], Loss: 9.4660, Accuracy: 59.87%
+Val Loss: 9.6273, Val Accuracy: 59.41%
+Epoch [3/10], Step [250/250], Loss: 9.2772, Accuracy: 60.00%
+Val Loss: 9.6319, Val Accuracy: 59.40%
+Epoch [4/10], Step [250/250], Loss: 9.1848, Accuracy: 60.25%
+Val Loss: 9.5659, Val Accuracy: 59.52%
+Epoch [5/10], Step [250/250], Loss: 9.1574, Accuracy: 60.26%
+Val Loss: 9.5088, Val Accuracy: 59.54%
+Epoch [6/10], Step [250/250], Loss: 9.0906, Accuracy: 60.30%
+Val Loss: 9.5133, Val Accuracy: 59.29%
+Epoch [7/10], Step [250/250], Loss: 9.0507, Accuracy: 60.52%
+Val Loss: 9.4231, Val Accuracy: 59.70%
+Epoch [8/10], Step [250/250], Loss: 8.9875, Accuracy: 60.34%
+Val Loss: 9.5499, Val Accuracy: 59.83%
+Epoch [9/10], Step [250/250], Loss: 8.9718, Accuracy: 60.73%
+Val Loss: 9.4929, Val Accuracy: 59.96%
+Epoch [10/10], Step [250/250], Loss: 8.9317, Accuracy: 60.65%
+Val Loss: 9.4410, Val Accuracy: 60.02%
+Epoch [1/10], Step [125/125], Loss: 10.6220, Accuracy: 58.12%
+Val Loss: 10.3937, Val Accuracy: 58.09%
+Epoch [2/10], Step [125/125], Loss: 10.1311, Accuracy: 58.98%
+Val Loss: 10.1810, Val Accuracy: 58.58%
+Epoch [3/10], Step [125/125], Loss: 9.8301, Accuracy: 59.48%
+Val Loss: 9.8704, Val Accuracy: 59.16%
+Epoch [4/10], Step [125/125], Loss: 9.6367, Accuracy: 59.77%
+Val Loss: 9.8077, Val Accuracy: 59.31%
+Epoch [5/10], Step [125/125], Loss: 9.4736, Accuracy: 60.02%
+Val Loss: 9.6432, Val Accuracy: 59.40%
+Epoch [6/10], Step [125/125], Loss: 9.3982, Accuracy: 60.02%
+Val Loss: 9.7449, Val Accuracy: 59.42%
+Epoch [7/10], Step [125/125], Loss: 9.2990, Accuracy: 60.38%
+Val Loss: 9.5891, Val Accuracy: 59.33%
+Epoch [8/10], Step [125/125], Loss: 9.2336, Accuracy: 60.49%
+Val Loss: 9.6238, Val Accuracy: 59.49%
+Epoch [9/10], Step [125/125], Loss: 9.2040, Accuracy: 60.53%
+Val Loss: 9.5849, Val Accuracy: 59.70%
+Epoch [10/10], Step [125/125], Loss: 9.1753, Accuracy: 60.58%
+Val Loss: 9.5396, Val Accuracy: 59.70%
+Epoch [1/10], Step [125/125], Loss: 9.8990, Accuracy: 59.02%
+Val Loss: 9.6477, Val Accuracy: 60.23%
+Epoch [2/10], Step [125/125], Loss: 9.2135, Accuracy: 60.28%
+Val Loss: 9.4551, Val Accuracy: 60.29%
+Epoch [3/10], Step [125/125], Loss: 9.1320, Accuracy: 60.40%
+Val Loss: 9.4517, Val Accuracy: 60.38%
+Epoch [4/10], Step [125/125], Loss: 9.0440, Accuracy: 60.55%
+Val Loss: 9.3963, Val Accuracy: 60.35%
+Epoch [5/10], Step [125/125], Loss: 8.9759, Accuracy: 60.59%
+Val Loss: 9.4279, Val Accuracy: 60.64%
+Epoch [6/10], Step [125/125], Loss: 8.9077, Accuracy: 60.77%
+Val Loss: 9.3663, Val Accuracy: 60.54%
+Epoch [7/10], Step [125/125], Loss: 8.8667, Accuracy: 60.89%
+Val Loss: 9.3199, Val Accuracy: 60.76%
+Epoch [8/10], Step [125/125], Loss: 8.8185, Accuracy: 60.98%
+Val Loss: 9.2949, Val Accuracy: 60.92%
+Epoch [9/10], Step [125/125], Loss: 8.7501, Accuracy: 61.19%
+Val Loss: 9.2553, Val Accuracy: 60.89%
+Epoch [10/10], Step [125/125], Loss: 8.6794, Accuracy: 61.21%
+Val Loss: 9.2540, Val Accuracy: 60.71%
+Epoch [1/10], Step [63/63], Loss: 10.1854, Accuracy: 58.88%
+Val Loss: 9.3058, Val Accuracy: 60.61%
+Epoch [2/10], Step [63/63], Loss: 9.2551, Accuracy: 60.68%
+Val Loss: 8.9278, Val Accuracy: 61.59%
+Epoch [3/10], Step [63/63], Loss: 8.8374, Accuracy: 61.55%
+Val Loss: 8.7895, Val Accuracy: 61.98%
+Epoch [4/10], Step [63/63], Loss: 8.5878, Accuracy: 62.16%
+Val Loss: 8.7043, Val Accuracy: 62.31%
+Epoch [5/10], Step [63/63], Loss: 8.4521, Accuracy: 62.43%
+Val Loss: 8.5861, Val Accuracy: 62.45%
+Epoch [6/10], Step [63/63], Loss: 8.2895, Accuracy: 62.80%
+Val Loss: 8.5777, Val Accuracy: 62.52%
+Epoch [7/10], Step [63/63], Loss: 8.1994, Accuracy: 63.03%
+Val Loss: 8.5786, Val Accuracy: 62.60%
+Epoch [8/10], Step [63/63], Loss: 8.0469, Accuracy: 63.21%
+Val Loss: 8.5327, Val Accuracy: 62.67%
+Epoch [9/10], Step [63/63], Loss: 7.9730, Accuracy: 63.51%
+Val Loss: 8.4991, Val Accuracy: 62.70%
+Epoch [10/10], Step [63/63], Loss: 7.8795, Accuracy: 63.76%
+Val Loss: 8.5383, Val Accuracy: 62.96%
+Epoch [1/10], Step [63/63], Loss: 9.5990, Accuracy: 60.12%
+Val Loss: 8.8241, Val Accuracy: 62.54%
+Epoch [2/10], Step [63/63], Loss: 8.2505, Accuracy: 63.19%
+Val Loss: 8.7035, Val Accuracy: 62.80%
+Epoch [3/10], Step [63/63], Loss: 7.6907, Accuracy: 64.58%
+Val Loss: 8.6701, Val Accuracy: 63.23%
+Epoch [4/10], Step [63/63], Loss: 7.2546, Accuracy: 65.22%
+Val Loss: 8.6835, Val Accuracy: 63.26%
+Epoch [5/10], Step [63/63], Loss: 6.9243, Accuracy: 65.90%
+Val Loss: 8.8173, Val Accuracy: 62.96%
+Epoch [6/10], Step [63/63], Loss: 6.6596, Accuracy: 66.41%
+Val Loss: 8.8965, Val Accuracy: 62.69%
+Epoch [7/10], Step [63/63], Loss: 6.4275, Accuracy: 66.93%
+Val Loss: 8.9437, Val Accuracy: 62.80%
+Epoch [8/10], Step [63/63], Loss: 6.2586, Accuracy: 67.42%
+Val Loss: 9.0409, Val Accuracy: 63.04%
+Epoch [9/10], Step [63/63], Loss: 6.0524, Accuracy: 67.60%
+Val Loss: 9.1374, Val Accuracy: 62.39%
+Epoch [10/10], Step [63/63], Loss: 5.8925, Accuracy: 67.71%
+Val Loss: 9.1943, Val Accuracy: 62.75%
+Epoch [1/10], Step [250/250], Loss: 10.2253, Accuracy: 58.42%
+Val Loss: 9.6490, Val Accuracy: 59.34%
+Epoch [2/10], Step [250/250], Loss: 9.5441, Accuracy: 59.64%
+Val Loss: 9.4248, Val Accuracy: 59.62%
+Epoch [3/10], Step [250/250], Loss: 9.3465, Accuracy: 60.07%
+Val Loss: 9.3179, Val Accuracy: 59.76%
+Epoch [4/10], Step [250/250], Loss: 9.2854, Accuracy: 60.26%
+Val Loss: 9.2743, Val Accuracy: 59.75%
+Epoch [5/10], Step [250/250], Loss: 9.2019, Accuracy: 60.14%
+Val Loss: 9.3111, Val Accuracy: 59.65%
+Epoch [6/10], Step [250/250], Loss: 9.1573, Accuracy: 60.32%
+Val Loss: 9.2605, Val Accuracy: 59.80%
+Epoch [7/10], Step [250/250], Loss: 9.0870, Accuracy: 60.41%
+Val Loss: 9.2233, Val Accuracy: 59.48%
+Epoch [8/10], Step [250/250], Loss: 9.0520, Accuracy: 60.70%
+Val Loss: 9.2766, Val Accuracy: 59.85%
+Epoch [9/10], Step [250/250], Loss: 9.0311, Accuracy: 60.65%
+Val Loss: 9.1706, Val Accuracy: 59.95%
+Epoch [10/10], Step [250/250], Loss: 8.9702, Accuracy: 60.69%
+Val Loss: 9.1604, Val Accuracy: 59.91%
+Epoch [1/10], Step [500/500], Loss: 10.6431, Accuracy: 57.42%
+Val Loss: 10.5059, Val Accuracy: 58.19%
+Epoch [2/10], Step [500/500], Loss: 10.1093, Accuracy: 58.24%
+Val Loss: 10.1659, Val Accuracy: 59.10%
+Epoch [3/10], Step [500/500], Loss: 9.7333, Accuracy: 58.85%
+Val Loss: 10.0198, Val Accuracy: 59.39%
+Epoch [4/10], Step [500/500], Loss: 9.5723, Accuracy: 59.08%
+Val Loss: 9.7993, Val Accuracy: 59.75%
+Epoch [5/10], Step [500/500], Loss: 9.4398, Accuracy: 59.54%
+Val Loss: 9.7812, Val Accuracy: 59.52%
+Epoch [6/10], Step [500/500], Loss: 9.3626, Accuracy: 59.57%
+Val Loss: 9.7126, Val Accuracy: 59.71%
+Epoch [7/10], Step [500/500], Loss: 9.3051, Accuracy: 59.53%
+Val Loss: 9.6904, Val Accuracy: 59.49%
+Epoch [8/10], Step [500/500], Loss: 9.2749, Accuracy: 59.59%
+Val Loss: 9.6299, Val Accuracy: 59.64%
+Epoch [9/10], Step [500/500], Loss: 9.2670, Accuracy: 59.87%
+Val Loss: 9.6634, Val Accuracy: 59.84%
+Epoch [10/10], Step [500/500], Loss: 9.2196, Accuracy: 59.71%
+Val Loss: 9.6467, Val Accuracy: 59.85%
+Epoch [1/10], Step [79/79], Loss: 9.4695, Accuracy: 60.30%
+Val Loss: 9.1488, Val Accuracy: 62.01%
+Epoch [2/10], Step [79/79], Loss: 8.1830, Accuracy: 63.48%
+Val Loss: 8.9900, Val Accuracy: 62.54%
+Epoch [3/10], Step [79/79], Loss: 7.7687, Accuracy: 64.36%
+Val Loss: 8.9967, Val Accuracy: 62.89%
+Epoch [4/10], Step [79/79], Loss: 7.3264, Accuracy: 65.16%
+Val Loss: 8.9441, Val Accuracy: 62.85%
+Epoch [5/10], Step [79/79], Loss: 7.0310, Accuracy: 65.78%
+Val Loss: 8.9581, Val Accuracy: 62.82%
+Epoch [6/10], Step [79/79], Loss: 6.7982, Accuracy: 66.10%
+Val Loss: 8.9941, Val Accuracy: 62.43%
+Epoch [7/10], Step [79/79], Loss: 6.5862, Accuracy: 66.58%
+Val Loss: 9.0602, Val Accuracy: 62.52%
+Epoch [8/10], Step [79/79], Loss: 6.4417, Accuracy: 66.91%
+Val Loss: 9.1470, Val Accuracy: 62.53%
+Epoch [9/10], Step [79/79], Loss: 6.2887, Accuracy: 67.25%
+Val Loss: 9.2341, Val Accuracy: 62.41%
+Epoch [10/10], Step [79/79], Loss: 6.1743, Accuracy: 67.47%
+Val Loss: 9.3402, Val Accuracy: 62.55%
+Accuracy of the network on 10000 test images: 62.55%
+Best trial (quant=int1_r=16):
+ Value:  63.2625
+ Params: 
+ lora_alpha: 32
+ optimizer: Adam
+ lr: 0.0064060063919650235
+ batch_size: 512
+Epoch [1/10], Step [125/125], Loss: 10.5372, Accuracy: 54.46%
+Val Loss: 10.2554, Val Accuracy: 55.91%
+Epoch [2/10], Step [125/125], Loss: 10.2425, Accuracy: 55.11%
+Val Loss: 10.0628, Val Accuracy: 56.23%
+Epoch [3/10], Step [125/125], Loss: 9.9790, Accuracy: 55.73%
+Val Loss: 9.9184, Val Accuracy: 56.70%
+Epoch [4/10], Step [125/125], Loss: 9.7794, Accuracy: 56.15%
+Val Loss: 9.7182, Val Accuracy: 56.83%
+Epoch [5/10], Step [125/125], Loss: 9.6244, Accuracy: 56.42%
+Val Loss: 9.6498, Val Accuracy: 56.88%
+Epoch [6/10], Step [125/125], Loss: 9.5117, Accuracy: 56.73%
+Val Loss: 9.5212, Val Accuracy: 57.01%
+Epoch [7/10], Step [125/125], Loss: 9.4198, Accuracy: 56.85%
+Val Loss: 9.5549, Val Accuracy: 57.14%
+Epoch [8/10], Step [125/125], Loss: 9.3178, Accuracy: 57.01%
+Val Loss: 9.4685, Val Accuracy: 57.17%
+Epoch [9/10], Step [125/125], Loss: 9.2491, Accuracy: 57.16%
+Val Loss: 9.3361, Val Accuracy: 57.31%
+Epoch [10/10], Step [125/125], Loss: 9.1910, Accuracy: 57.36%
+Val Loss: 9.3650, Val Accuracy: 57.51%
+Epoch [1/10], Step [1000/1000], Loss: 10.4353, Accuracy: 53.24%
+Val Loss: 10.2157, Val Accuracy: 56.27%
+Epoch [2/10], Step [1000/1000], Loss: 9.6352, Accuracy: 55.25%
+Val Loss: 9.6370, Val Accuracy: 57.02%
+Epoch [3/10], Step [1000/1000], Loss: 9.1146, Accuracy: 56.46%
+Val Loss: 9.3577, Val Accuracy: 58.06%
+Epoch [4/10], Step [1000/1000], Loss: 8.7371, Accuracy: 57.72%
+Val Loss: 9.2381, Val Accuracy: 58.83%
+Epoch [5/10], Step [1000/1000], Loss: 8.4403, Accuracy: 58.47%
+Val Loss: 9.1000, Val Accuracy: 59.02%
+Epoch [6/10], Step [1000/1000], Loss: 8.1086, Accuracy: 59.26%
+Val Loss: 8.9663, Val Accuracy: 59.36%
+Epoch [7/10], Step [1000/1000], Loss: 7.9398, Accuracy: 59.80%
+Val Loss: 9.0060, Val Accuracy: 59.67%
+Epoch [8/10], Step [1000/1000], Loss: 7.7064, Accuracy: 60.59%
+Val Loss: 8.7570, Val Accuracy: 59.86%
+Epoch [9/10], Step [1000/1000], Loss: 7.5501, Accuracy: 60.57%
+Val Loss: 8.7951, Val Accuracy: 59.67%
+Epoch [10/10], Step [1000/1000], Loss: 7.3570, Accuracy: 61.48%
+Val Loss: 8.6951, Val Accuracy: 60.21%
+Epoch [1/10], Step [63/63], Loss: 9.6320, Accuracy: 56.62%
+Val Loss: 8.7524, Val Accuracy: 59.01%
+Epoch [2/10], Step [63/63], Loss: 8.3770, Accuracy: 59.44%
+Val Loss: 8.3841, Val Accuracy: 59.95%
+Epoch [3/10], Step [63/63], Loss: 7.8959, Accuracy: 60.95%
+Val Loss: 8.2584, Val Accuracy: 60.51%
+Epoch [4/10], Step [63/63], Loss: 7.5364, Accuracy: 62.00%
+Val Loss: 8.1241, Val Accuracy: 60.83%
+Epoch [5/10], Step [63/63], Loss: 7.2593, Accuracy: 62.56%
+Val Loss: 8.1117, Val Accuracy: 61.34%
+Epoch [6/10], Step [63/63], Loss: 7.0226, Accuracy: 63.32%
+Val Loss: 8.0616, Val Accuracy: 61.39%
+Epoch [7/10], Step [63/63], Loss: 6.7920, Accuracy: 63.82%
+Val Loss: 8.0338, Val Accuracy: 61.73%
+Epoch [8/10], Step [63/63], Loss: 6.5976, Accuracy: 64.48%
+Val Loss: 8.0783, Val Accuracy: 61.67%
+Epoch [9/10], Step [63/63], Loss: 6.3843, Accuracy: 64.87%
+Val Loss: 7.9829, Val Accuracy: 61.60%
+Epoch [10/10], Step [63/63], Loss: 6.2402, Accuracy: 65.07%
+Val Loss: 8.0189, Val Accuracy: 61.70%
+Epoch [1/10], Step [250/250], Loss: 9.6183, Accuracy: 57.56%
+Val Loss: 8.6556, Val Accuracy: 61.95%
+Epoch [2/10], Step [250/250], Loss: 7.5763, Accuracy: 63.17%
+Val Loss: 8.6387, Val Accuracy: 62.44%
+Epoch [3/10], Step [250/250], Loss: 6.6987, Accuracy: 65.09%
+Val Loss: 8.6651, Val Accuracy: 62.40%
+Epoch [4/10], Step [250/250], Loss: 6.1017, Accuracy: 66.70%
+Val Loss: 8.7922, Val Accuracy: 62.42%
+Epoch [5/10], Step [250/250], Loss: 5.6909, Accuracy: 67.76%
+Val Loss: 9.1093, Val Accuracy: 61.79%
+Epoch [6/10], Step [250/250], Loss: 5.3371, Accuracy: 68.76%
+Val Loss: 9.2776, Val Accuracy: 61.74%
+Epoch [7/10], Step [250/250], Loss: 5.0607, Accuracy: 69.18%
+Val Loss: 9.4934, Val Accuracy: 61.16%
+Epoch [8/10], Step [250/250], Loss: 4.8404, Accuracy: 69.78%
+Val Loss: 9.4434, Val Accuracy: 61.44%
+Epoch [9/10], Step [250/250], Loss: 4.5911, Accuracy: 70.49%
+Val Loss: 9.8373, Val Accuracy: 60.58%
+Epoch [10/10], Step [250/250], Loss: 4.4894, Accuracy: 70.82%
+Val Loss: 9.8266, Val Accuracy: 60.73%
+Epoch [1/10], Step [1000/1000], Loss: 9.9762, Accuracy: 54.34%
+Val Loss: 9.6768, Val Accuracy: 56.60%
+Epoch [2/10], Step [1000/1000], Loss: 9.5222, Accuracy: 55.51%
+Val Loss: 9.4349, Val Accuracy: 57.56%
+Epoch [3/10], Step [1000/1000], Loss: 9.2358, Accuracy: 56.25%
+Val Loss: 9.2543, Val Accuracy: 58.69%
+Epoch [4/10], Step [1000/1000], Loss: 9.0341, Accuracy: 56.88%
+Val Loss: 9.0377, Val Accuracy: 58.96%
+Epoch [5/10], Step [1000/1000], Loss: 8.8397, Accuracy: 56.91%
+Val Loss: 8.9461, Val Accuracy: 59.20%
+Epoch [6/10], Step [1000/1000], Loss: 8.6118, Accuracy: 57.73%
+Val Loss: 9.0417, Val Accuracy: 58.81%
+Epoch [7/10], Step [1000/1000], Loss: 8.5484, Accuracy: 58.26%
+Val Loss: 8.8683, Val Accuracy: 59.51%
+Epoch [8/10], Step [1000/1000], Loss: 8.4074, Accuracy: 58.39%
+Val Loss: 8.8458, Val Accuracy: 59.14%
+Epoch [9/10], Step [1000/1000], Loss: 8.1837, Accuracy: 59.00%
+Val Loss: 8.6662, Val Accuracy: 59.64%
+Epoch [10/10], Step [1000/1000], Loss: 8.1676, Accuracy: 59.17%
+Val Loss: 8.7993, Val Accuracy: 59.81%
+Epoch [1/10], Step [500/500], Loss: 9.8093, Accuracy: 55.32%
+Val Loss: 9.4353, Val Accuracy: 58.06%
+Epoch [2/10], Step [500/500], Loss: 9.3218, Accuracy: 56.22%
+Val Loss: 9.2751, Val Accuracy: 58.08%
+Epoch [3/10], Step [500/500], Loss: 9.0951, Accuracy: 56.70%
+Val Loss: 9.2809, Val Accuracy: 58.76%
+Epoch [4/10], Step [500/500], Loss: 8.8924, Accuracy: 57.34%
+Val Loss: 9.0732, Val Accuracy: 58.94%
+Epoch [5/10], Step [500/500], Loss: 8.7320, Accuracy: 57.80%
+Val Loss: 8.9227, Val Accuracy: 59.19%
+Epoch [6/10], Step [500/500], Loss: 8.5200, Accuracy: 58.28%
+Val Loss: 8.8951, Val Accuracy: 59.51%
+Epoch [7/10], Step [500/500], Loss: 8.3896, Accuracy: 58.62%
+Val Loss: 8.8915, Val Accuracy: 59.48%
+Epoch [8/10], Step [500/500], Loss: 8.2723, Accuracy: 59.16%
+Val Loss: 8.7624, Val Accuracy: 59.70%
+Epoch [9/10], Step [500/500], Loss: 8.1758, Accuracy: 59.27%
+Val Loss: 8.8048, Val Accuracy: 59.49%
+Epoch [10/10], Step [500/500], Loss: 8.0681, Accuracy: 59.78%
+Val Loss: 8.7540, Val Accuracy: 60.12%
+Epoch [1/10], Step [1000/1000], Loss: 10.4607, Accuracy: 53.40%
+Val Loss: 10.0708, Val Accuracy: 55.80%
+Epoch [2/10], Step [1000/1000], Loss: 9.6798, Accuracy: 55.19%
+Val Loss: 9.6604, Val Accuracy: 57.31%
+Epoch [3/10], Step [1000/1000], Loss: 9.1290, Accuracy: 56.42%
+Val Loss: 9.2698, Val Accuracy: 58.60%
+Epoch [4/10], Step [1000/1000], Loss: 8.8103, Accuracy: 57.59%
+Val Loss: 8.9923, Val Accuracy: 59.08%
+Epoch [5/10], Step [1000/1000], Loss: 8.4668, Accuracy: 58.13%
+Val Loss: 8.9518, Val Accuracy: 59.27%
+Epoch [6/10], Step [1000/1000], Loss: 8.2109, Accuracy: 59.30%
+Val Loss: 8.7603, Val Accuracy: 59.80%
+Epoch [7/10], Step [1000/1000], Loss: 7.9925, Accuracy: 59.51%
+Val Loss: 8.7932, Val Accuracy: 60.09%
+Epoch [8/10], Step [1000/1000], Loss: 7.8072, Accuracy: 59.91%
+Val Loss: 8.7099, Val Accuracy: 60.85%
+Epoch [9/10], Step [1000/1000], Loss: 7.5974, Accuracy: 60.89%
+Val Loss: 8.6379, Val Accuracy: 60.65%
+Epoch [10/10], Step [1000/1000], Loss: 7.4466, Accuracy: 61.12%
+Val Loss: 8.5474, Val Accuracy: 60.98%
+Epoch [1/10], Step [500/500], Loss: 9.8563, Accuracy: 55.26%
+Val Loss: 9.4868, Val Accuracy: 57.38%
+Epoch [2/10], Step [500/500], Loss: 9.2878, Accuracy: 56.27%
+Val Loss: 9.3455, Val Accuracy: 57.69%
+Epoch [3/10], Step [500/500], Loss: 9.1339, Accuracy: 56.59%
+Val Loss: 9.2683, Val Accuracy: 58.16%
+Epoch [4/10], Step [500/500], Loss: 9.0571, Accuracy: 56.90%
+Val Loss: 9.1233, Val Accuracy: 58.08%
+Epoch [5/10], Step [500/500], Loss: 8.9878, Accuracy: 57.04%
+Val Loss: 9.1208, Val Accuracy: 58.10%
+Epoch [6/10], Step [500/500], Loss: 8.9022, Accuracy: 57.14%
+Val Loss: 9.0314, Val Accuracy: 58.52%
+Epoch [7/10], Step [500/500], Loss: 8.8088, Accuracy: 57.45%
+Val Loss: 9.0738, Val Accuracy: 58.66%
+Epoch [8/10], Step [500/500], Loss: 8.7541, Accuracy: 57.83%
+Val Loss: 8.9927, Val Accuracy: 58.73%
+Epoch [9/10], Step [500/500], Loss: 8.6965, Accuracy: 57.73%
+Val Loss: 9.0185, Val Accuracy: 58.85%
+Epoch [10/10], Step [500/500], Loss: 8.6046, Accuracy: 58.08%
+Val Loss: 8.9500, Val Accuracy: 58.79%
+Epoch [1/10], Step [250/250], Loss: 9.1604, Accuracy: 57.41%
+Val Loss: 8.4183, Val Accuracy: 59.95%
+Epoch [2/10], Step [250/250], Loss: 7.7735, Accuracy: 61.31%
+Val Loss: 8.1062, Val Accuracy: 61.73%
+Epoch [3/10], Step [250/250], Loss: 7.0566, Accuracy: 63.11%
+Val Loss: 8.0469, Val Accuracy: 62.29%
+Epoch [4/10], Step [250/250], Loss: 6.5570, Accuracy: 64.16%
+Val Loss: 8.1307, Val Accuracy: 61.49%
+Epoch [5/10], Step [250/250], Loss: 6.1295, Accuracy: 65.48%
+Val Loss: 8.1097, Val Accuracy: 62.06%
+Epoch [6/10], Step [250/250], Loss: 5.7911, Accuracy: 66.19%
+Val Loss: 8.1420, Val Accuracy: 62.00%
+Epoch [7/10], Step [250/250], Loss: 5.5221, Accuracy: 66.55%
+Val Loss: 8.2657, Val Accuracy: 61.58%
+Epoch [8/10], Step [250/250], Loss: 5.2829, Accuracy: 67.49%
+Val Loss: 8.3684, Val Accuracy: 61.91%
+Epoch [9/10], Step [250/250], Loss: 5.0479, Accuracy: 67.90%
+Val Loss: 8.4642, Val Accuracy: 61.21%
+Epoch [10/10], Step [250/250], Loss: 4.8662, Accuracy: 68.37%
+Val Loss: 8.4594, Val Accuracy: 61.39%
+Epoch [1/10], Step [1000/1000], Loss: 9.4275, Accuracy: 55.85%
+Val Loss: 8.6365, Val Accuracy: 60.38%
+Epoch [2/10], Step [1000/1000], Loss: 8.2652, Accuracy: 59.13%
+Val Loss: 8.3297, Val Accuracy: 61.19%
+Epoch [3/10], Step [1000/1000], Loss: 7.7549, Accuracy: 60.32%
+Val Loss: 8.2873, Val Accuracy: 61.65%
+Epoch [4/10], Step [1000/1000], Loss: 7.3190, Accuracy: 61.67%
+Val Loss: 8.1723, Val Accuracy: 62.06%
+Epoch [5/10], Step [1000/1000], Loss: 7.0429, Accuracy: 62.23%
+Val Loss: 8.1448, Val Accuracy: 62.12%
+Epoch [6/10], Step [1000/1000], Loss: 6.7651, Accuracy: 63.01%
+Val Loss: 8.1207, Val Accuracy: 62.27%
+Epoch [7/10], Step [1000/1000], Loss: 6.5040, Accuracy: 63.48%
+Val Loss: 8.0857, Val Accuracy: 62.40%
+Epoch [8/10], Step [1000/1000], Loss: 6.2944, Accuracy: 64.01%
+Val Loss: 8.1613, Val Accuracy: 62.42%
+Epoch [9/10], Step [1000/1000], Loss: 6.1563, Accuracy: 64.65%
+Val Loss: 8.1426, Val Accuracy: 61.95%
+Epoch [10/10], Step [1000/1000], Loss: 6.0072, Accuracy: 64.92%
+Val Loss: 8.2045, Val Accuracy: 62.24%
+Epoch [1/10], Step [313/313], Loss: 9.4218, Accuracy: 58.43%
+Val Loss: 9.0753, Val Accuracy: 60.78%
+Epoch [2/10], Step [313/313], Loss: 7.5553, Accuracy: 63.49%
+Val Loss: 9.1534, Val Accuracy: 61.28%
+Epoch [3/10], Step [313/313], Loss: 6.7155, Accuracy: 65.48%
+Val Loss: 9.1343, Val Accuracy: 61.31%
+Epoch [4/10], Step [313/313], Loss: 6.2823, Accuracy: 66.40%
+Val Loss: 9.4631, Val Accuracy: 61.19%
+Epoch [5/10], Step [313/313], Loss: 5.9068, Accuracy: 67.23%
+Val Loss: 9.7157, Val Accuracy: 61.55%
+Epoch [6/10], Step [313/313], Loss: 5.5868, Accuracy: 68.11%
+Val Loss: 9.8028, Val Accuracy: 60.67%
+Epoch [7/10], Step [313/313], Loss: 5.3279, Accuracy: 68.73%
+Val Loss: 9.7502, Val Accuracy: 61.26%
+Epoch [8/10], Step [313/313], Loss: 5.1831, Accuracy: 69.28%
+Val Loss: 9.9664, Val Accuracy: 60.83%
+Epoch [9/10], Step [313/313], Loss: 4.9451, Accuracy: 69.63%
+Val Loss: 10.3672, Val Accuracy: 60.22%
+Epoch [10/10], Step [313/313], Loss: 4.7774, Accuracy: 70.19%
+Val Loss: 10.4776, Val Accuracy: 60.09%
+Accuracy of the network on 10000 test images: 60.09%
+Best trial (quant=int1_r=32):
+ Value:  62.4375
+ Params: 
+ lora_alpha: 48
+ optimizer: Adam
+ lr: 0.006418235745459223
+ batch_size: 128
+Epoch [1/10], Step [1000/1000], Loss: 9.1485, Accuracy: 50.02%
+Val Loss: 8.9004, Val Accuracy: 52.88%
+Epoch [2/10], Step [1000/1000], Loss: 8.5562, Accuracy: 51.84%
+Val Loss: 8.5669, Val Accuracy: 54.65%
+Epoch [3/10], Step [1000/1000], Loss: 8.1979, Accuracy: 53.03%
+Val Loss: 8.4664, Val Accuracy: 54.84%
+Epoch [4/10], Step [1000/1000], Loss: 7.9396, Accuracy: 53.80%
+Val Loss: 8.1789, Val Accuracy: 55.69%
+Epoch [5/10], Step [1000/1000], Loss: 7.6863, Accuracy: 54.84%
+Val Loss: 8.0496, Val Accuracy: 55.88%
+Epoch [6/10], Step [1000/1000], Loss: 7.4726, Accuracy: 55.38%
+Val Loss: 8.0362, Val Accuracy: 57.00%
+Epoch [7/10], Step [1000/1000], Loss: 7.3527, Accuracy: 56.09%
+Val Loss: 7.9460, Val Accuracy: 57.36%
+Epoch [8/10], Step [1000/1000], Loss: 7.1610, Accuracy: 56.53%
+Val Loss: 7.8695, Val Accuracy: 57.51%
+Epoch [9/10], Step [1000/1000], Loss: 6.9783, Accuracy: 57.24%
+Val Loss: 7.8449, Val Accuracy: 57.94%
+Epoch [10/10], Step [1000/1000], Loss: 6.8567, Accuracy: 57.51%
+Val Loss: 7.7239, Val Accuracy: 58.09%
+Epoch [1/10], Step [250/250], Loss: 9.2946, Accuracy: 51.00%
+Val Loss: 9.1609, Val Accuracy: 51.12%
+Epoch [2/10], Step [250/250], Loss: 8.6645, Accuracy: 52.42%
+Val Loss: 8.8442, Val Accuracy: 51.86%
+Epoch [3/10], Step [250/250], Loss: 8.4698, Accuracy: 52.77%
+Val Loss: 8.7196, Val Accuracy: 52.21%
+Epoch [4/10], Step [250/250], Loss: 8.3439, Accuracy: 53.23%
+Val Loss: 8.6620, Val Accuracy: 52.26%
+Epoch [5/10], Step [250/250], Loss: 8.2597, Accuracy: 53.42%
+Val Loss: 8.6056, Val Accuracy: 52.39%
+Epoch [6/10], Step [250/250], Loss: 8.2182, Accuracy: 53.32%
+Val Loss: 8.6153, Val Accuracy: 52.58%
+Epoch [7/10], Step [250/250], Loss: 8.1563, Accuracy: 53.75%
+Val Loss: 8.5477, Val Accuracy: 52.66%
+Epoch [8/10], Step [250/250], Loss: 8.1135, Accuracy: 53.69%
+Val Loss: 8.5404, Val Accuracy: 52.85%
+Epoch [9/10], Step [250/250], Loss: 8.0674, Accuracy: 54.00%
+Val Loss: 8.5112, Val Accuracy: 53.05%
+Epoch [10/10], Step [250/250], Loss: 8.0279, Accuracy: 54.01%
+Val Loss: 8.4970, Val Accuracy: 52.96%
+Epoch [1/10], Step [63/63], Loss: 9.1136, Accuracy: 52.01%
+Val Loss: 8.2080, Val Accuracy: 54.44%
+Epoch [2/10], Step [63/63], Loss: 7.9935, Accuracy: 55.03%
+Val Loss: 7.7432, Val Accuracy: 55.81%
+Epoch [3/10], Step [63/63], Loss: 7.4291, Accuracy: 56.95%
+Val Loss: 7.5022, Val Accuracy: 56.83%
+Epoch [4/10], Step [63/63], Loss: 7.0462, Accuracy: 58.23%
+Val Loss: 7.3403, Val Accuracy: 57.70%
+Epoch [5/10], Step [63/63], Loss: 6.7334, Accuracy: 59.19%
+Val Loss: 7.1809, Val Accuracy: 58.01%
+Epoch [6/10], Step [63/63], Loss: 6.4739, Accuracy: 60.09%
+Val Loss: 7.1331, Val Accuracy: 58.41%
+Epoch [7/10], Step [63/63], Loss: 6.2343, Accuracy: 61.10%
+Val Loss: 7.0590, Val Accuracy: 58.84%
+Epoch [8/10], Step [63/63], Loss: 6.0420, Accuracy: 61.70%
+Val Loss: 6.9930, Val Accuracy: 59.14%
+Epoch [9/10], Step [63/63], Loss: 5.8721, Accuracy: 62.25%
+Val Loss: 6.9593, Val Accuracy: 59.10%
+Epoch [10/10], Step [63/63], Loss: 5.6997, Accuracy: 62.81%
+Val Loss: 6.9138, Val Accuracy: 59.44%
+Epoch [1/10], Step [1000/1000], Loss: 10.5252, Accuracy: 48.00%
+Val Loss: 8.6655, Val Accuracy: 55.27%
+Epoch [2/10], Step [1000/1000], Loss: 8.1190, Accuracy: 54.55%
+Val Loss: 7.8580, Val Accuracy: 57.67%
+Epoch [3/10], Step [1000/1000], Loss: 7.0798, Accuracy: 58.26%
+Val Loss: 7.5739, Val Accuracy: 59.24%
+Epoch [4/10], Step [1000/1000], Loss: 6.4539, Accuracy: 59.96%
+Val Loss: 7.3861, Val Accuracy: 59.84%
+Epoch [5/10], Step [1000/1000], Loss: 5.9843, Accuracy: 61.40%
+Val Loss: 7.2598, Val Accuracy: 60.31%
+Epoch [6/10], Step [1000/1000], Loss: 5.6743, Accuracy: 62.65%
+Val Loss: 7.2260, Val Accuracy: 60.56%
+Epoch [7/10], Step [1000/1000], Loss: 5.3551, Accuracy: 63.82%
+Val Loss: 7.2474, Val Accuracy: 60.74%
+Epoch [8/10], Step [1000/1000], Loss: 5.1084, Accuracy: 64.30%
+Val Loss: 7.1202, Val Accuracy: 61.08%
+Epoch [9/10], Step [1000/1000], Loss: 4.9181, Accuracy: 65.26%
+Val Loss: 7.2996, Val Accuracy: 60.95%
+Epoch [10/10], Step [1000/1000], Loss: 4.7323, Accuracy: 65.64%
+Val Loss: 7.2275, Val Accuracy: 60.80%
+Epoch [1/10], Step [500/500], Loss: 9.5893, Accuracy: 50.22%
+Val Loss: 8.9710, Val Accuracy: 53.26%
+Epoch [2/10], Step [500/500], Loss: 8.3402, Accuracy: 54.10%
+Val Loss: 8.3878, Val Accuracy: 55.35%
+Epoch [3/10], Step [500/500], Loss: 7.5748, Accuracy: 56.40%
+Val Loss: 8.0715, Val Accuracy: 56.79%
+Epoch [4/10], Step [500/500], Loss: 7.0555, Accuracy: 58.34%
+Val Loss: 7.7619, Val Accuracy: 57.27%
+Epoch [5/10], Step [500/500], Loss: 6.6083, Accuracy: 59.67%
+Val Loss: 7.7202, Val Accuracy: 57.71%
+Epoch [6/10], Step [500/500], Loss: 6.2725, Accuracy: 60.82%
+Val Loss: 7.5989, Val Accuracy: 58.88%
+Epoch [7/10], Step [500/500], Loss: 5.9406, Accuracy: 62.05%
+Val Loss: 7.4037, Val Accuracy: 58.76%
+Epoch [8/10], Step [500/500], Loss: 5.7631, Accuracy: 62.58%
+Val Loss: 7.4681, Val Accuracy: 58.99%
+Epoch [9/10], Step [500/500], Loss: 5.4941, Accuracy: 63.55%
+Val Loss: 7.3233, Val Accuracy: 59.12%
+Epoch [10/10], Step [500/500], Loss: 5.2678, Accuracy: 64.14%
+Val Loss: 7.2836, Val Accuracy: 59.14%
+Epoch [1/10], Step [1000/1000], Loss: 8.6359, Accuracy: 53.20%
+Val Loss: 7.9309, Val Accuracy: 58.94%
+Epoch [2/10], Step [1000/1000], Loss: 6.7028, Accuracy: 60.35%
+Val Loss: 7.8830, Val Accuracy: 59.73%
+Epoch [3/10], Step [1000/1000], Loss: 5.8087, Accuracy: 63.15%
+Val Loss: 8.0366, Val Accuracy: 59.64%
+Epoch [4/10], Step [1000/1000], Loss: 5.1602, Accuracy: 65.03%
+Val Loss: 8.1800, Val Accuracy: 59.73%
+Epoch [5/10], Step [1000/1000], Loss: 4.6796, Accuracy: 66.93%
+Val Loss: 8.4103, Val Accuracy: 59.23%
+Epoch [6/10], Step [1000/1000], Loss: 4.3624, Accuracy: 68.04%
+Val Loss: 8.4939, Val Accuracy: 59.86%
+Epoch [7/10], Step [1000/1000], Loss: 4.0835, Accuracy: 68.88%
+Val Loss: 8.5947, Val Accuracy: 59.23%
+Epoch [8/10], Step [1000/1000], Loss: 3.8174, Accuracy: 69.97%
+Val Loss: 8.8587, Val Accuracy: 58.76%
+Epoch [9/10], Step [1000/1000], Loss: 3.6387, Accuracy: 70.66%
+Val Loss: 8.9990, Val Accuracy: 58.50%
+Epoch [10/10], Step [1000/1000], Loss: 3.3991, Accuracy: 72.14%
+Val Loss: 9.1044, Val Accuracy: 59.23%
+Epoch [1/10], Step [125/125], Loss: 9.2654, Accuracy: 51.24%
+Val Loss: 8.5975, Val Accuracy: 52.64%
+Epoch [2/10], Step [125/125], Loss: 8.6516, Accuracy: 52.76%
+Val Loss: 8.3309, Val Accuracy: 53.69%
+Epoch [3/10], Step [125/125], Loss: 8.4283, Accuracy: 53.10%
+Val Loss: 8.2796, Val Accuracy: 53.88%
+Epoch [4/10], Step [125/125], Loss: 8.3427, Accuracy: 53.36%
+Val Loss: 8.2676, Val Accuracy: 53.91%
+Epoch [5/10], Step [125/125], Loss: 8.2534, Accuracy: 53.78%
+Val Loss: 8.1183, Val Accuracy: 54.14%
+Epoch [6/10], Step [125/125], Loss: 8.1778, Accuracy: 53.90%
+Val Loss: 8.1559, Val Accuracy: 54.31%
+Epoch [7/10], Step [125/125], Loss: 8.1238, Accuracy: 54.01%
+Val Loss: 8.0750, Val Accuracy: 54.51%
+Epoch [8/10], Step [125/125], Loss: 8.0259, Accuracy: 54.30%
+Val Loss: 8.0358, Val Accuracy: 54.52%
+Epoch [9/10], Step [125/125], Loss: 7.9711, Accuracy: 54.58%
+Val Loss: 8.0684, Val Accuracy: 54.56%
+Epoch [10/10], Step [125/125], Loss: 7.9155, Accuracy: 54.63%
+Val Loss: 8.0091, Val Accuracy: 54.77%
+Epoch [1/10], Step [125/125], Loss: 8.3371, Accuracy: 54.22%
+Val Loss: 7.6311, Val Accuracy: 57.52%
+Epoch [2/10], Step [125/125], Loss: 6.8067, Accuracy: 59.02%
+Val Loss: 7.3349, Val Accuracy: 59.09%
+Epoch [3/10], Step [125/125], Loss: 6.0695, Accuracy: 61.41%
+Val Loss: 7.0971, Val Accuracy: 59.83%
+Epoch [4/10], Step [125/125], Loss: 5.5114, Accuracy: 63.54%
+Val Loss: 7.1472, Val Accuracy: 60.20%
+Epoch [5/10], Step [125/125], Loss: 5.0969, Accuracy: 65.03%
+Val Loss: 7.0683, Val Accuracy: 60.34%
+Epoch [6/10], Step [125/125], Loss: 4.7190, Accuracy: 66.20%
+Val Loss: 7.0314, Val Accuracy: 60.64%
+Epoch [7/10], Step [125/125], Loss: 4.4024, Accuracy: 67.35%
+Val Loss: 7.0361, Val Accuracy: 60.60%
+Epoch [8/10], Step [125/125], Loss: 4.1300, Accuracy: 68.18%
+Val Loss: 7.0836, Val Accuracy: 60.74%
+Epoch [9/10], Step [125/125], Loss: 3.8792, Accuracy: 69.23%
+Val Loss: 7.0754, Val Accuracy: 60.76%
+Epoch [10/10], Step [125/125], Loss: 3.6669, Accuracy: 70.14%
+Val Loss: 7.1400, Val Accuracy: 60.59%
+Epoch [1/10], Step [63/63], Loss: 8.4213, Accuracy: 54.03%
+Val Loss: 7.7419, Val Accuracy: 56.33%
+Epoch [2/10], Step [63/63], Loss: 6.8916, Accuracy: 58.92%
+Val Loss: 7.4228, Val Accuracy: 58.05%
+Epoch [3/10], Step [63/63], Loss: 6.1970, Accuracy: 61.24%
+Val Loss: 7.2652, Val Accuracy: 58.67%
+Epoch [4/10], Step [63/63], Loss: 5.6842, Accuracy: 63.09%
+Val Loss: 7.1345, Val Accuracy: 59.27%
+Epoch [5/10], Step [63/63], Loss: 5.2621, Accuracy: 64.47%
+Val Loss: 7.0626, Val Accuracy: 59.50%
+Epoch [6/10], Step [63/63], Loss: 4.9123, Accuracy: 65.73%
+Val Loss: 7.0350, Val Accuracy: 59.54%
+Epoch [7/10], Step [63/63], Loss: 4.6008, Accuracy: 66.85%
+Val Loss: 6.9940, Val Accuracy: 59.80%
+Epoch [8/10], Step [63/63], Loss: 4.3395, Accuracy: 67.80%
+Val Loss: 7.0397, Val Accuracy: 59.81%
+Epoch [9/10], Step [63/63], Loss: 4.0755, Accuracy: 68.78%
+Val Loss: 7.0596, Val Accuracy: 59.75%
+Epoch [10/10], Step [63/63], Loss: 3.8702, Accuracy: 69.45%
+Val Loss: 7.0694, Val Accuracy: 59.69%
+Epoch [1/10], Step [250/250], Loss: 8.9952, Accuracy: 51.62%
+Val Loss: 8.3295, Val Accuracy: 54.75%
+Epoch [2/10], Step [250/250], Loss: 7.8310, Accuracy: 54.85%
+Val Loss: 7.8695, Val Accuracy: 56.23%
+Epoch [3/10], Step [250/250], Loss: 7.3039, Accuracy: 56.87%
+Val Loss: 7.6500, Val Accuracy: 57.36%
+Epoch [4/10], Step [250/250], Loss: 6.9141, Accuracy: 58.23%
+Val Loss: 7.4967, Val Accuracy: 57.84%
+Epoch [5/10], Step [250/250], Loss: 6.5910, Accuracy: 59.06%
+Val Loss: 7.3636, Val Accuracy: 58.61%
+Epoch [6/10], Step [250/250], Loss: 6.3528, Accuracy: 60.08%
+Val Loss: 7.2949, Val Accuracy: 58.79%
+Epoch [7/10], Step [250/250], Loss: 6.0990, Accuracy: 61.04%
+Val Loss: 7.2093, Val Accuracy: 59.19%
+Epoch [8/10], Step [250/250], Loss: 5.9056, Accuracy: 61.58%
+Val Loss: 7.1581, Val Accuracy: 59.52%
+Epoch [9/10], Step [250/250], Loss: 5.6987, Accuracy: 62.31%
+Val Loss: 7.1006, Val Accuracy: 59.65%
+Epoch [10/10], Step [250/250], Loss: 5.5208, Accuracy: 63.11%
+Val Loss: 7.1102, Val Accuracy: 59.73%
+Epoch [1/10], Step [1250/1250], Loss: 10.1744, Accuracy: 48.52%
+Val Loss: 8.4614, Val Accuracy: 56.26%
+Epoch [2/10], Step [1250/1250], Loss: 7.8057, Accuracy: 55.91%
+Val Loss: 7.7068, Val Accuracy: 59.11%
+Epoch [3/10], Step [1250/1250], Loss: 6.8346, Accuracy: 59.02%
+Val Loss: 7.5890, Val Accuracy: 60.09%
+Epoch [4/10], Step [1250/1250], Loss: 6.2841, Accuracy: 60.95%
+Val Loss: 7.3273, Val Accuracy: 60.69%
+Epoch [5/10], Step [1250/1250], Loss: 5.8880, Accuracy: 62.00%
+Val Loss: 7.3268, Val Accuracy: 61.23%
+Epoch [6/10], Step [1250/1250], Loss: 5.5716, Accuracy: 63.04%
+Val Loss: 7.2409, Val Accuracy: 61.76%
+Epoch [7/10], Step [1250/1250], Loss: 5.2996, Accuracy: 64.06%
+Val Loss: 7.2654, Val Accuracy: 61.23%
+Epoch [8/10], Step [1250/1250], Loss: 5.0797, Accuracy: 64.71%
+Val Loss: 7.3449, Val Accuracy: 61.46%
+Epoch [9/10], Step [1250/1250], Loss: 4.9261, Accuracy: 65.14%
+Val Loss: 7.2875, Val Accuracy: 61.46%
+Epoch [10/10], Step [1250/1250], Loss: 4.7716, Accuracy: 65.61%
+Val Loss: 7.2169, Val Accuracy: 61.95%
+Accuracy of the network on 10000 test images: 61.95%
+Best trial (quant=int1_r=64):
+ Value:  61.075
+ Params: 
+ lora_alpha: 40
+ optimizer: SGD
+ lr: 0.008525545286490738
+ batch_size: 32
+Epoch [1/10], Step [500/500], Loss: 7.2427, Accuracy: 45.43%
+Val Loss: 6.5760, Val Accuracy: 49.29%
+Epoch [2/10], Step [500/500], Loss: 6.0535, Accuracy: 50.51%
+Val Loss: 6.1052, Val Accuracy: 51.75%
+Epoch [3/10], Step [500/500], Loss: 5.4541, Accuracy: 53.30%
+Val Loss: 5.8631, Val Accuracy: 53.56%
+Epoch [4/10], Step [500/500], Loss: 5.0444, Accuracy: 55.78%
+Val Loss: 5.7195, Val Accuracy: 54.51%
+Epoch [5/10], Step [500/500], Loss: 4.6981, Accuracy: 57.38%
+Val Loss: 5.5771, Val Accuracy: 55.12%
+Epoch [6/10], Step [500/500], Loss: 4.4085, Accuracy: 58.83%
+Val Loss: 5.5181, Val Accuracy: 56.08%
+Epoch [7/10], Step [500/500], Loss: 4.1667, Accuracy: 60.39%
+Val Loss: 5.4117, Val Accuracy: 56.59%
+Epoch [8/10], Step [500/500], Loss: 3.9491, Accuracy: 61.27%
+Val Loss: 5.3797, Val Accuracy: 56.65%
+Epoch [9/10], Step [500/500], Loss: 3.7464, Accuracy: 62.26%
+Val Loss: 5.3668, Val Accuracy: 57.05%
+Epoch [10/10], Step [500/500], Loss: 3.5753, Accuracy: 63.61%
+Val Loss: 5.3058, Val Accuracy: 57.52%
+Epoch [1/10], Step [250/250], Loss: 7.0868, Accuracy: 50.66%
+Val Loss: 6.4099, Val Accuracy: 56.38%
+Epoch [2/10], Step [250/250], Loss: 4.4676, Accuracy: 63.25%
+Val Loss: 6.2702, Val Accuracy: 58.12%
+Epoch [3/10], Step [250/250], Loss: 3.3656, Accuracy: 68.68%
+Val Loss: 6.6020, Val Accuracy: 57.60%
+Epoch [4/10], Step [250/250], Loss: 2.6331, Accuracy: 72.28%
+Val Loss: 6.9780, Val Accuracy: 57.06%
+Epoch [5/10], Step [250/250], Loss: 2.1478, Accuracy: 75.38%
+Val Loss: 7.2232, Val Accuracy: 57.40%
+Epoch [6/10], Step [250/250], Loss: 1.7804, Accuracy: 77.72%
+Val Loss: 7.3683, Val Accuracy: 57.20%
+Epoch [7/10], Step [250/250], Loss: 1.5272, Accuracy: 79.89%
+Val Loss: 7.4709, Val Accuracy: 57.55%
+Epoch [8/10], Step [250/250], Loss: 1.3200, Accuracy: 81.62%
+Val Loss: 7.9321, Val Accuracy: 56.71%
+Epoch [9/10], Step [250/250], Loss: 1.1716, Accuracy: 83.01%
+Val Loss: 8.1651, Val Accuracy: 56.34%
+Epoch [10/10], Step [250/250], Loss: 1.0550, Accuracy: 83.88%
+Val Loss: 8.4167, Val Accuracy: 56.20%
+Epoch [1/10], Step [125/125], Loss: 7.2387, Accuracy: 45.63%
+Val Loss: 7.1536, Val Accuracy: 45.19%
+Epoch [2/10], Step [125/125], Loss: 6.7471, Accuracy: 47.10%
+Val Loss: 6.9341, Val Accuracy: 46.86%
+Epoch [3/10], Step [125/125], Loss: 6.4975, Accuracy: 48.38%
+Val Loss: 6.7603, Val Accuracy: 47.59%
+Epoch [4/10], Step [125/125], Loss: 6.2758, Accuracy: 49.44%
+Val Loss: 6.6319, Val Accuracy: 47.64%
+Epoch [5/10], Step [125/125], Loss: 6.0931, Accuracy: 50.29%
+Val Loss: 6.5550, Val Accuracy: 48.58%
+Epoch [6/10], Step [125/125], Loss: 5.9141, Accuracy: 51.27%
+Val Loss: 6.4921, Val Accuracy: 49.33%
+Epoch [7/10], Step [125/125], Loss: 5.7931, Accuracy: 51.99%
+Val Loss: 6.3904, Val Accuracy: 49.74%
+Epoch [8/10], Step [125/125], Loss: 5.6462, Accuracy: 52.61%
+Val Loss: 6.2950, Val Accuracy: 49.92%
+Epoch [9/10], Step [125/125], Loss: 5.4961, Accuracy: 53.32%
+Val Loss: 6.3059, Val Accuracy: 50.10%
+Epoch [10/10], Step [125/125], Loss: 5.4131, Accuracy: 53.75%
+Val Loss: 6.1853, Val Accuracy: 50.94%
+Epoch [1/10], Step [250/250], Loss: 7.7609, Accuracy: 43.80%
+Val Loss: 7.5134, Val Accuracy: 45.46%
+Epoch [2/10], Step [250/250], Loss: 7.2780, Accuracy: 45.22%
+Val Loss: 7.2570, Val Accuracy: 46.39%
+Epoch [3/10], Step [250/250], Loss: 7.0419, Accuracy: 45.79%
+Val Loss: 7.0952, Val Accuracy: 46.74%
+Epoch [4/10], Step [250/250], Loss: 6.9419, Accuracy: 46.46%
+Val Loss: 7.0463, Val Accuracy: 46.89%
+Epoch [5/10], Step [250/250], Loss: 6.8552, Accuracy: 46.37%
+Val Loss: 7.0058, Val Accuracy: 47.21%
+Epoch [6/10], Step [250/250], Loss: 6.7952, Accuracy: 46.53%
+Val Loss: 6.9503, Val Accuracy: 47.34%
+Epoch [7/10], Step [250/250], Loss: 6.7560, Accuracy: 47.08%
+Val Loss: 6.9533, Val Accuracy: 47.70%
+Epoch [8/10], Step [250/250], Loss: 6.7055, Accuracy: 47.06%
+Val Loss: 6.9142, Val Accuracy: 47.96%
+Epoch [9/10], Step [250/250], Loss: 6.6732, Accuracy: 47.17%
+Val Loss: 6.8623, Val Accuracy: 48.17%
+Epoch [10/10], Step [250/250], Loss: 6.5981, Accuracy: 47.44%
+Val Loss: 6.8575, Val Accuracy: 48.42%
+Epoch [1/10], Step [250/250], Loss: 6.5125, Accuracy: 49.60%
+Val Loss: 5.9139, Val Accuracy: 54.24%
+Epoch [2/10], Step [250/250], Loss: 4.7819, Accuracy: 58.18%
+Val Loss: 5.6161, Val Accuracy: 55.54%
+Epoch [3/10], Step [250/250], Loss: 3.9121, Accuracy: 62.65%
+Val Loss: 5.4961, Val Accuracy: 56.81%
+Epoch [4/10], Step [250/250], Loss: 3.3274, Accuracy: 65.87%
+Val Loss: 5.4985, Val Accuracy: 57.35%
+Epoch [5/10], Step [250/250], Loss: 2.8745, Accuracy: 68.47%
+Val Loss: 5.4622, Val Accuracy: 57.30%
+Epoch [6/10], Step [250/250], Loss: 2.5156, Accuracy: 70.46%
+Val Loss: 5.5347, Val Accuracy: 57.27%
+Epoch [7/10], Step [250/250], Loss: 2.2074, Accuracy: 72.52%
+Val Loss: 5.5359, Val Accuracy: 57.54%
+Epoch [8/10], Step [250/250], Loss: 1.9433, Accuracy: 74.47%
+Val Loss: 5.6002, Val Accuracy: 57.59%
+Epoch [9/10], Step [250/250], Loss: 1.7430, Accuracy: 75.45%
+Val Loss: 5.6261, Val Accuracy: 57.52%
+Epoch [10/10], Step [250/250], Loss: 1.5415, Accuracy: 77.37%
+Val Loss: 5.7064, Val Accuracy: 57.14%
+Epoch [1/10], Step [1000/1000], Loss: 7.4358, Accuracy: 43.38%
+Val Loss: 7.0738, Val Accuracy: 47.29%
+Epoch [2/10], Step [1000/1000], Loss: 6.9192, Accuracy: 45.12%
+Val Loss: 6.8267, Val Accuracy: 48.89%
+Epoch [3/10], Step [1000/1000], Loss: 6.5867, Accuracy: 46.78%
+Val Loss: 6.6417, Val Accuracy: 50.19%
+Epoch [4/10], Step [1000/1000], Loss: 6.3395, Accuracy: 48.14%
+Val Loss: 6.4627, Val Accuracy: 50.71%
+Epoch [5/10], Step [1000/1000], Loss: 6.1092, Accuracy: 49.36%
+Val Loss: 6.3178, Val Accuracy: 51.11%
+Epoch [6/10], Step [1000/1000], Loss: 5.8997, Accuracy: 50.24%
+Val Loss: 6.2661, Val Accuracy: 51.60%
+Epoch [7/10], Step [1000/1000], Loss: 5.7432, Accuracy: 51.01%
+Val Loss: 6.1330, Val Accuracy: 52.42%
+Epoch [8/10], Step [1000/1000], Loss: 5.5740, Accuracy: 51.96%
+Val Loss: 6.1029, Val Accuracy: 53.48%
+Epoch [9/10], Step [1000/1000], Loss: 5.4448, Accuracy: 52.62%
+Val Loss: 5.9991, Val Accuracy: 53.56%
+Epoch [10/10], Step [1000/1000], Loss: 5.3324, Accuracy: 53.09%
+Val Loss: 5.9010, Val Accuracy: 53.73%
+Epoch [1/10], Step [1000/1000], Loss: 8.2368, Accuracy: 42.39%
+Val Loss: 7.0697, Val Accuracy: 50.20%
+Epoch [2/10], Step [1000/1000], Loss: 6.5375, Accuracy: 49.89%
+Val Loss: 6.4480, Val Accuracy: 53.50%
+Epoch [3/10], Step [1000/1000], Loss: 5.6578, Accuracy: 54.07%
+Val Loss: 6.1653, Val Accuracy: 55.24%
+Epoch [4/10], Step [1000/1000], Loss: 5.0833, Accuracy: 56.92%
+Val Loss: 5.8464, Val Accuracy: 56.66%
+Epoch [5/10], Step [1000/1000], Loss: 4.6188, Accuracy: 58.85%
+Val Loss: 5.8267, Val Accuracy: 57.56%
+Epoch [6/10], Step [1000/1000], Loss: 4.2456, Accuracy: 60.82%
+Val Loss: 5.7557, Val Accuracy: 57.99%
+Epoch [7/10], Step [1000/1000], Loss: 3.9740, Accuracy: 62.25%
+Val Loss: 5.5563, Val Accuracy: 58.17%
+Epoch [8/10], Step [1000/1000], Loss: 3.6894, Accuracy: 63.69%
+Val Loss: 5.6227, Val Accuracy: 58.50%
+Epoch [9/10], Step [1000/1000], Loss: 3.4836, Accuracy: 64.78%
+Val Loss: 5.5163, Val Accuracy: 59.16%
+Epoch [10/10], Step [1000/1000], Loss: 3.2882, Accuracy: 65.59%
+Val Loss: 5.4646, Val Accuracy: 59.73%
+Epoch [1/10], Step [250/250], Loss: 7.9453, Accuracy: 50.36%
+Val Loss: 7.8470, Val Accuracy: 53.91%
+Epoch [2/10], Step [250/250], Loss: 5.0045, Accuracy: 63.60%
+Val Loss: 7.8788, Val Accuracy: 56.06%
+Epoch [3/10], Step [250/250], Loss: 3.8099, Accuracy: 69.10%
+Val Loss: 8.5116, Val Accuracy: 55.89%
+Epoch [4/10], Step [250/250], Loss: 3.1312, Accuracy: 72.44%
+Val Loss: 8.7945, Val Accuracy: 55.66%
+Epoch [5/10], Step [250/250], Loss: 2.5873, Accuracy: 75.23%
+Val Loss: 9.1158, Val Accuracy: 56.52%
+Epoch [6/10], Step [250/250], Loss: 2.3336, Accuracy: 76.63%
+Val Loss: 9.5302, Val Accuracy: 56.69%
+Epoch [7/10], Step [250/250], Loss: 1.9858, Accuracy: 79.42%
+Val Loss: 9.9668, Val Accuracy: 55.59%
+Epoch [8/10], Step [250/250], Loss: 1.8750, Accuracy: 80.07%
+Val Loss: 10.1832, Val Accuracy: 56.41%
+Epoch [9/10], Step [250/250], Loss: 1.7161, Accuracy: 81.57%
+Val Loss: 10.3630, Val Accuracy: 56.42%
+Epoch [10/10], Step [250/250], Loss: 1.5316, Accuracy: 82.88%
+Val Loss: 10.8574, Val Accuracy: 55.86%
+Epoch [1/10], Step [500/500], Loss: 7.4036, Accuracy: 44.27%
+Val Loss: 7.1021, Val Accuracy: 46.62%
+Epoch [2/10], Step [500/500], Loss: 6.8962, Accuracy: 45.79%
+Val Loss: 6.8818, Val Accuracy: 47.27%
+Epoch [3/10], Step [500/500], Loss: 6.6681, Accuracy: 47.23%
+Val Loss: 6.7344, Val Accuracy: 48.51%
+Epoch [4/10], Step [500/500], Loss: 6.4995, Accuracy: 47.96%
+Val Loss: 6.5905, Val Accuracy: 49.12%
+Epoch [5/10], Step [500/500], Loss: 6.3165, Accuracy: 48.72%
+Val Loss: 6.5096, Val Accuracy: 49.55%
+Epoch [6/10], Step [500/500], Loss: 6.1647, Accuracy: 49.32%
+Val Loss: 6.3906, Val Accuracy: 50.38%
+Epoch [7/10], Step [500/500], Loss: 6.0501, Accuracy: 49.69%
+Val Loss: 6.3092, Val Accuracy: 50.49%
+Epoch [8/10], Step [500/500], Loss: 5.9267, Accuracy: 50.66%
+Val Loss: 6.2386, Val Accuracy: 51.14%
+Epoch [9/10], Step [500/500], Loss: 5.8090, Accuracy: 51.44%
+Val Loss: 6.1964, Val Accuracy: 51.27%
+Epoch [10/10], Step [500/500], Loss: 5.7044, Accuracy: 51.83%
+Val Loss: 6.1072, Val Accuracy: 51.79%
+Epoch [1/10], Step [500/500], Loss: 6.4867, Accuracy: 49.96%
+Val Loss: 5.7727, Val Accuracy: 54.86%
+Epoch [2/10], Step [500/500], Loss: 4.6124, Accuracy: 59.29%
+Val Loss: 5.5613, Val Accuracy: 56.67%
+Epoch [3/10], Step [500/500], Loss: 3.7067, Accuracy: 64.01%
+Val Loss: 5.5921, Val Accuracy: 57.00%
+Epoch [4/10], Step [500/500], Loss: 3.1406, Accuracy: 66.88%
+Val Loss: 5.5439, Val Accuracy: 57.49%
+Epoch [5/10], Step [500/500], Loss: 2.6834, Accuracy: 69.38%
+Val Loss: 5.6352, Val Accuracy: 57.27%
+Epoch [6/10], Step [500/500], Loss: 2.3225, Accuracy: 71.66%
+Val Loss: 5.7176, Val Accuracy: 57.17%
+Epoch [7/10], Step [500/500], Loss: 2.0301, Accuracy: 73.59%
+Val Loss: 5.7843, Val Accuracy: 56.85%
+Epoch [8/10], Step [500/500], Loss: 1.7913, Accuracy: 75.21%
+Val Loss: 5.8396, Val Accuracy: 57.49%
+Epoch [9/10], Step [500/500], Loss: 1.5861, Accuracy: 76.62%
+Val Loss: 5.9837, Val Accuracy: 57.20%
+Epoch [10/10], Step [500/500], Loss: 1.4129, Accuracy: 78.22%
+Val Loss: 6.0813, Val Accuracy: 57.29%
+Epoch [1/10], Step [313/313], Loss: 6.9431, Accuracy: 51.97%
+Val Loss: 6.2726, Val Accuracy: 56.81%
+Epoch [2/10], Step [313/313], Loss: 4.5463, Accuracy: 63.59%
+Val Loss: 6.2949, Val Accuracy: 58.09%
+Epoch [3/10], Step [313/313], Loss: 3.5914, Accuracy: 67.95%
+Val Loss: 6.7778, Val Accuracy: 57.94%
+Epoch [4/10], Step [313/313], Loss: 2.9543, Accuracy: 71.02%
+Val Loss: 6.8415, Val Accuracy: 58.39%
+Epoch [5/10], Step [313/313], Loss: 2.5075, Accuracy: 73.72%
+Val Loss: 7.2298, Val Accuracy: 57.88%
+Epoch [6/10], Step [313/313], Loss: 2.1651, Accuracy: 75.98%
+Val Loss: 7.6064, Val Accuracy: 57.68%
+Epoch [7/10], Step [313/313], Loss: 1.9235, Accuracy: 77.27%
+Val Loss: 7.8067, Val Accuracy: 57.50%
+Epoch [8/10], Step [313/313], Loss: 1.6884, Accuracy: 79.26%
+Val Loss: 7.8968, Val Accuracy: 57.86%
+Epoch [9/10], Step [313/313], Loss: 1.5584, Accuracy: 80.12%
+Val Loss: 8.2142, Val Accuracy: 57.83%
+Epoch [10/10], Step [313/313], Loss: 1.4450, Accuracy: 80.88%
+Val Loss: 8.3942, Val Accuracy: 57.45%
+Accuracy of the network on 10000 test images: 57.45%
+Best trial (quant=int1_r=128):
+ Value:  58.125
+ Params: 
+ lora_alpha: 8
+ optimizer: Adam
+ lr: 0.00292576751157637
+ batch_size: 128
+[<optuna.study.study.Study object at 0x7f2fa6641e70>, <optuna.study.study.Study object at 0x7f2fa426afe0>, <optuna.study.study.Study object at 0x7f2fa5025cf0>, <optuna.study.study.Study object at 0x7f2f74233640>, <optuna.study.study.Study object at 0x7f2fa54b6500>, <optuna.study.study.Study object at 0x7f2ee2599cc0>, <optuna.study.study.Study object at 0x7f2ee2551ab0>, <optuna.study.study.Study object at 0x7f2fa4246d70>, <optuna.study.study.Study object at 0x7f2ee22263e0>, <optuna.study.study.Study object at 0x7f2f1449e170>, <optuna.study.study.Study object at 0x7f2fa56f8460>, <optuna.study.study.Study object at 0x7f2f403ad630>, <optuna.study.study.Study object at 0x7f2f74285420>, <optuna.study.study.Study object at 0x7f2f44ba71f0>]
