@@ -50,6 +50,22 @@ Our objective is to combine model compression with LoRA in pre-trained models, t
   - Data type quantization to int1.
   - Sparsity with block size of 4X4.
 - The compression was implemented only on the FC layer of the model.
+- Given:
+  
+![image](https://github.com/oamsalemd/046211-LoRA-Quantization/assets/65858567/679812a8-4fe4-48d7-bd50-0e2503dd48f8)
+
+ compression ratio was calculated as follows:
+  
+Memory and instructions compression ratio for Sparse 4X4 method:
+
+![image](https://github.com/oamsalemd/046211-LoRA-Quantization/assets/65858567/2f248040-9a91-405e-b75d-53c43240c787)
+
+
+Memory compression ratio for INT1 quantization method:
+
+![image](https://github.com/oamsalemd/046211-LoRA-Quantization/assets/65858567/20834b6b-64cc-4209-ac5a-06d7eae87899)
+
+
 - We tested the appending of LoRA layer of ranks: [2, 4, 8, 16, 32, 64, 128].
   - We tested 2 initialization methods. The first was the initialization suggested in the original LoRA paper, A is initialized as N(0,\sigma^2) and B=0. The second one was SVD decomposition of the diff from original matrix.
 - All model's parameters except LoRA parameters were frozen. LoRA parameters were trained for 10 epochs and the best epoch was chosen (in terms of accuracy on the validation set).
@@ -58,15 +74,31 @@ Our objective is to combine model compression with LoRA in pre-trained models, t
 - Finally we evaluated the accuracy on a test set for each LoRA rank and for each initialization method.
 
 ## Experiments and results
-(-> summary graph from 'Accuracy' datasheet)
-(-> pointer to 'results' directory with output plots)
+![image](https://github.com/oamsalemd/046211-LoRA-Quantization/assets/65858567/e4624ea2-bbb6-4d4d-9305-3864e6ba2c0c)
+
+![image](https://github.com/oamsalemd/046211-LoRA-Quantization/assets/65858567/b7d380f9-00d7-43b7-a43c-f1a5049e9a11)
+
+![image](https://github.com/oamsalemd/046211-LoRA-Quantization/assets/65858567/1466a3f9-4466-4c0d-8820-2b422d493bc5)
+
+
+We expected the graph to be monotonically ascending. One potential explanation for their instability could be that the training hyper-parameters choice has a big effect on the model’s test accuracy. Even though increasing the LoRA rank increases the number parameters in the model, we could not always set the training hyper-parameters for the model to be optimized for the task and produce better accuracy.
+
+For Sparse 4X4 compression, we can see that increasing the LoRA rank generally improves the model accuracy for the test set.
+For LoRA rank of 128 with SVD initialization, the experiment showed just 1.74% accuracy drop, with ×2.27 compression ratio.
+
+For INT1 quantization, small LoRA ranks have shown significant improvement compared to the quantized-only model’s test accuracy. Unlike Sparse 4X4 compression, we could not see an improvement in the model’s accuracy for larger LoRA ranks.
+ The best accuracy drop was for LoRA rank of 128 with paper-suggested initialization. The experiment showed 5.01% accuracy drop, with ×2.44 memory compression ratio.
+The best trade-off was for LoRA rank of 2 with paper-suggest initialization. The experiment showed 5.98% accuracy drop, with ×26.91 memory compression ratio.
+
+SVD decomposition initialization showed better and more stable results for Sparse 4X4 compression. For INT1 quantization, this initialization method did not improve the results compared to the paper-suggested initialization.
+
 
 ## Conclusions
-- Increasing LoRA rank gives better accuracy, as expected, yet not matching the original model’s accuracy.
-- Training the LoRA parameters requires minor computation effort.
-- The combination of all LoRA ranks with compression methods that were tested results in memory compression, sparsity method also results in computation reduction.
-- LoRA training is unstable and very prone to hyper-parameters modification.
-- Using initialization with SVD decomposition results in...
+1.	Increasing LoRA rank generally gives better accuracy, yet not matching the original model’s accuracy.
+2.	Training the LoRA parameters requires minor computation effort.
+3.	The combination of all LoRA ranks with compression methods that were tested results in memory compression, while sparsity method also results in computation reduction.
+4.	LoRA training is unstable and very prone to hyper-parameters modification.
+5.	Using initialization with SVD decomposition could provide in better results.
 
 ## Future work
 We believe that our project shows potential for further research of the benefits from combining model compression methods with LoRA.
